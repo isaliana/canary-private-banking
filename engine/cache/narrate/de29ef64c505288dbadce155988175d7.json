@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Lindenhof is 17.0% of your wealth",
+  "english": "Dear [[FIRST_NAME]],\n\nI know how much the Lindenhof shares mean to you, and that you want to keep a meaningful part of them because your husband ran the company for so many years. I am not writing to change that.\n\nI would simply like you to see the figure as a whole. Lindenhof Antriebstechnik is 17.0% of your wealth with us, in a single holding. That means a sizeable part of what you inherited still depends on one business.\n\nWhat I would suggest is that we talk about how much of the stake you would like to keep, and whether the rest could be reduced gradually, in line with your wish to simplify things and steady your income. If you are comfortable as it stands, I will note that on your file.\n\nCould I call you this week?",
+  "client_language": "Liebe [[FIRST_NAME]],\n\nich weiss, wie viel Ihnen die Lindenhof-Aktien bedeuten und dass Sie einen wesentlichen Teil davon behalten möchten, weil Ihr Mann das Unternehmen so viele Jahre geführt hat. Ich schreibe Ihnen nicht, um daran etwas zu ändern.\n\nIch möchte Ihnen lediglich die Zahl im Ganzen zeigen. Lindenhof Antriebstechnik macht 17.0% Ihres Vermögens bei uns aus, in einer einzigen Position. Das bedeutet, dass ein beträchtlicher Teil dessen, was Sie geerbt haben, weiterhin von einem einzigen Unternehmen abhängt.\n\nIch würde vorschlagen, dass wir besprechen, wie viel der Beteiligung Sie behalten möchten und ob der Rest schrittweise reduziert werden könnte, im Einklang mit Ihrem Wunsch, die Dinge zu vereinfachen und Ihr Einkommen zu stabilisieren. Wenn Sie mit der jetzigen Lage einverstanden sind, halte ich das in Ihren Unterlagen fest.\n\nDarf ich Sie diese Woche anrufen?",
+  "raises": "Asks her how much of the Lindenhof stake she wants to keep, and whether the rest could be reduced gradually."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "German"
+}

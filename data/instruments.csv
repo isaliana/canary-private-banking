@@ -1,0 +1,63 @@
+instrument_id,instrument_name,asset_class,sub_asset_class,sector,region,currency,liquidity_tier,underlying_reference,sustainability_excluded,concentration_limit_applies,price_2025-09-30,price_2025-12-31,price_2026-03-31,price_2026-06-30,price_2026-09-30
+INS-CA-001,USD Call Deposit,Cash and Equivalents,Deposit,Cash,Global,USD,Daily,,N,N,1.0,1.0,1.0,1.0,1.0
+INS-CA-002,SGD Call Deposit,Cash and Equivalents,Deposit,Cash,Singapore,SGD,Daily,,N,N,1.0,1.0,1.0,1.0,1.0
+INS-CA-003,HKD Call Deposit,Cash and Equivalents,Deposit,Cash,Hong Kong,HKD,Daily,,N,N,1.0,1.0,1.0,1.0,1.0
+INS-CA-004,EUR Call Deposit,Cash and Equivalents,Deposit,Cash,Europe,EUR,Daily,,N,N,1.0,1.0,1.0,1.0,1.0
+INS-CA-005,JPY Call Deposit,Cash and Equivalents,Deposit,Cash,Japan,JPY,Daily,,N,N,1.0,1.0,1.0,1.0,1.0
+INS-CA-006,CHF Call Deposit,Cash and Equivalents,Deposit,Cash,Europe,CHF,Daily,,N,N,1.0,1.0,1.0,1.0,1.0
+INS-CA-007,USD Liquidity Fund,Cash and Equivalents,Money Market,Cash,Global,USD,Daily,,N,N,100.56,101.99,102.98,104.08,104.3
+INS-CA-008,SGD Liquidity Fund,Cash and Equivalents,Money Market,Cash,Singapore,SGD,Daily,,N,N,12.69,12.72,12.76,12.88,12.84
+INS-FI-001,US Treasury 4.25% due 2030,Fixed Income,Government Bond,Sovereign,North America,USD,Daily,,N,N,99.56,100.36,100.34,98.65,100.6
+INS-FI-002,US Treasury 3.875% due 2049,Fixed Income,Government Bond,Sovereign,North America,USD,Daily,,N,N,86.78,87.66,86.84,81.85,84.9
+INS-FI-003,Japan Government Bond 1.4% due 2044,Fixed Income,Government Bond,Sovereign,Japan,JPY,Daily,,N,N,90.08,85.56,82.91,80.74,78.4
+INS-FI-004,Japan Government Bond 0.6% due 2033,Fixed Income,Government Bond,Sovereign,Japan,JPY,Daily,,N,N,95.88,94.09,93.38,92.77,91.7
+INS-FI-005,Singapore Government Securities 3.0% due 2032,Fixed Income,Government Bond,Sovereign,Singapore,SGD,Daily,,N,N,101.1,101.74,101.34,100.11,101.8
+INS-FI-006,German Bund 2.5% due 2035,Fixed Income,Government Bond,Sovereign,Europe,EUR,Daily,,N,N,97.48,97.95,96.86,96.36,97.2
+INS-FI-007,US Treasury Inflation-Protected 1.75% due 2034,Fixed Income,Inflation Linked,Sovereign,North America,USD,Daily,,N,N,97.19,97.84,97.89,97.12,98.6
+INS-FI-010,Global Investment Grade Credit Fund,Fixed Income,Investment Grade Credit,Corporate,Global,USD,Daily,,N,N,108.96,109.61,107.66,106.54,108.4
+INS-FI-011,Asia Investment Grade Credit Fund,Fixed Income,Investment Grade Credit,Corporate,Asia,USD,Daily,,N,N,95.33,96.2,95.52,94.32,96.2
+INS-FI-012,Euro Investment Grade Corporate Fund,Fixed Income,Investment Grade Credit,Corporate,Europe,EUR,Daily,,N,N,53.32,53.6,52.86,52.34,52.7
+INS-FI-013,Global High Yield Credit Fund,Fixed Income,High Yield Credit,Corporate,Global,USD,Weekly,,N,N,87.93,88.41,86.16,86.62,88.3
+INS-FI-014,Emerging Market Debt Fund,Fixed Income,Emerging Market Debt,Sovereign,Emerging Markets,USD,Weekly,,N,N,72.98,73.49,72.33,73.58,74.6
+INS-FI-015,Short Duration Bond Fund (SGD),Fixed Income,Short Duration,Corporate,Singapore,SGD,Daily,,N,N,10.37,10.36,10.45,10.48,10.52
+INS-FI-016,Asia Infrastructure Finance 5.1% due 2046,Fixed Income,Investment Grade Credit,Infrastructure,Asia,USD,Daily,,N,Y,87.7,88.72,87.28,85.47,87.8
+INS-FI-017,Straits Commercial Bank 5.0% Perpetual,Fixed Income,Subordinated Perpetual,Financials,Singapore,USD,Daily,,N,Y,98.15,98.57,95.69,95.08,96.4
+INS-FI-018,Harbourline Property 6.25% Perpetual,Fixed Income,Subordinated Perpetual,Real Estate,Hong Kong,USD,Daily,,N,Y,76.39,74.29,55.69,57.94,61.5
+INS-EQ-001,World Developed Equity Index Fund,Equity,Developed Market Equity,Diversified,Global,USD,Daily,,N,N,225.43,232.18,224.94,235.91,241.7
+INS-EQ-002,US Large Cap Equity Fund,Equity,Developed Market Equity,Diversified,North America,USD,Daily,,N,N,376.09,392.68,378.16,399.71,412.3
+INS-EQ-003,US Technology Leaders Fund,Equity,Developed Market Equity,Information Technology,North America,USD,Daily,,N,N,175.36,178.12,166.99,180.84,188.6
+INS-EQ-004,Asia ex-Japan Equity Fund,Equity,Emerging Market Equity,Diversified,Asia ex-Japan,USD,Daily,,N,N,100.3,101.43,95.61,99.77,102.4
+INS-EQ-005,Japan Equity Fund,Equity,Developed Market Equity,Diversified,Japan,JPY,Daily,,N,N,3119.87,3211.21,3151.7,3248.32,3215.0
+INS-EQ-006,Europe Equity Income Fund,Equity,Developed Market Equity,Diversified,Europe,EUR,Daily,,N,N,59.15,60.39,58.73,60.63,61.3
+INS-EQ-007,China A-Share Growth Fund,Equity,Emerging Market Equity,Diversified,Greater China,CNH,Daily,,N,N,8.75,9.04,8.31,8.48,8.92
+INS-EQ-008,Global Semiconductor Equity Fund,Equity,Developed Market Equity,Information Technology,Global,USD,Daily,,N,N,62.69,56.93,49.77,54.66,57.8
+INS-EQ-009,Global Renewable Infrastructure Fund,Equity,Developed Market Equity,Utilities,Global,USD,Daily,,N,N,22.56,22.89,22.61,23.42,23.6
+INS-EQ-010,Global Energy Producers Fund,Equity,Developed Market Equity,Energy,Global,USD,Daily,,Y,N,53.22,53.71,52.25,49.71,44.1
+INS-EQ-011,Global Defence Equity Fund,Equity,Developed Market Equity,Industrials,Global,USD,Daily,,Y,N,29.22,30.12,31.02,31.57,31.9
+INS-EQ-012,Asia Pacific REIT Fund,Equity,Real Estate Securities,Real Estate,Asia Pacific,SGD,Daily,,N,N,1.1369,1.1183,1.0271,1.0485,1.072
+INS-EQ-013,Global Healthcare Equity Fund,Equity,Developed Market Equity,Health Care,Global,USD,Daily,,N,N,61.6,62.99,64.41,62.12,64.5
+INS-ST-001,Harbourline Property Holdings Ltd,Equity,Single Stock,Real Estate,Hong Kong,HKD,Daily,,N,Y,14.8,13.98,10.3,10.75,11.86
+INS-ST-002,Straits Commercial Bank Ltd,Equity,Single Stock,Financials,Singapore,SGD,Daily,,N,Y,21.51,21.49,19.63,20.82,21.4
+INS-ST-003,Lindenhof Antriebstechnik AG,Equity,Single Stock,Industrials,Europe,EUR,Daily,,N,Y,69.99,72.66,67.44,71.57,74.2
+INS-ST-004,Veltrion Semiconductor Inc,Equity,Single Stock,Information Technology,North America,USD,Daily,,N,Y,160.84,137.89,117.83,131.5,142.3
+INS-ST-005,Qinghe Battery Technology Co Ltd,Equity,Single Stock,Industrials,Greater China,HKD,Daily,,N,Y,37.57,39.12,32.93,36.74,38.65
+INS-ST-006,Kitaura Precision Industries KK,Equity,Single Stock,Industrials,Japan,JPY,Daily,,N,Y,4699.51,4804.24,4573.82,4885.26,4870.0
+INS-ST-007,Sahraa Logistics PJSC,Equity,Single Stock,Industrials,Middle East,AED,Daily,,N,Y,6.41,6.44,5.89,5.63,5.62
+INS-ST-008,Barrow Ridge Thermal Coal Ltd,Equity,Single Stock,Energy,Asia Pacific,AUD,Daily,,Y,Y,4.0163,4.1917,4.5484,4.3576,4.18
+INS-ST-009,Rimba Lestari Plantations Bhd,Equity,Single Stock,Consumer Staples,Southeast Asia,MYR,Daily,,Y,Y,6.21,6.48,6.33,6.46,6.34
+INS-ST-010,Corlane Medical Systems Inc,Equity,Single Stock,Health Care,North America,USD,Daily,,N,Y,207.81,212.0,217.31,214.12,218.4
+INS-AL-001,Global Macro Hedge Fund,Alternatives,Hedge Fund,Macro,Global,USD,Monthly,,N,N,1333.76,1351.27,1330.69,1361.7,1384.0
+INS-AL-002,Asia Equity Long Short Fund,Alternatives,Hedge Fund,Equity Long Short,Asia,USD,Monthly,,N,N,1105.09,1116.93,1085.12,1113.89,1127.0
+INS-AL-003,Northfield Private Equity Partners IX,Alternatives,Private Equity,Multi,Global,USD,Illiquid,,N,Y,1.1649,1.1941,1.2069,1.222,1.236
+INS-AL-004,Serai Private Credit Fund II,Alternatives,Private Credit,Corporate,Asia,USD,Quarterly Gate,,N,N,0.9998,1.0106,0.965,0.9542,0.962
+INS-AL-005,Pan-Asia Logistics Real Estate Fund,Alternatives,Private Real Estate,Real Estate,Asia Pacific,USD,Illiquid,,N,N,1.0779,1.0767,1.0541,1.0427,1.041
+INS-AL-006,Infrastructure Debt Fund III,Alternatives,Private Credit,Infrastructure,Global,USD,Illiquid,,N,N,1.0034,1.0058,0.991,0.9724,0.988
+INS-AL-007,Unlisted Holding - Lumora Analytics Pte Ltd,Alternatives,Private Equity,Information Technology,Singapore,USD,Illiquid,"Series C preference shares, last priced round Jun-2025",N,Y,41.2,41.2,41.2,41.2,41.2
+INS-CM-001,Gold Bullion ETF,Commodities,Precious Metals,Gold,Global,USD,Daily,,N,N,323.41,340.26,353.0,367.2,372.4
+INS-CM-002,Allocated Gold Account (Singapore),Commodities,Precious Metals,Gold,Singapore,USD,Daily,"Gold spot, allocated bars, Singapore vault",N,N,3393.08,3581.36,3710.89,3909.71,3986.0
+INS-CM-003,Diversified Commodity Index Fund,Commodities,Diversified Commodities,Multi,Global,USD,Daily,,Y,N,19.33,19.6,19.65,19.52,18.7
+INS-SP-001,"Accumulator ref. Harbourline Property Holdings, 12M",Structured Products,Accumulator,Real Estate,Hong Kong,HKD,Illiquid,"Single underlying: Harbourline Property Holdings Ltd, daily accumulation at strike HKD 11.40, knock-out HKD 13.10, double-up below strike",N,Y,94.65,90.58,59.58,62.24,71.4
+INS-SP-002,"Equity Linked Note ref. Qinghe Battery Technology, 10.5% p.a., 6M",Structured Products,Yield Enhancement,Industrials,Greater China,USD,Illiquid,Single underlying: Qinghe Battery Technology Co Ltd,N,Y,89.19,91.91,85.19,90.92,93.1
+INS-SP-003,"Fixed Coupon Note ref. Basket Q, 9.0% p.a., 12M",Structured Products,Yield Enhancement,Multi,Asia,USD,Illiquid,Worst-of basket: Veltrion Semiconductor Inc / Qinghe Battery Technology Co Ltd / Straits Commercial Bank Ltd,N,Y,92.46,89.52,84.43,85.97,88.4
+INS-SP-004,"Capital Protected Note ref. Gold, 24M",Structured Products,Capital Protected,Gold,Global,USD,Illiquid,"Underlying: Gold spot, 100% capital protection at maturity, 65% participation",N,Y,96.53,100.3,103.34,106.96,109.6
+INS-SP-005,"Autocallable ref. Japan Exporters Basket, 7.2% p.a.",Structured Products,Yield Enhancement,Multi,Japan,JPY,Illiquid,"Worst-of basket: three Japanese exporters, autocall observation quarterly",N,Y,94.03,96.81,94.85,97.07,96.3

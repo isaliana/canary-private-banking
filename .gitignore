@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets — narrate.py and serve.py read the key from here; never commit it
+.anthropic_key
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Private working notes — never uploaded
+notes/
+
+# Scratch copies of the workbench
+app/_test*.html
+
+# Translations of the RM's own amendments: her words, cached on her machine.
+# (engine/cache/narrate/ and narration.json are meant to be committed, so the
+# demo shows Claude's drafts with no key and no network.)
+engine/cache/translate/
+
+# Logs
+*.log

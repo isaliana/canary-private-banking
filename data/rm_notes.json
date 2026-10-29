@@ -1,0 +1,299 @@
+[
+  {
+    "note_id": "N-001",
+    "client_id": "CL-0001",
+    "note_date": "2025-11-12",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Quarterly review with Mr Morimoto at the Singapore office. He follows the yen closely and asked twice about the long JGB position, which is now well below what he paid. He would rather wait for the bonds to come back than sell at a loss; he described selling as admitting a mistake. Living costs are drawn quarterly in yen and he wants that to continue unchanged."
+  },
+  {
+    "note_id": "N-002",
+    "client_id": "CL-0001",
+    "note_date": "2026-07-08",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Mr Morimoto asked for a view on whether the Bank of Japan will keep raising rates and what that means for his bonds. Told him we do not forecast rates, but that we would show him the ladder against his own spending plan. His granddaughter starts university in 2030."
+  },
+  {
+    "note_id": "N-003",
+    "client_id": "CL-0002",
+    "note_date": "2025-10-20",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Lunch with Raymond at the family office in Central. The group is bidding for a land parcel in the New Territories and he expects to fund the deposit personally in early 2027 - he called it certain if they win. He likes the Lombard line and wants it kept open."
+  },
+  {
+    "note_id": "N-004",
+    "client_id": "CL-0002",
+    "note_date": "2026-01-15",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Raymond subscribed to a 12-month accumulator on Harbourline shares, funded from the Lombard line. I explained the double-up below strike; he acknowledged the risk but proceeded. He will not sell the Harbourline shares - it is the family company and his father still chairs it."
+  },
+  {
+    "note_id": "N-005",
+    "client_id": "CL-0002",
+    "note_date": "2026-03-24",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Margin warning on the Lombard facility after Hong Kong property sold off. Credit granted a standstill while Raymond looks at options; nothing was sold and nothing was repaid. This needs a proper conversation before the next review."
+  },
+  {
+    "note_id": "N-006",
+    "client_id": "CL-0002",
+    "note_date": "2026-08-28",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Raymond says the land deal is now confirmed for February. He asked for a view on what happens to the Lombard line if Hong Kong property falls again. We have not yet replied with numbers."
+  },
+  {
+    "note_id": "N-007",
+    "client_id": "CL-0003",
+    "note_date": "2026-02-18",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "First meeting since Mrs Brandt's husband passed away in December. The Lindenhof shares have been transferred into her conservative mandate from the estate. She wants to keep a meaningful part of the Lindenhof stake for sentimental reasons - her husband ran the company for thirty years. Otherwise she asked us to make it boring."
+  },
+  {
+    "note_id": "N-008",
+    "client_id": "CL-0003",
+    "note_date": "2026-06-10",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Email",
+    "note": "Mrs Brandt's tax adviser in Munich asked for realised and unrealised positions for the German return; sent. The mandate has still not been rebalanced since the transfer in February. This needs a proper conversation with the portfolio manager."
+  },
+  {
+    "note_id": "N-009",
+    "client_id": "CL-0004",
+    "note_date": "2025-10-30",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Arjun is busy with Lumora's next funding round. He was surprised how much of his net worth our statement attributes to Lumora - we still carry the June 2025 Series C price. He expects the next round to be priced much higher; the CFO has not confirmed a date."
+  },
+  {
+    "note_id": "N-010",
+    "client_id": "CL-0004",
+    "note_date": "2026-03-05",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "The semiconductor sell-off took the facility on the founder account past its trigger at the quarter-end check. Arjun asked that nothing in the account be sold; credit agreed to wait for the June valuation."
+  },
+  {
+    "note_id": "N-011",
+    "client_id": "CL-0004",
+    "note_date": "2026-09-12",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Email",
+    "note": "Requested an updated valuation of the Lumora preference shares from the company. Nothing received yet. The mark we carry is fifteen months old and part of the facility's lending value rests on it."
+  },
+  {
+    "note_id": "N-012",
+    "client_id": "CL-0005",
+    "note_date": "2026-01-09",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Annual review with Puan Nurul. She was not aware that her sustainable mandate held the Global Energy Producers Fund until she read the year-end statement, and asked how it got there. Escalated to the portfolio manager the same day."
+  },
+  {
+    "note_id": "N-013",
+    "client_id": "CL-0005",
+    "note_date": "2026-04-16",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "The Rimba Lestari position is a family holding from her late father's estate. She has asked that it is not sold without first speaking to her brother, who is the executor. She accepts it does not belong in the mandate."
+  },
+  {
+    "note_id": "N-014",
+    "client_id": "CL-0006",
+    "note_date": "2026-05-06",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Ms Chen instructed an additional purchase of Qinghe shares after their first-quarter results. She knows the company's customers better than we do and was firm. Confirmed the instruction in writing."
+  },
+  {
+    "note_id": "N-015",
+    "client_id": "CL-0006",
+    "note_date": "2026-08-19",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Ms Chen is looking at flats in Mid-Levels and expects to buy within six months, funded from the portfolio. Discussed how much of the portfolio moves with Qinghe; she had not added up the linked note and the structured basket."
+  },
+  {
+    "note_id": "N-016",
+    "client_id": "CL-0007",
+    "note_date": "2026-03-18",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Edward wants more physical gold, taking the allocation well above the balanced mandate ceiling. Explained the breach in detail and he signed. Suitability waiver on file for the gold allocation."
+  },
+  {
+    "note_id": "N-017",
+    "client_id": "CL-0007",
+    "note_date": "2026-07-22",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Call with Edward and his wife. She mentioned his declining health and that he wants the foundation endowed while he can attend the signing. The trust deed is ready; the endowment is planned for May 2027."
+  },
+  {
+    "note_id": "N-018",
+    "client_id": "CL-0008",
+    "note_date": "2026-02-25",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Quarterly meeting with Mr Lim Wei Jian, the family office's investment director. Northfield has called again; more calls are expected through 2027 and the infrastructure fund will draw the rest of its commitment within a year."
+  },
+  {
+    "note_id": "N-019",
+    "client_id": "CL-0008",
+    "note_date": "2026-04-07",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Email",
+    "note": "The Serai manager has now gated redemptions for a second consecutive quarter. Our request sits in the queue with no date. Recommend involving the alternatives team before the next capital call."
+  },
+  {
+    "note_id": "N-020",
+    "client_id": "CL-0009",
+    "note_date": "2026-01-21",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Ms Al-Suwaidi wants less dependence on Gulf property and is comfortable taking losses on the long Treasury if it helps. Explained that the UAE does not tax capital gains, so realising the loss brings no tax benefit; the decision is about the allocation alone."
+  },
+  {
+    "note_id": "N-021",
+    "client_id": "CL-0010",
+    "note_date": "2026-03-11",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Signora Ferraro has found the house in Tuscany; completion is April 2027 and the price is agreed. She wants more gold in the meantime. She confirmed the instruction in writing despite the commodity limit."
+  },
+  {
+    "note_id": "N-022",
+    "client_id": "CL-0011",
+    "note_date": "2026-02-12",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Mr Park called during the export-control headlines. He is not worried - he sold these machines for twenty years - and wants to keep the Veltrion position. He asked for a view on whether the chip cycle has turned; told him we do not call cycles."
+  },
+  {
+    "note_id": "N-023",
+    "client_id": "CL-0011",
+    "note_date": "2026-09-03",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Email",
+    "note": "Mr Park prefers Korean for written correspondence; his assistant translates our English letters today. He asked whether we can write to him in Korean directly."
+  },
+  {
+    "note_id": "N-024",
+    "client_id": "CL-0012",
+    "note_date": "2026-02-02",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Mrs Ho asked why her income portfolio fell in January. Walked her through the Harbourline perpetual. She would rather wait for it to recover than sell; her late husband did business with the family."
+  },
+  {
+    "note_id": "N-025",
+    "client_id": "CL-0012",
+    "note_date": "2026-08-14",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "School fees for both grandchildren paid from the portfolio as usual. Mrs Ho's son may take over the relationship next year and will want to understand the long Treasury."
+  },
+  {
+    "note_id": "N-026",
+    "client_id": "CL-0013",
+    "note_date": "2026-04-24",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Khun Pornthip steps back from the business next spring and wants the portfolio to replace her salary. She was not aware that losses on the bonds could be set against gains for Thai tax; her accountant has asked for the figures."
+  },
+  {
+    "note_id": "N-027",
+    "client_id": "CL-0014",
+    "note_date": "2026-06-19",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Mr Tran expects to put working capital into the coffee business early next year, probably USD 4m. He is also bidding on an investment property in Singapore. Both depend on how the harvest goes."
+  },
+  {
+    "note_id": "N-028",
+    "client_id": "CL-0015",
+    "note_date": "2026-05-28",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Mr Liu confirmed the Shanghai apartment for his parents; payment is due in February. He wants it paid in renminbi and asked about conversion timing. Told him we do not time currencies."
+  },
+  {
+    "note_id": "N-029",
+    "client_id": "CL-0016",
+    "note_date": "2026-03-30",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Herr Reinhardt is content. He asked us to keep gold near ten percent and to write to him in German. Nothing to action."
+  },
+  {
+    "note_id": "N-030",
+    "client_id": "CL-0017",
+    "note_date": "2026-01-27",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Call",
+    "note": "Mr Rao wants the portfolio kept simple and cheap and prefers index funds. Bonds have slipped below the mandate floor after a good year for equities; raise at the next review."
+  },
+  {
+    "note_id": "N-031",
+    "client_id": "CL-0018",
+    "note_date": "2026-06-02",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Message",
+    "note": "Daniel checked in after the start-up's new funding round. Nothing needed; may look at a home purchase in 2028."
+  },
+  {
+    "note_id": "N-032",
+    "client_id": "CL-0019",
+    "note_date": "2025-11-18",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "First meeting with Ms Krishnan after the estate settled. She wants to understand the portfolio before changing anything and plans regular gifts to education charities."
+  },
+  {
+    "note_id": "N-033",
+    "client_id": "CL-0020",
+    "note_date": "2026-04-09",
+    "rm_id": "RM-SG-021",
+    "rm_name": "Clara Teo",
+    "channel": "Meeting",
+    "note": "Dr Cho moved his Corlane shares into a custody account with us. He knows they are a large part of his wealth and says he will diversify after the next earnings."
+  }
+]

@@ -1,0 +1,15 @@
+need_id,client_id,description,currency,amount,due_from,due_to,recurrence,certainty
+CN-001,CL-0001,"Living costs, Singapore and Japan",JPY,60000000,2026-01-31,2036-01-31,Annual,Confirmed
+CN-002,CL-0002,Land-bank deposit for the family company,HKD,80000000,2027-02-15,2027-02-15,One-off,Confirmed
+CN-003,CL-0005,"University fees, two children (Australia)",AUD,210000,2027-02-01,2031-02-01,Annual,Confirmed
+CN-004,CL-0006,"Apartment purchase, Mid-Levels, Hong Kong",HKD,46000000,2027-03-31,2027-03-31,One-off,Likely
+CN-005,CL-0007,Initial endowment of the Ashworth charitable foundation,USD,7500000,2027-05-03,2027-05-03,One-off,Confirmed
+CN-006,CL-0008,Annual distributions to family beneficiaries,USD,3200000,2026-12-15,2045-12-15,Annual,Confirmed
+CN-007,CL-0010,Purchase of a family home in Tuscany,EUR,2850000,2027-04-30,2027-04-30,One-off,Confirmed
+CN-008,CL-0011,Endowed scholarship gift to his alma mater,KRW,3000000000,2027-06-30,2027-06-30,One-off,Likely
+CN-009,CL-0012,"School fees, two grandchildren",HKD,1250000,2026-08-20,2032-08-20,Annual,Confirmed
+CN-010,CL-0014,"University fees, two children (United Kingdom)",GBP,185000,2026-09-01,2030-09-01,Annual,Confirmed
+CN-011,CL-0014,Working capital injection into the coffee business,USD,4000000,2027-03-31,2027-03-31,One-off,Likely
+CN-012,CL-0014,Deposit on a Singapore investment property,SGD,3600000,2027-01-15,2027-01-15,One-off,Likely
+CN-013,CL-0015,"Apartment purchase for his parents, Shanghai",CNH,14500000,2027-02-26,2027-02-26,One-off,Confirmed
+CN-014,CL-0019,Seed an education scholarship fund,SGD,600000,2029-01-15,2029-01-15,One-off,Aspirational

@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Qinghe across your holdings: 29.0% of your wealth",
+  "english": "Dear [[FIRST_NAME]],\n\nThere is one figure I would like you to see, because no single statement shows it. Counting everything linked to Qinghe Battery Technology, it comes to 29.0% of your wealth with us.\n\nThat is made up of the Qinghe shares, including the additional purchase you instructed after the first-quarter results; the Equity Linked Note on Qinghe, paying 10.5% a year over 6 months; and the Fixed Coupon Note on Basket Q, paying 9.0% a year over 12 months, whose outcome is also tied to Qinghe. The two notes look like income, but their outcome depends on the same company as the shares.\n\nI know you want to stay invested in the supply chain you know, and that is your decision to make. My concern is only that your business and a large part of your portfolio now depend on the same company. What I would suggest is that we look at the total together and you decide whether it is the position you want; if it is, I will note that on your file.\n\nCould I call you this week?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n有一个数字我希望您能看到，因为任何一份单独的结单都不会显示它。把所有与 Qinghe Battery Technology 挂钩的持仓合计，占您在我们这里财富的 29.0%。\n\n这包括 Qinghe 股份本身（其中包括您在第一季度业绩公布后指示追加买入的部分）；以 Qinghe 为标的、年息 10.5%、期限 6 个月的股票挂钩票据；以及以 Basket Q 为标的、年息 9.0%、期限 12 个月、结果同样与 Qinghe 挂钩的固定票息票据。这两张票据看起来像是收益产品，但它们的结果取决于与股份相同的公司。\n\n我知道您希望继续投资于您熟悉的产业链，这是您的决定。我只是担心，您的事业和组合中很大一部分如今都取决于同一家公司。我的建议是我们一起看看这个总数，由您决定这是否是您想要的持仓；如果是，我会把这一点记录在您的档案中。\n\n我可否在本周致电与您详谈？",
+  "raises": "Asks her to look at the combined Qinghe exposure and confirm whether it is the position she wants."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Simplified Chinese"
+}

@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "USD 7.1m due in the next twelve months",
+  "english": "Dear [[FIRST_NAME]],\n\nLooking at the next twelve months as a whole, about USD 7.1m is expected to be paid out across three commitments, against about USD 11.5m of your holdings that could be sold within a day. That covers the total 1.6 times, which is enough, but without much room to spare.\n\nSome of this is still uncertain: 1 of the 3 items is recorded as likely rather than confirmed. Before planning around it, I would like to check the timing and amounts with you.\n\nWhat I would suggest is that, once we have confirmed them, we map out which holdings fund each payment and in what order, rather than deciding as each one falls due. With your business also needing a cash buffer, I would rather we had the order settled early.\n\nCould I call you this week?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nLooking at the next twelve months as a whole, about USD 7.1m is expected to be paid out across three commitments, against about USD 11.5m of your holdings that could be sold within a day. That covers the total 1.6 times, which is enough, but without much room to spare.\n\nSome of this is still uncertain: 1 of the 3 items is recorded as likely rather than confirmed. Before planning around it, I would like to check the timing and amounts with you.\n\nWhat I would suggest is that, once we have confirmed them, we map out which holdings fund each payment and in what order, rather than deciding as each one falls due. With your business also needing a cash buffer, I would rather we had the order settled early.\n\nCould I call you this week?",
+  "raises": "Asks the client to confirm the timing of the uncertain item and agree the order in which holdings fund each payment."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

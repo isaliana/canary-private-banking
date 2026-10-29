@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Which annual drawing figure is right: USD 0.50m or USD 0.44m?",
+  "english": "Dear [[FIRST_NAME]],\n\nI would like to check one number with you, because a good deal of your plan rests on it. When we set your objectives, we wrote down that you would draw about USD 0.50m a year for living costs. Elsewhere in our records, the amount you expect to need each year is USD 0.44m.\n\nThe difference is not large in itself, but it changes how much needs to come due each year and how the rest of the portfolio is arranged, so I would rather not guess which is right.\n\nCould you tell me which figure reflects what you actually spend, or whether it has changed? I will update our records and plan from that.\n\nMay I call you this week to confirm it?",
+  "client_language": "[[FIRST_NAME]] 様\n\nご計画の多くがこの数字に基づいておりますので、ひとつ確認させていただきたいことがございます。運用目標を設定した際には、生活費として年に約 USD 0.50m をお引き出しになると記録いたしました。一方、別の記録では、毎年必要とされる金額が USD 0.44m となっております。\n\n差そのものは大きくありませんが、毎年どれだけの資金が満期を迎える必要があるか、またポートフォリオ全体をどう組み立てるかに関わりますので、どちらが正しいかを推測で決めることは避けたく存じます。\n\n実際のご支出に近いのはどちらの金額か、あるいは変わったことがあるか、お教えいただけますでしょうか。記録を更新し、それに基づいて計画いたします。\n\n今週中にお電話で確認させていただいてもよろしいでしょうか。",
+  "raises": "Asks him which annual drawing figure is correct so the plan can be built on it."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Japanese"
+}

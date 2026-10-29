@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Three holdings outside your sustainable mandate — our error, and what I propose",
+  "english": "Dear [[FIRST_NAME]],\n\nWhen we met in January you asked how the Global Energy Producers Fund came to be in your sustainable portfolio. I owe you a straight answer, and a wider one: it is not the only holding there that should not be. Three holdings in that portfolio are on the exclusion list your mandate is built around — the Global Energy Producers Fund at 4.0%, the Global Defence Equity Fund at 3.0% and Rimba Lestari Plantations at 3.0%, 10.0% of the portfolio between them.\n\nThis is our error, not yours. The mandate is discretionary, so those decisions were the bank's to make, and they were made against the values you asked us to invest by.\n\nWhat I would like to propose is that we sell the two funds. Rimba Lestari is different: I know it came to you from your late father's estate, and I would not want to touch it before hearing from you how you would like it handled within the mandate.\n\nCould we speak this week? I would rather explain this properly on a call than leave it to a letter.",
+  "client_language": "Dear [[FIRST_NAME]],\n\nWhen we met in January you asked how the Global Energy Producers Fund came to be in your sustainable portfolio. I owe you a straight answer, and a wider one: it is not the only holding there that should not be. Three holdings in that portfolio are on the exclusion list your mandate is built around — the Global Energy Producers Fund at 4.0%, the Global Defence Equity Fund at 3.0% and Rimba Lestari Plantations at 3.0%, 10.0% of the portfolio between them.\n\nThis is our error, not yours. The mandate is discretionary, so those decisions were the bank's to make, and they were made against the values you asked us to invest by.\n\nWhat I would like to propose is that we sell the two funds. Rimba Lestari is different: I know it came to you from your late father's estate, and I would not want to touch it before hearing from you how you would like it handled within the mandate.\n\nCould we speak this week? I would rather explain this properly on a call than leave it to a letter.",
+  "raises": "Asks her to agree to selling the two excluded funds, and to say how she wants the inherited Rimba Lestari holding handled within the mandate."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

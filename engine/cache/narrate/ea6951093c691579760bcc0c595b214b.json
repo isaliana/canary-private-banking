@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Planning the annual family distributions",
+  "english": "Dear [[FIRST_NAME]],\n\nWith the next of the annual distributions to family beneficiaries due in December 2026, I would like to make sure each payment is planned for, not only covered. Each distribution is USD 3,200,000, about 4% of your wealth with us, and they continue every year until 2045.\n\nThe amount is well within the family's means. What I would like to settle is where each year's payment comes from, so that it is never met by selling something at an awkward moment, particularly in a year when capital calls fall due as well.\n\nWhat I would suggest is that we agree a standing arrangement for funding the distributions, and review it once a year alongside the private markets commitments.\n\nCould we arrange a call this week?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nWith the next of the annual distributions to family beneficiaries due in December 2026, I would like to make sure each payment is planned for, not only covered. Each distribution is USD 3,200,000, about 4% of your wealth with us, and they continue every year until 2045.\n\nThe amount is well within the family's means. What I would like to settle is where each year's payment comes from, so that it is never met by selling something at an awkward moment, particularly in a year when capital calls fall due as well.\n\nWhat I would suggest is that we agree a standing arrangement for funding the distributions, and review it once a year alongside the private markets commitments.\n\nCould we arrange a call this week?",
+  "raises": "Asks the family office to agree a standing arrangement for funding the annual distributions."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

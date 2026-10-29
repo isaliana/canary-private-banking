@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Making sure the land deposit can be paid on the day",
+  "english": "Dear [[FIRST_NAME]],\n\nNow that the land deposit for the family company is confirmed for February 2027, I would like to make sure the money will be ready on the day, and not only that it exists.\n\nThe deposit is HKD 80,000,000, about USD 10.3m, which is 27% of your wealth with us. Having enough is one question; having it in a form that can be paid on that date without selling the wrong thing at the wrong moment is another, and it is the one I want us to settle well ahead.\n\nWhat I would suggest is that we agree now which holdings will fund it and in what order, and set a date by which the cash is in place before the deposit falls due.\n\nCould I call you this week to go through the plan?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n既然家族公司的土地訂金已確定於 2027 年二月支付，我希望確保款項到時能夠準時備妥，而不只是確認資金存在。\n\n訂金為 HKD 80,000,000，約 USD 10.3m，相當於您在我們這裡財富的 27%。資金是否足夠是一個問題；能否在那一天以合適的形式支付，而無須在錯誤的時候出售錯誤的持倉，則是另一個問題，也是我希望我們及早解決的問題。\n\n我的建議是現在就商定由哪些持倉支付、以甚麼次序處理，並定下一個日期，在訂金到期之前把現金準備好。\n\n我可否在本週致電與您商討這個安排？",
+  "raises": "Asks him to agree which holdings fund the deposit, in what order, and by when the cash should be in place."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Traditional Chinese"
+}

@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "A possible tax offset on your losses — to confirm first",
+  "english": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at, and I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAt the moment there are about USD 3.2m of losses on paper across your holdings, alongside about USD 2.7m of gains. The largest loss is the Japan Government Bond 1.4% due 2044, at about USD 1.5m. Our records show you as taxed in Japan while living in Singapore, and if that is still right, realising some of the losses could be set against those gains.\n\nI know you would prefer not to sell at a loss, and I am not suggesting any sale yet. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would treat it, including whether buying back a similar holding would undo the benefit. Only then would it be worth discussing.\n\nMay I call you this week to explain, and to check the details?",
+  "client_language": "[[FIRST_NAME]] 様\n\nポートフォリオの含み損について、税務の観点から検討する価値があるかもしれない点がございます。ただし、まずご確認させていただく必要のある事実に左右されますので、慎重にお伝えしたいと存じます。\n\n現在、保有資産全体で約 USD 3.2m の含み損がある一方、約 USD 2.7m の含み益がございます。最も大きな含み損は Japan Government Bond 1.4% due 2044 で、約 USD 1.5m です。当方の記録では、シンガポールにお住まいで、日本で課税されていることになっております。これが現在も正しければ、損失の一部を実現することで、含み益と相殺できる可能性がございます。\n\n損失を出して売却することを望まれないことは承知しており、現時点で売却をご提案するものではございません。まずは当行のウェルス・プランニング担当が、現在の課税地と取り扱いを確認し、同様の銘柄を買い戻した場合にその効果が失われないかも含めて検討することをご提案いたします。そのうえで、改めてご相談できればと存じます。\n\n今週中にお電話でご説明し、詳細を確認させていただいてもよろしいでしょうか。",
+  "raises": "Asks him to let wealth planning confirm his tax position before any loss is realised."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Japanese"
+}

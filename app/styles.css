@@ -1,0 +1,1254 @@
+/* Canary — the visual system.
+   Warm ivory ground, deep navy, muted blue-grey neutrals. Flat surfaces,
+   thin rules, generous whitespace. Deliberately single-theme: the ivory is
+   the identity, so every colour is painted explicitly rather than inherited. */
+
+:root{
+  color-scheme: light;
+
+  /* Editorial. Warm ivory, deep ink navy, blue-greys. */
+  --canvas:#F3F2E8;
+  --surface:#F8F7EF;
+  --surface-sunk:#E4E1D3;
+
+  --navy-950:#141B4B;
+  --navy-900:#141B4B;
+  --navy-700:#303A78;
+
+  --slate-blue:#969CB2;
+  --muted-blue:#CED1DC;
+
+  --text-primary:#262626;
+  --text-secondary:#414141;
+  --text-muted:#8A8D99;
+
+  --border-subtle:#D9D6C8;
+  --border-hair:#E7E4D8;
+
+  /* red is allowed — a deep brick, never a bright one */
+  --alert:#8C2F2A;
+  --alert-sunk:#EFE3DF;
+  --caution:#8A6A2B;
+  --positive:#2F5D4A;
+  --gold-600:#9A7B35;   /* the one non-blue accent */
+
+  --serif:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --gutter:clamp(20px, 4vw, 56px);
+  /* Reading measure. In px, not ch, so a 16px standfirst and a 12px footnote
+     end on the same right edge instead of two ragged ones. */
+  --measure:min(100%, 900px);
+  --measure-note:min(100%, 760px);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--canvas); color:var(--text-primary);
+  font-family:var(--sans); font-size:15px; line-height:1.6;
+  -webkit-font-smoothing:antialiased; font-feature-settings:"tnum" 0;
+}
+h1,h2,h3,h4{margin:0; font-family:var(--serif); font-weight:400; letter-spacing:-.01em}
+p{margin:0}
+button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
+a{color:var(--navy-700); text-decoration-thickness:1px; text-underline-offset:2px}
+table{border-collapse:collapse; width:100%}
+:focus-visible{outline:1.5px solid var(--navy-700); outline-offset:3px}
+@media (prefers-reduced-motion: reduce){*{transition:none !important; animation:none !important}}
+
+.n{font-variant-numeric:tabular-nums}
+.eyebrow{
+  font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--text-muted); font-weight:600;
+}
+.rule{height:1px; background:var(--border-subtle); border:0; margin:0}
+.hair{height:1px; background:var(--border-hair); border:0; margin:0}
+.muted{color:var(--text-secondary)}
+.dim{color:var(--text-muted)}
+.alert{color:var(--alert)}
+.pos{color:var(--positive)}
+
+/* ── chrome ─────────────────────────────────────────────────────────── */
+.topbar{display:flex; align-items:center; gap:20px; flex-wrap:wrap;
+  padding:11px var(--gutter); border-bottom:1px solid var(--border-subtle);
+  background:var(--surface)}
+.topbar .mark{display:flex; align-items:center; gap:13px;
+  font-family:var(--serif); font-size:17px; letter-spacing:.01em}
+/* The bank's mark, at its own green. It is the bank's asset and the one place
+   in the interface that is not our palette; everything downstream stays navy.
+   Halden Rowe is fictional — assets/halden-rowe.svg. */
+.topbar .bank-logo{height:22px; width:auto; display:block}
+.topbar .app-mark{height:20px; width:20px; display:block; margin-right:-5px}
+.topbar .mark-rule{width:1px; height:19px; background:var(--border-subtle)}
+.topbar .mark b{font-weight:600; letter-spacing:.005em}
+.topbar .who{margin-left:auto; font-size:12.5px; color:var(--text-secondary)}
+.topbar .who span{color:var(--text-muted)}
+
+.shell{padding:0 var(--gutter) 64px; max-width:1290px; margin:0 auto}
+
+/* ── editorial masthead ─────────────────────────────────────────────── */
+.masthead{padding:34px 0 22px}
+.masthead .date{margin-bottom:14px}
+.masthead h1{font-size:clamp(30px,4vw,44px); line-height:1.12; max-width:22ch}
+.masthead .lede{
+  margin-top:16px; max-width:var(--measure); font-size:16.5px; color:var(--text-secondary);
+}
+.masthead .lede b{color:var(--text-primary); font-weight:600}
+
+/* start here — for a first-time visitor, not for the RM */
+.start{margin:0 0 26px; padding:14px 0 16px; border-top:1px solid var(--navy-900);
+  border-bottom:1px solid var(--border-subtle)}
+.start-head{display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+  margin-bottom:10px}
+.start-head .linkish{font-size:12px; font-weight:500; color:var(--text-muted)}
+.start-stops{list-style:none; margin:0; padding:0; display:grid;
+  grid-template-columns:repeat(3, minmax(0,1fr)); gap:0; counter-reset:stop}
+.start-stops li{counter-increment:stop; border-left:1px solid var(--border-hair)}
+.start-stops li:first-child{border-left:0}
+.start-stops button{display:flex; flex-direction:column; justify-content:flex-start;
+  width:100%; height:100%; text-align:left;
+  padding:4px 20px 6px; border-radius:2px; transition:background .15s ease}
+.start-stops li:first-child button{padding-left:0}
+.start-stops button:hover{background:rgba(20,27,75,.035)}
+.start-stops b{display:block; font-family:var(--serif); font-size:18px; font-weight:400;
+  color:var(--navy-900); line-height:1.25; margin-bottom:5px}
+.start-stops b::before{content:counter(stop) " · "; font-family:var(--sans); font-size:12px;
+  font-weight:600; color:var(--text-muted); letter-spacing:.04em}
+.start-stops span{display:block; font-size:13px; line-height:1.55; color:var(--text-secondary)}
+@media (max-width:760px){
+  .start-stops{grid-template-columns:1fr}
+  .start-stops li{border-left:0; border-top:1px solid var(--border-hair)}
+  .start-stops li:first-child{border-top:0}
+  .start-stops button, .start-stops li:first-child button{padding:10px 0}
+}
+
+/* ── the metric strip ───────────────────────────────────────────────────
+   Two kinds of number, and they must not read as one row. On the left, what
+   the book IS: clients, assets, findings — facts, in full-size serif, inert.
+   On the right, what it ASKS OF HER: the three tiers, smaller, dotted, and
+   every one of them a filter. The vertical rule is the whole distinction. */
+.metrics{
+  display:flex; flex-wrap:wrap; align-items:stretch;
+  row-gap:0; column-gap:clamp(24px, 4vw, 54px);
+  margin-top:26px; padding:20px 0 18px;
+  border-top:1px solid var(--navy-950); border-bottom:1px solid var(--border-subtle);
+}
+.mgroup{display:flex; align-items:stretch; row-gap:0; column-gap:clamp(20px, 3vw, 44px)}
+.mgroup.asks{padding-left:clamp(24px,4vw,54px); border-left:1px solid var(--border-subtle)}
+.mtail{margin-left:auto; display:flex; align-items:flex-start; gap:8px; padding-top:3px}
+
+.metric{padding:0; text-align:left; background:none; border:0}
+.metric .v{
+  font-family:var(--serif); font-size:34px; line-height:1; letter-spacing:-.025em;
+  color:var(--navy-950);
+}
+.metric .k{margin-top:9px; font-size:12px; color:var(--text-secondary); white-space:nowrap}
+
+.mgroup.asks .metric{cursor:pointer; transition:opacity .12s}
+.mgroup.asks .metric .v{font-size:27px}
+.mgroup.asks .metric .k{display:flex; align-items:center; gap:7px}
+.metric .dot{width:7px; height:7px; border-radius:50%; display:inline-block; flex:0 0 auto}
+.metric.t-act .dot{background:var(--alert)}
+.metric.t-review .dot{background:var(--navy-700)}
+.metric.t-watch .dot{background:var(--slate-blue)}
+.mgroup.asks .metric:hover .k{color:var(--navy-950)}
+.mgroup.asks .metric[aria-pressed="true"] .k{
+  color:var(--navy-950); font-weight:600;
+  box-shadow:inset 0 -1px 0 0 var(--navy-950);
+}
+.mgroup.asks .metric[aria-pressed="false"]:hover{opacity:1}
+.metrics:has(.metric[aria-pressed="true"]) .mgroup.asks .metric[aria-pressed="false"]{opacity:.48}
+
+.tune-btn{
+  font-size:11.5px; padding:5px 11px; border:1px solid var(--border-subtle); border-radius:3px;
+  color:var(--text-secondary); background:var(--surface); white-space:nowrap;
+}
+.tune-btn:hover{border-color:var(--slate-blue); color:var(--navy-950)}
+.tune-btn.on{border-color:var(--alert); color:var(--alert)}
+.tune-reset{font-size:11.5px; color:var(--text-muted); text-decoration:underline;
+  text-underline-offset:2px; padding:5px 0}
+.tune-reset:hover{color:var(--navy-950)}
+
+@media (max-width:900px){
+  .metrics{gap:18px 26px; padding-bottom:14px}
+  .mgroup.asks{padding-left:0; border-left:0; width:100%;
+    border-top:1px solid var(--border-hair); padding-top:14px}
+  .mtail{margin-left:0; width:100%}
+}
+
+/* ── the deck: the chart and the diary, side by side under the strip ──── */
+.deck{
+  display:grid; grid-template-columns:minmax(0,1fr) 396px;
+  gap:clamp(28px, 3.4vw, 52px); align-items:start; margin-top:26px;
+}
+.deck .viz-map{margin:0; min-width:0}
+.deck figcaption{margin-bottom:14px}
+.deck figcaption h2{font-size:19px}
+.deck figcaption .sub{margin-top:5px; font-size:13px; color:var(--text-secondary); max-width:52ch}
+
+@media (max-width:1120px){
+  .deck{grid-template-columns:1fr; gap:36px}
+}
+
+/* ── the book ───────────────────────────────────────────────────────── */
+.book{margin-top:30px}
+.book-head{display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; padding-bottom:12px}
+.book-head h2{font-size:20px}
+.filters{margin-left:auto; display:flex; gap:6px; flex-wrap:wrap}
+.filters button{
+  font-size:12px; padding:4px 8px 4px 11px; border:1px solid var(--border-subtle);
+  border-radius:3px; color:var(--text-secondary); background:var(--surface);
+  display:inline-flex; align-items:baseline; gap:8px;
+}
+.filters button b{
+  font-size:11px; font-weight:600; font-variant-numeric:tabular-nums;
+  color:var(--text-muted); padding-left:8px; border-left:1px solid var(--border-hair);
+}
+.filters button[aria-pressed="true"] b{color:var(--muted-blue); border-left-color:rgba(255,255,255,.22)}
+.filters button:hover{border-color:var(--slate-blue); color:var(--text-primary)}
+.filters button[aria-pressed="true"]{
+  background:var(--navy-950); border-color:var(--navy-950); color:var(--surface);
+}
+
+table.book-table{font-size:14px}
+table.book-table th{
+  font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:600;
+  color:var(--text-muted); text-align:left; padding:0 14px 10px 0;
+  border-bottom:1px solid var(--border-subtle);
+}
+table.book-table th.r{text-align:right}
+table.book-table td{padding:12px 14px 12px 0; border-bottom:1px solid var(--border-hair);
+  vertical-align:top}
+table.book-table td.r{text-align:right}
+table.book-table tr{cursor:pointer}
+table.book-table tbody tr:hover td{background:var(--surface)}
+.rank-cell{
+  width:52px; font-family:var(--serif); font-size:22px; color:var(--muted-blue);
+  font-variant-numeric:tabular-nums; padding-right:0 !important;
+}
+tr.tier-act .rank-cell{color:var(--navy-950)}
+tr.tier-review .rank-cell{color:var(--slate-blue)}
+.who-cell{min-width:190px}
+.who-cell .nm{font-family:var(--serif); font-size:17px; line-height:1.25}
+.who-cell .sub{margin-top:3px; font-size:11.5px; color:var(--text-muted)}
+.lead-cell{max-width:52ch}
+.lead-cell .hd{line-height:1.45}
+.lead-cell .dims{margin-top:7px; display:flex; gap:5px; flex-wrap:wrap}
+
+.tag{
+  font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; font-weight:600;
+  color:var(--text-muted); border:1px solid var(--border-subtle); border-radius:2px;
+  padding:1px 6px; white-space:nowrap;
+}
+.tag.on{color:var(--navy-900); border-color:var(--slate-blue)}
+.tag.crit{color:var(--alert); border-color:var(--alert)}
+.marker{
+  display:inline-block; width:7px; height:7px; border-radius:50%;
+  background:var(--muted-blue); margin-right:8px; vertical-align:middle;
+}
+.tier-act .marker{background:var(--alert)}
+.tier-review .marker{background:var(--navy-700)}
+
+/* ── dossier ────────────────────────────────────────────────────────── */
+.back{font-size:12.5px; color:var(--text-secondary); padding:22px 0 0; display:inline-block}
+.back:hover{color:var(--navy-900)}
+
+.dossier-head{padding:16px 0 0}
+.dossier-head h1{font-size:clamp(28px,3.6vw,40px); line-height:1.08}
+/* Two rows, not one wrapped one. The first says who the person is, the second
+   how the bank holds them; the split is the information architecture, and it
+   also stops the row breaking at whatever point the viewport happens to pick. */
+.facts{margin-top:14px; display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 0;
+  font-size:13.5px; color:var(--text-secondary)}
+.facts.second{margin-top:7px; padding-top:8px; border-top:1px solid var(--border-hair)}
+.facts span:not(:last-child)::after{content:"·"; color:var(--muted-blue); margin:0 11px}
+.facts b{color:var(--text-primary); font-weight:600}
+.facts .fkey{
+  font-size:9.5px; letter-spacing:.13em; text-transform:uppercase; font-weight:600;
+  color:var(--text-muted); min-width:88px;
+}
+.facts .fkey::after{content:"" !important; margin:0 !important}
+
+.stat-row{display:flex; flex-wrap:wrap; margin-top:22px; border-top:1px solid var(--border-subtle)}
+.stat-row > div{flex:1 1 130px; padding:11px 20px 13px 0; border-right:1px solid var(--border-hair)}
+.stat-row > div:last-child{border-right:0}
+.stat-row .v{font-family:var(--serif); font-size:26px; line-height:1; letter-spacing:-.02em}
+.stat-row .k{margin-top:7px; font-size:12px; color:var(--text-secondary)}
+
+.section{margin-top:36px}
+.section > h2{font-size:20px; margin-bottom:4px}
+.section > .sub{font-size:14px; color:var(--text-secondary); max-width:var(--measure); margin-bottom:20px}
+
+/* findings — editorial blocks, not cards */
+.finding{padding:19px 0 21px; border-top:1px solid var(--border-subtle)}
+.finding:first-of-type{border-top-width:1px}
+.finding-top{display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; margin-bottom:9px}
+.finding h3{font-size:19px; line-height:1.32; max-width:var(--measure); flex-basis:100%;
+  color:var(--text-primary)}
+.finding .body{margin-top:9px; max-width:var(--measure); color:var(--text-secondary); font-size:15.5px}
+.finding .do{
+  margin-top:14px; padding-left:15px; border-left:2px solid var(--navy-950);
+  max-width:var(--measure);
+}
+.finding .do .eyebrow{display:block; margin-bottom:4px}
+.finding.governed{opacity:.62}
+.finding.governed h3{color:var(--text-secondary)}
+
+.sev{
+  font-family:var(--serif); font-size:15px; color:var(--text-muted);
+  font-variant-numeric:tabular-nums;
+}
+.confidence{font-size:12px; color:var(--caution)}
+
+details.why{margin-top:16px}
+details.why > summary{
+  font-size:12.5px; color:var(--navy-700); list-style:none; display:inline-flex;
+  align-items:center; gap:7px; padding:3px 0;
+}
+details.why > summary::-webkit-details-marker{display:none}
+details.why > summary::before{content:""; width:5px; height:5px; border-right:1px solid currentColor;
+  border-bottom:1px solid currentColor; transform:rotate(-45deg); display:inline-block}
+details.why[open] > summary::before{transform:rotate(45deg)}
+.why-inner{
+  margin-top:14px; padding:18px 22px; background:var(--surface); border:1px solid var(--border-hair);
+  border-radius:3px; max-width:var(--measure);
+}
+.why-inner dl{margin:0; display:grid; grid-template-columns:118px minmax(0,1fr); gap:11px 18px; font-size:13.5px}
+.why-inner dt{color:var(--text-muted); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+  font-weight:600; padding-top:3px}
+.why-inner dd{margin:0}
+.why-inner code{font-family:var(--mono); font-size:12px; color:var(--navy-900);
+  overflow-wrap:anywhere}
+.quote{font-family:var(--serif); font-style:italic; font-size:15.5px; line-height:1.55}
+.quote cite{display:block; font-style:normal; font-family:var(--sans); font-size:11.5px;
+  color:var(--text-muted); margin-top:5px}
+.numgrid{display:flex; flex-wrap:wrap; gap:2px}
+.numgrid div{background:var(--surface-sunk); padding:6px 11px; border-radius:2px; font-size:12.5px}
+.numgrid b{font-variant-numeric:tabular-nums; font-weight:600}
+
+.btn{
+  display:inline-block; background:var(--navy-950); color:var(--surface);
+  padding:8px 17px; border-radius:3px; font-size:13px; font-weight:500;
+}
+.btn:hover{background:var(--navy-900)}
+.btn.ghost{background:none; color:var(--navy-900); border:1px solid var(--border-subtle)}
+.btn.ghost:hover{border-color:var(--navy-700); background:var(--surface)}
+.btn-row{display:flex; gap:9px; flex-wrap:wrap; margin-top:16px}
+
+/* decision recorded */
+.decided{
+  margin-top:14px; padding:11px 16px; background:var(--surface); border-left:2px solid var(--slate-blue);
+  font-size:13px; max-width:var(--measure);
+}
+.decided b{font-weight:600}
+
+/* ── chart ──────────────────────────────────────────────────────────── */
+.chart{margin-top:6px}
+.chart svg{width:100%; height:auto; display:block; overflow:visible}
+.chart text{font-family:var(--sans); font-size:11px; fill:var(--text-muted)}
+.chart text.val{fill:var(--text-primary); font-weight:600; font-variant-numeric:tabular-nums}
+
+/* ── tables ─────────────────────────────────────────────────────────── */
+.tbl-wrap{overflow-x:auto}
+table.data{font-size:13.5px; min-width:660px}
+table.data th{
+  font-size:10px; letter-spacing:.13em; text-transform:uppercase; font-weight:600;
+  color:var(--text-muted); text-align:left; padding:0 16px 9px 0;
+  border-bottom:1px solid var(--border-subtle); white-space:nowrap;
+}
+table.data th.r{text-align:right}
+table.data td{padding:13px 16px 13px 0; border-bottom:1px solid var(--border-hair); vertical-align:top}
+table.data td.r{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+table.data td .sub{font-size:11.5px; color:var(--text-muted); margin-top:2px}
+table.data tr:last-child td{border-bottom:0}
+
+/* ── notes ──────────────────────────────────────────────────────────── */
+.note{padding:15px 0; border-top:1px solid var(--border-hair); max-width:var(--measure)}
+.note:first-child{border-top:0}
+.note .meta{font-size:11.5px; color:var(--text-muted); letter-spacing:.02em}
+.note p{margin-top:8px; font-family:var(--serif); font-size:16.5px; line-height:1.6}
+
+/* ── composer drawer ────────────────────────────────────────────────── */
+.scrim{position:fixed; inset:0; background:rgba(23,32,82,.28); z-index:40}
+.drawer{
+  position:fixed; top:0; right:0; bottom:0; width:min(560px, 100%); z-index:41;
+  background:var(--canvas); border-left:1px solid var(--border-subtle);
+  display:flex; flex-direction:column;
+}
+.drawer-head{padding:26px 30px 18px; border-bottom:1px solid var(--border-subtle)}
+.drawer-head h2{font-size:21px; line-height:1.3; margin-top:8px; max-width:34ch}
+.drawer-body{padding:24px 30px 30px; overflow-y:auto; flex:1}
+.drawer-body h4{font-size:12px; letter-spacing:.13em; text-transform:uppercase; font-family:var(--sans);
+  font-weight:600; color:var(--text-muted); margin-bottom:9px}
+.drawer-body section+section{margin-top:26px}
+.drawer textarea{
+  width:100%; min-height:210px; padding:16px 18px; background:var(--surface);
+  border:1px solid var(--border-subtle); border-radius:3px; font-family:var(--serif);
+  font-size:15.5px; line-height:1.62; color:var(--text-primary); resize:vertical;
+}
+.drawer .provenance{
+  margin-top:11px; font-size:12px; color:var(--text-muted); padding-left:13px;
+  border-left:1px dotted var(--muted-blue); max-width:var(--measure-note);
+}
+.drawer-foot{padding:18px 30px 26px; border-top:1px solid var(--border-subtle)}
+.drawer input[type=text]{
+  width:100%; padding:9px 13px; background:var(--surface); border:1px solid var(--border-subtle);
+  border-radius:3px; font-size:13.5px; color:var(--text-primary); margin-top:8px;
+}
+.close{position:absolute; top:24px; right:26px; font-size:12px; color:var(--text-secondary)}
+
+.empty{padding:44px 0; color:var(--text-muted); font-family:var(--serif); font-size:17px}
+
+@media (max-width:760px){
+  .rank-cell{display:none}
+  .lead-cell{max-width:none}
+  /* on a phone a row is a block: who and how much, then what is wrong */
+  table.book-table thead{display:none}
+  table.book-table, table.book-table tbody{display:block}
+  table.book-table tr{display:grid; grid-template-columns:minmax(0,1fr) auto;
+    column-gap:12px; padding:12px 0; border-bottom:1px solid var(--border-hair)}
+  table.book-table td{display:block; padding:0 !important; border-bottom:0}
+  table.book-table td.lead-cell{grid-column:1 / -1; margin-top:8px}
+  table.book-table td:last-child{display:none}
+}
+
+/* ── book charts ────────────────────────────────────────────────────── */
+svg.map{width:100%; height:auto; display:block; overflow:visible}
+svg.map text{font-family:var(--sans); font-size:11.5px; fill:var(--text-muted)}
+svg.map text.rk{fill:var(--surface); font-size:11px; font-weight:600; pointer-events:none}
+svg.map .pt{cursor:pointer}
+svg.map .pt .dot{transition:r .12s ease}
+svg.map .pt.hot .dot{stroke:var(--navy-950); stroke-width:2.5}
+svg.map .pt.act.hot .dot{stroke:var(--navy-950); stroke-width:2}
+svg.map .pt:focus{outline:none}
+svg.map .pt:focus .dot{stroke:var(--navy-950); stroke-width:2.5}
+
+
+/* ── charts inside a finding ────────────────────────────────────────── */
+.fchart{margin:16px 0 0; max-width:var(--measure)}
+.fchart svg{width:100%; height:auto; display:block; overflow:visible}
+.fchart text{font-family:var(--sans); font-size:11px; fill:var(--text-muted)}
+.fchart text.nm{fill:var(--text-primary); font-size:12.5px}
+.fchart text.wt{fill:var(--text-secondary); font-size:12px; font-variant-numeric:tabular-nums}
+.fchart text.hz{fill:var(--navy-950); font-size:11px; font-weight:600; letter-spacing:.04em}
+.fchart text.never{fill:var(--alert); font-size:11px; font-style:italic}
+.fchart text.trig{fill:var(--alert); font-size:11px; font-weight:600}
+.fchart text.val{fill:var(--text-primary); font-size:11.5px; font-weight:600;
+  font-variant-numeric:tabular-nums}
+.fchart text.val.breach{fill:var(--alert)}
+.fchart figcaption{
+  margin-top:10px; font-size:12px; color:var(--text-muted); max-width:var(--measure-note); line-height:1.5;
+  padding-left:13px; border-left:1px dotted var(--muted-blue);
+}
+
+/* ── porcelain, for charts only ─────────────────────────────────────────
+   Palette from lieflat-charts `color-presets.js` (PORCELAIN). Its BG #F7F2EB
+   and TXT #081F5C sit within a hair of the ivory and navy above, so the
+   charts read as part of the same system rather than a second one. Lightness
+   is the data; hue is constant. */
+:root{
+  --p-txt:#141B4B; --p-mut:rgba(20,27,75,.62); --p-lab:rgba(20,27,75,.74);
+  --p-grid:rgba(20,27,75,.16); --p-track:rgba(20,27,75,.12);
+  --p-data:#303A78; --p-data2:#969CB2; --p-hero:#141B4B;
+  --p-faint:#CED1DC; --p-pale:#E4E6EA; --p-alert:#8C2F2A;
+}
+svg.map text, .chart text, .fchart text{fill:var(--p-mut)}
+svg.map text.hero{fill:var(--p-txt); font-size:12.5px; font-weight:600;
+  paint-order:stroke; stroke:var(--canvas); stroke-width:4px; stroke-linejoin:round}
+svg.map text.thr, svg.map text.foot, svg.map text.rule{
+  font-size:9px; letter-spacing:.13em; font-weight:600; fill:var(--p-mut)}
+svg.map text.rule{fill:var(--p-mut); letter-spacing:.14em}
+
+/* the hover card on the scatter */
+.viz-map{position:relative}
+.mapcard{
+  position:absolute; z-index:5; width:290px; pointer-events:none;
+  background:var(--surface); border:1px solid var(--navy-950);
+  box-shadow:0 6px 22px rgba(20,27,75,.13); padding:12px 14px 13px;
+}
+.mc-top{display:flex; align-items:baseline; gap:8px}
+.mc-rank{font-size:11px; color:var(--text-muted)}
+.mc-nm{font-family:var(--serif); font-size:16px; color:var(--navy-950); line-height:1.2}
+.mc-tier{margin-left:auto; display:inline-flex; align-items:center; gap:5px; font-size:10px;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--text-muted); font-weight:600}
+.mc-tier .dot{width:6px; height:6px; border-radius:50%; display:inline-block}
+.mc-tier.t-act .dot{background:var(--alert)}
+.mc-tier.t-review .dot{background:var(--navy-700)}
+.mc-tier.t-watch .dot{background:var(--slate-blue)}
+.mc-facts{display:flex; flex-wrap:wrap; gap:2px 0; margin-top:7px; font-size:11.5px;
+  color:var(--text-muted)}
+.mc-facts span:not(:last-child)::after{content:"·"; margin:0 7px; color:var(--muted-blue)}
+.mc-facts b{color:var(--text-primary)}
+.mc-lead{margin-top:9px; padding-top:9px; border-top:1px solid var(--border-hair);
+  font-size:12.5px; line-height:1.45; color:var(--text-secondary)}
+.mc-dims{display:flex; flex-wrap:wrap; gap:4px; margin-top:9px}
+.mc-d{display:inline-flex; align-items:baseline; gap:5px; font-size:10.5px;
+  padding:2px 7px; border:1px solid var(--border-subtle); border-radius:2px;
+  color:var(--text-secondary); background:var(--canvas)}
+.mc-d b{color:var(--navy-950); font-weight:600}
+.mc-d i{font-style:normal; color:var(--text-muted)}
+.mc-d.on{border-color:var(--navy-950); background:var(--navy-950); color:var(--surface)}
+.mc-d.on b, .mc-d.on i{color:var(--muted-blue)}
+.mc-none{font-size:11.5px; color:var(--text-muted)}
+.mc-gov{margin-top:8px; font-size:11px; color:var(--text-muted); line-height:1.45}
+.chart text.val, .fchart text.val{fill:var(--p-txt)}
+.fchart text.nm{fill:var(--p-txt)}
+.fchart text.hz, .fchart text.trig{fill:var(--p-hero)}
+.fchart text.never{fill:var(--p-data2); font-style:italic}
+.fchart text.val.breach{fill:var(--p-hero)}
+.tier-act .marker{background:var(--p-hero)}
+.tier-review .marker{background:var(--p-data)}
+.marker{background:var(--p-faint)}
+
+/* ── user chip ──────────────────────────────────────────────────────── */
+.topbar{position:relative}
+.user{
+  margin-left:auto; display:flex; align-items:center; gap:12px; padding:5px 8px 5px 5px;
+  border-radius:40px; border:1px solid transparent;
+}
+.user:hover{border-color:var(--border-subtle); background:var(--canvas)}
+.avatar{
+  width:38px; height:38px; border-radius:50%; background:var(--navy-950); color:var(--surface);
+  display:grid; place-items:center; font-size:12.5px; font-weight:600; letter-spacing:.06em;
+  flex:none;
+}
+.user-txt{display:flex; flex-direction:column; align-items:flex-start; line-height:1.2}
+.user-nm{font-family:var(--serif); font-size:15.5px; color:var(--text-primary)}
+.user-role{
+  font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--text-muted);
+  font-weight:600; margin-top:3px;
+}
+.chev{width:11px; height:7px; color:var(--text-muted); margin-left:2px; flex:none}
+.user[aria-expanded="true"] .chev{transform:rotate(180deg)}
+.user-menu{
+  position:absolute; top:64px; right:var(--gutter); z-index:20; min-width:266px;
+  background:var(--surface); border:1px solid var(--border-subtle); border-radius:4px;
+  padding:14px 18px 12px;
+}
+.user-menu-h{font-family:var(--serif); font-size:15px; color:var(--text-primary); padding-bottom:9px;
+  border-bottom:1px solid var(--border-hair)}
+.user-menu-h span{display:block; font-family:var(--sans); font-size:11.5px; color:var(--text-muted);
+  margin-top:3px}
+.user-menu-r{display:flex; justify-content:space-between; gap:16px; padding:7px 0; font-size:12.5px;
+  color:var(--text-secondary)}
+.user-menu-r b{color:var(--text-primary); font-weight:600; font-variant-numeric:tabular-nums}
+
+/* ── the diary ──────────────────────────────────────────────────────── */
+.diary{padding:0; min-width:0}
+.diary h2{font-size:19px; margin:0}
+.diary-list{list-style:none; margin:14px 0 0; padding:0}
+.diary-list li{border-top:1px solid var(--border-hair)}
+.diary-list li:last-child{border-bottom:1px solid var(--border-hair)}
+.diary-list li{display:flex; align-items:stretch; gap:6px}
+.diary-row{display:grid; grid-template-columns:36px minmax(0,1fr); gap:13px; flex:1 1 auto;
+  align-items:center; min-width:0; text-align:left; padding:10px 2px; cursor:pointer}
+.diary-row:hover{background:var(--surface)}
+.diary-row:focus-visible{outline:1.5px solid var(--navy-700); outline-offset:-2px}
+.diary-when{display:flex; flex-direction:column; align-items:flex-start; line-height:1.05}
+.diary-when .dd{font-family:var(--serif); font-size:19px; color:var(--text-primary)}
+.diary-when .mm{font-size:9px; letter-spacing:.13em; color:var(--text-muted); font-weight:600;
+  margin-top:4px}
+.diary-what{min-width:0}
+.diary-what .who{display:block; font-size:13.5px; font-weight:600; color:var(--navy-900)}
+.diary-what .txt{display:block; font-size:12.5px; color:var(--text-secondary); margin-top:2px;
+  line-height:1.45}
+/* Cohort agenda: one block per client, so the number of names on screen is the
+   number on the tile. A flat list showed eight rows for five clients and left
+   the reader to work out why. */
+.diary-list.grouped{
+  /* The review cohort is 9 clients and 20 obligations, which is taller than the
+     chart beside it. Scroll rather than truncate: the caption states the full
+     count, and everything it counts is reachable. */
+  max-height:520px; overflow-y:auto; overscroll-behavior:contain;
+}
+.diary-list.grouped > li.dg{display:block; padding:0}
+.dg-head{
+  display:flex; align-items:baseline; gap:9px; padding:9px 8px 7px 0; cursor:pointer;
+}
+.dg-head:hover{background:var(--surface)}
+.dg-head:focus-visible{outline:1.5px solid var(--navy-700); outline-offset:-2px}
+.dg-nm{font-size:13.5px; font-weight:600; color:var(--navy-900)}
+.dg-n{
+  margin-left:auto; font-size:10.5px; font-weight:600; color:var(--text-muted);
+  background:var(--canvas); border:1px solid var(--border-hair); border-radius:20px;
+  padding:1px 7px; font-variant-numeric:tabular-nums;
+}
+.dg-items{list-style:none; margin:0 0 4px; padding:0 0 0 2px}
+.dg-items > li{
+  display:flex; align-items:stretch; gap:6px;
+  border-top:1px dotted var(--border-hair) !important; border-bottom:0 !important;
+}
+.diary-row.bare{grid-template-columns:34px minmax(0,1fr); padding-top:6px; padding-bottom:6px}
+.diary-row.bare .diary-when .dd{font-size:16px; color:var(--text-secondary)}
+.diary-row.bare .diary-what .txt{margin-top:0; font-size:12.5px}
+
+.diary-foot{margin-top:12px; font-size:11.5px; color:var(--text-muted); line-height:1.5;
+  padding-left:12px; border-left:1px dotted var(--muted-blue)}
+
+@media (max-width:1120px){
+  .diary{max-width:600px}
+}
+
+
+/* ── entrance, from the lieflat-charts galleries ─────────────────────────
+   `fade` and `pop` with a per-element delay, armed when the figure scrolls
+   into view and replayed on click. quarticOut-ish easing, no bounce. */
+@keyframes lfFade{from{opacity:0}to{opacity:1}}
+@keyframes lfPop{
+  0%{opacity:0; transform:scale(.4)}
+  62%{opacity:1; transform:scale(1.10)}
+  100%{opacity:1; transform:scale(1)}
+}
+@keyframes lfDraw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+@keyframes lfRise{from{opacity:0; transform:translateY(7px)}to{opacity:1; transform:translateY(0)}}
+
+[data-reveal] .fade, [data-reveal] .pop, [data-reveal] .lrow, [data-reveal] .draw{opacity:0}
+[data-reveal].playing .fade{animation:lfFade .5s cubic-bezier(.25,1,.4,1) forwards;
+  animation-delay:var(--d,0s)}
+[data-reveal].playing .pop{animation:lfPop .42s cubic-bezier(.25,1,.4,1) forwards;
+  animation-delay:var(--d,0s); transform-box:fill-box; transform-origin:center}
+[data-reveal].playing .lrow{animation:lfFade .46s cubic-bezier(.25,1,.4,1) forwards;
+  animation-delay:calc(var(--i,0) * .07s + .1s)}
+[data-reveal].playing .draw{opacity:1; stroke-dasharray:var(--len); stroke-dashoffset:var(--len);
+  animation:lfDraw .95s cubic-bezier(.25,1,.4,1) forwards .15s}
+/* the no-animation path: visible outright, for a re-render of a screen that
+   has already played its entrance, and for reduced motion */
+[data-reveal].shown .fade, [data-reveal].shown .pop,
+[data-reveal].shown .lrow, [data-reveal].shown .draw{
+  opacity:1 !important; animation:none !important; stroke-dashoffset:0 !important;
+}
+[data-reveal]{cursor:default}
+figure[data-reveal] svg{cursor:pointer}
+
+.diary-list li{opacity:0; animation:lfRise .5s cubic-bezier(.25,1,.4,1) forwards;
+  animation-delay:calc(var(--i,0) * .06s + .15s)}
+.book-table tbody tr{opacity:0; animation:lfFade .4s ease forwards;
+  animation-delay:calc(var(--i,0) * .022s + .1s)}
+
+@media (prefers-reduced-motion: reduce){
+  [data-reveal] .fade, [data-reveal] .pop, [data-reveal] .lrow, [data-reveal] .draw,
+  .diary-list li, .book-table tbody tr{opacity:1 !important; animation:none !important;
+    transform:none !important; stroke-dashoffset:0 !important}
+}
+
+
+/* ── affordances: everything that navigates looks like it does ─────────── */
+.who-cell .nm{text-decoration:underline; text-decoration-color:transparent;
+  text-underline-offset:3px; transition:text-decoration-color .12s}
+.book-table tbody tr:hover .who-cell .nm{text-decoration-color:var(--slate-blue)}
+.book-table tbody tr:focus-visible{outline:1.5px solid var(--navy-700); outline-offset:-2px}
+svg.map .pt{cursor:pointer}
+svg.map .pt.hot .dot{stroke:var(--navy-950); stroke-width:2.4}
+
+/* desk facts, now on the page instead of behind a dropdown */
+.desk{display:flex; flex-wrap:wrap; gap:6px 0; align-items:baseline; margin-top:10px}
+.desk span:not(:last-child)::after{content:"·"; color:var(--muted-blue); margin:0 10px}
+.desk b{color:var(--text-primary); font-weight:600}
+
+/* language notice in the composer */
+.lang{margin-top:11px; padding:11px 14px; background:var(--alert-sunk);
+  border-left:2px solid var(--alert); font-size:12.5px; line-height:1.5; color:var(--text-secondary)}
+.lang b{color:var(--alert); font-weight:600}
+.tag.lang-tag{color:var(--alert); border-color:var(--alert)}
+
+
+/* ── the calendar ───────────────────────────────────────────────────────
+   The diary in three shapes. Everything here is a control: the mode tabs,
+   the day cells, the chips. Colour marks what KIND of obligation a thing is,
+   on the same brick / navy / slate ladder the plumb scatter and the tier
+   dots use, so a red chip means money out on a fixed date in every view. */
+.cal-head{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+  padding-bottom:11px; border-bottom:1px solid var(--navy-950)}
+.cal-modes{margin-left:auto; display:flex; gap:2px}
+.cal-modes button{
+  font-size:11px; letter-spacing:.05em; padding:3px 9px; border-radius:3px;
+  color:var(--text-muted); border:1px solid transparent;
+}
+.cal-modes button:hover{color:var(--navy-950)}
+.cal-modes button[aria-selected="true"]{
+  background:var(--navy-950); color:var(--surface); border-color:var(--navy-950);
+}
+
+.cal-nav{display:flex; align-items:center; gap:8px; padding:11px 0 6px}
+.cal-step{width:24px; height:24px; border:1px solid var(--border-subtle); border-radius:3px;
+  color:var(--text-secondary); font-size:15px; line-height:1; background:var(--surface)}
+.cal-step:hover{border-color:var(--slate-blue); color:var(--navy-950)}
+.cal-period{font-size:13px; font-weight:600; color:var(--navy-950)}
+.cal-today{margin-left:auto; font-size:11px; color:var(--text-muted);
+  text-decoration:underline; text-underline-offset:2px}
+.cal-today:hover{color:var(--navy-950)}
+
+.cal-empty, .cal-hint{margin-top:14px; font-size:12.5px; color:var(--text-muted);
+  padding-left:12px; border-left:1px dotted var(--muted-blue)}
+
+/* month */
+.cal-grid{display:grid; grid-template-columns:repeat(7,1fr); gap:1px;
+  background:var(--border-hair); border:1px solid var(--border-hair); margin-top:4px}
+.cal-dow{background:var(--canvas); text-align:center; font-size:9.5px; font-weight:600;
+  letter-spacing:.1em; color:var(--text-muted); padding:5px 0}
+.cal-cell{background:var(--surface); min-height:46px; padding:4px 5px 5px; cursor:pointer;
+  display:flex; flex-direction:column; gap:4px; transition:background .1s}
+.cal-cell.empty{background:var(--canvas); cursor:default}
+.cal-cell:hover{background:var(--surface-sunk)}
+.cal-cell.today{box-shadow:inset 0 2px 0 0 var(--navy-950)}
+.cal-cell.picked{background:var(--navy-950)}
+.cal-cell.picked .cal-num{color:var(--surface)}
+.cal-cell.over{background:var(--muted-blue)}
+.cal-num{font-size:11px; color:var(--text-secondary)}
+.cal-dots{display:flex; gap:3px; flex-wrap:wrap}
+.cal-dots i{width:5px; height:5px; border-radius:50%; background:var(--slate-blue)}
+.cal-dots .k-cash{background:var(--alert)}
+.cal-dots .k-commitment{background:var(--navy-700)}
+.cal-dots .k-review{background:var(--slate-blue)}
+.cal-dots .k-own{background:var(--caution)}
+
+.cal-day{margin-top:12px; border-top:1px solid var(--border-subtle); padding-top:10px}
+.cal-day-head{display:flex; align-items:baseline; gap:10px; margin-bottom:8px}
+.cal-day-head b{font-size:13px; color:var(--navy-950)}
+
+/* week */
+.cal-week{list-style:none; margin:4px 0 0; padding:0}
+.cal-wday{display:grid; grid-template-columns:40px minmax(0,1fr); gap:10px; align-items:start;
+  padding:8px 4px; border-top:1px solid var(--border-hair)}
+.cal-wday:last-child{border-bottom:1px solid var(--border-hair)}
+.cal-wday.today{background:var(--surface); box-shadow:inset 2px 0 0 0 var(--navy-950)}
+.cal-wday.over{background:var(--muted-blue)}
+.cal-wlab{display:flex; align-items:baseline; gap:6px}
+.cal-wlab b{font-size:10px; letter-spacing:.08em; color:var(--text-muted); text-transform:uppercase}
+.cal-wlab span{font-family:var(--serif); font-size:16px; color:var(--navy-950)}
+.cal-wits{display:flex; flex-direction:column; gap:4px; min-width:0}
+.cal-blank{font-size:12px; color:var(--muted-blue); text-align:left; padding:2px 0}
+.cal-blank:hover{color:var(--navy-950)}
+
+/* chips */
+.cal-chip{
+  display:block; width:100%; text-align:left; font-size:11.5px; line-height:1.35;
+  padding:4px 7px; border-radius:2px; background:var(--surface-sunk); color:var(--text-primary);
+  border-left:2px solid var(--slate-blue); cursor:grab;
+}
+.cal-chip:hover{background:var(--muted-blue)}
+.cal-chip.dragging{opacity:.4}
+.cal-chip.k-cash{border-left-color:var(--alert)}
+.cal-chip.k-commitment{border-left-color:var(--navy-700)}
+.cal-chip.k-own{border-left-color:var(--caution); border-style:dashed; border-left-width:3px}
+.cal-chip.edited{box-shadow:inset 0 0 0 1px var(--muted-blue)}
+.cal-chip .cc-what{display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.cal-chip.wide{padding:6px 9px; margin-bottom:4px}
+.cal-chip.wide .cc-what{white-space:normal; font-size:11.5px; color:var(--text-secondary);
+  margin-top:1px}
+.cal-chip.wide .cc-what b{color:var(--text-primary); font-weight:600;
+  font-variant-numeric:tabular-nums}
+.cal-chip .cc-who{display:block; font-size:12px; font-weight:600; color:var(--navy-900)}
+.cal-chip .cc-own{font-style:normal; font-size:9px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--caution); font-weight:600; margin-left:6px}
+
+/* the row's own edit affordance, and the footer */
+.cal-edit{
+  align-self:center; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--muted-blue); padding:4px 2px 4px 6px; font-weight:600;
+  opacity:0; transition:opacity .12s;
+}
+.diary-list li:hover .cal-edit, .cal-edit:focus-visible{opacity:1; color:var(--navy-900)}
+.cal-own{margin-left:7px; font-size:9.5px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--caution); font-weight:600}
+.cal-foot{margin-top:13px; display:flex; align-items:baseline; gap:12px; flex-wrap:wrap}
+.cal-add{font-size:12px; color:var(--navy-700); font-weight:600}
+.cal-add:hover{text-decoration:underline; text-underline-offset:2px}
+.cal-add.sm{margin-left:auto; font-size:11px; font-weight:400}
+.cal-restore{font-size:11.5px; color:var(--text-muted); text-decoration:underline;
+  text-underline-offset:2px}
+.cal-note{flex:1 1 100%; font-size:11px; color:var(--text-muted); line-height:1.5;
+  padding-left:12px; border-left:1px dotted var(--muted-blue)}
+.cal-note code{font-family:var(--mono); font-size:10.5px; color:var(--text-secondary)}
+
+/* the entry editor */
+.cal-src{margin-top:8px; font-size:12px; color:var(--text-secondary); line-height:1.5}
+.cal-goto{margin-top:9px; font-size:12.5px; color:var(--navy-700); font-weight:600;
+  text-decoration:underline; text-underline-offset:3px}
+.cal-form{display:flex; flex-direction:column; gap:12px}
+.cal-form label{display:flex; flex-direction:column; gap:5px; font-size:11px; font-weight:600;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--text-muted)}
+.cal-form input, .cal-form select{
+  font:inherit; font-size:14px; letter-spacing:0; text-transform:none; font-weight:400;
+  padding:8px 10px; border:1px solid var(--border-subtle); border-radius:3px;
+  background:var(--surface); color:var(--text-primary);
+}
+.cal-form input:focus, .cal-form select:focus{outline:1.5px solid var(--navy-700);
+  outline-offset:1px; border-color:var(--navy-700)}
+.cal-pair{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+.drawer.narrow{width:min(440px, 100%)}
+
+/* ── severity, taken apart ─────────────────────────────────────────────── */
+.sev{
+  display:inline-flex; align-items:center; gap:5px; font-size:11px; letter-spacing:.06em;
+  text-transform:uppercase; font-weight:600; color:var(--text-muted); padding:2px 0;
+  border-bottom:1px dotted var(--muted-blue); cursor:pointer;
+}
+.sev:hover{color:var(--navy-950); border-bottom-color:var(--navy-950)}
+.sev i{
+  font-style:normal; width:13px; height:13px; border-radius:50%; font-size:9px;
+  display:inline-flex; align-items:center; justify-content:center;
+  background:var(--muted-blue); color:var(--navy-950);
+}
+.sev-ladder{margin-top:2px}
+.sl-driver{font-size:12.5px; color:var(--text-secondary); margin-bottom:8px}
+.sl-steps{list-style:none; margin:0; padding:0; border-top:1px solid var(--border-hair)}
+.sl-steps li{display:grid; grid-template-columns:66px minmax(0,1fr) 52px; gap:10px;
+  align-items:baseline; padding:6px 0; border-bottom:1px solid var(--border-hair);
+  font-size:12.5px}
+.sl-op{font-family:var(--mono); font-size:11px; color:var(--text-muted)}
+.sl-lab{color:var(--text-secondary)}
+.sl-val{text-align:right; font-weight:600; color:var(--navy-950)}
+.sl-note{margin-top:8px; font-size:11.5px; color:var(--text-muted); line-height:1.5}
+.sl-weight{
+  margin-top:11px; padding:9px 12px; background:var(--surface); font-size:12.5px;
+  display:flex; flex-wrap:wrap; align-items:center; gap:4px 10px; color:var(--text-secondary);
+}
+.sl-weight b{color:var(--navy-950)}
+.sl-tune{margin-left:auto; font-size:11px; color:var(--navy-700); font-weight:600;
+  text-decoration:underline; text-underline-offset:2px}
+
+/* ── the ranking panel ──────────────────────────────────────────────────── */
+.tune-steps{margin:0; padding-left:20px; font-size:13.5px; line-height:1.6;
+  color:var(--text-secondary)}
+.tune-steps li{margin-bottom:9px}
+.tune-steps b{color:var(--text-primary)}
+.tune-grid{display:flex; flex-direction:column; gap:2px}
+.tune-row{display:grid; grid-template-columns:150px minmax(0,1fr) 44px; gap:12px;
+  align-items:center; padding:5px 0; font-size:12.5px}
+.tw-lab{color:var(--text-secondary)}
+.tw-lab em{display:block; font-style:normal; font-size:10.5px; color:var(--text-muted)}
+.tw-val{text-align:right; font-weight:600; color:var(--navy-950)}
+.tune-row input[type=range]{width:100%; accent-color:var(--navy-700)}
+
+.tp-tiers{display:flex; gap:18px; flex-wrap:wrap; padding-bottom:10px;
+  border-bottom:1px solid var(--border-subtle); font-size:12.5px; color:var(--text-secondary)}
+.tp-t{display:inline-flex; align-items:center; gap:6px}
+.tp-t b{font-family:var(--serif); font-size:17px; color:var(--navy-950)}
+.tp-t .dot{width:7px; height:7px; border-radius:50%; display:inline-block}
+.tp-t.t-act .dot{background:var(--alert)}
+.tp-t.t-review .dot{background:var(--navy-700)}
+.tp-t.t-watch .dot{background:var(--slate-blue)}
+.tp-list{list-style:none; margin:0; padding:0}
+.tp-list li{display:grid; grid-template-columns:22px minmax(0,1fr) 92px 44px 34px; gap:8px;
+  align-items:baseline; padding:6px 0; border-bottom:1px solid var(--border-hair); font-size:12.5px}
+.tp-r{color:var(--text-muted)}
+.tp-n{font-weight:600; color:var(--navy-950); overflow:hidden; text-overflow:ellipsis;
+  white-space:nowrap}
+.tp-d{font-size:11px; color:var(--text-muted)}
+.tp-p{text-align:right; color:var(--text-secondary)}
+.tp-m{text-align:right; font-size:10.5px; color:var(--text-muted)}
+.tp-m.up{color:var(--positive)}
+.tp-m.down{color:var(--alert)}
+.tp-foot{margin-top:10px; font-size:11.5px; color:var(--text-muted); line-height:1.5}
+
+.cal-rule{padding:11px 0; border-bottom:1px solid var(--border-hair)}
+.cr-head{display:flex; align-items:center; gap:9px; flex-wrap:wrap}
+.cr-head b{font-size:13px; color:var(--navy-950); font-weight:600}
+.cr-ceil{margin-left:auto; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--text-muted)}
+.cr-formula{margin-top:5px; font-size:12px; color:var(--text-secondary); line-height:1.5}
+.cr-terms{margin:7px 0 0; display:flex; flex-wrap:wrap; gap:4px 8px}
+.cr-terms > div{display:flex; gap:6px; align-items:baseline; background:var(--surface);
+  padding:3px 8px; border-radius:2px}
+.cr-terms dt{font-size:11px; color:var(--text-secondary)}
+.cr-terms dd{margin:0; font-size:11px; font-weight:600; color:var(--navy-950)}
+
+/* rank movement, shown only when the ranking has been retuned */
+.moved{display:block; font-size:9.5px; font-weight:600; letter-spacing:.02em; margin-top:2px}
+.moved.up{color:var(--positive)}
+.moved.down{color:var(--alert)}
+.cal-count{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--text-muted); padding:1px 6px; border:1px solid var(--border-subtle);
+  border-radius:2px}
+.cal-scope{margin:12px 0 0; font-size:12px; color:var(--text-secondary)}
+.cal-scope b{color:var(--navy-950); font-weight:600}
+.cal-more{margin-top:9px; font-size:11.5px; color:var(--text-muted)}
+
+
+/* ── the dossier, in three tabs ─────────────────────────────────────────
+   The page was one column of everything, and the RM has three jobs on it:
+   decide what to raise, look at the money, remember who the person is. */
+.tabs{display:flex; gap:0; margin-top:26px; border-bottom:1px solid var(--navy-950)}
+.tabs button{
+  font-size:14px; padding:10px 18px 11px; color:var(--text-secondary);
+  border:1px solid transparent; border-bottom:0; display:flex; align-items:baseline; gap:8px;
+}
+.tabs button:hover{color:var(--navy-950); background:var(--surface)}
+.tabs button b{
+  font-size:11px; font-weight:600; font-variant-numeric:tabular-nums; color:var(--text-muted);
+  padding:1px 6px; border:1px solid var(--border-subtle); border-radius:2px;
+}
+.tabs button[aria-selected="true"]{
+  background:var(--navy-950); color:var(--surface); border-color:var(--navy-950); font-weight:500;
+}
+.tabs button[aria-selected="true"] b{color:var(--muted-blue); border-color:rgba(255,255,255,.24)}
+@media (max-width:760px){
+  /* four tabs across a phone: at full padding the last one ran 7px off the edge */
+  .tabs button{padding:9px 10px 10px; font-size:13px; gap:6px}
+}
+.facts .due-soon{color:var(--alert)}
+.facts .due-soon b{color:var(--alert)}
+
+/* the performance row */
+.perf-row{display:flex; flex-wrap:wrap; gap:0; border-top:1px solid var(--border-subtle);
+  border-bottom:1px solid var(--border-hair)}
+.perf-row > div{flex:1 1 170px; padding:14px 24px 15px 0; border-right:1px solid var(--border-hair)}
+.perf-row > div:last-child{border-right:0}
+.perf-row .v{font-family:var(--serif); font-size:27px; line-height:1; letter-spacing:-.02em}
+.perf-row .k{margin-top:8px; font-size:12px; color:var(--text-secondary); max-width:26ch}
+.foot-note{margin-top:12px; font-size:11.5px; color:var(--text-muted); line-height:1.55;
+  max-width:var(--measure); padding-left:12px; border-left:1px dotted var(--muted-blue)}
+
+/* the wealth line — B2 hairline line, so the values are haloed with paint-order
+   rather than shrunk, and the footer states the unit */
+svg.wealth, svg.mix{width:100%; height:auto; display:block; overflow:visible}
+svg.wealth text, svg.mix text{font-family:var(--sans); font-size:11px; fill:var(--text-muted)}
+svg.wealth text.wval{fill:var(--navy-950); font-size:11.5px; font-weight:700;
+  font-variant-numeric:tabular-nums;
+  paint-order:stroke; stroke:var(--canvas); stroke-width:3.5px; stroke-linejoin:round}
+svg.wealth text.wdate{font-size:10px; letter-spacing:.04em}
+svg.wealth text.wdelta{font-size:11px; font-weight:700; font-variant-numeric:tabular-nums;
+  paint-order:stroke; stroke:var(--canvas); stroke-width:3.5px; stroke-linejoin:round}
+svg.wealth text.wdelta.down{fill:var(--alert)}
+svg.wealth text.wdelta.up{fill:var(--positive)}
+svg.wealth text.wevn{fill:var(--surface); font-size:10px; font-weight:600}
+svg.wealth .wstep{cursor:pointer}
+svg.wealth .wstep:hover .whit, svg.wealth .wstep:focus .whit{fill:rgba(20,27,75,.045)}
+svg.wealth .wstep:focus{outline:none}
+svg.wealth .wev circle{transition:r .12s ease}
+svg.wealth .wstep:hover .wev circle{r:9.5}
+
+/* the stated-shock fan — hairline, unfilled but for a 4% wash, and deliberately
+   detached from the line so it cannot read as a continuation of it */
+svg.wealth .fanwedge{fill:rgba(20,27,75,.045); stroke:none}
+svg.wealth .fannow{stroke:var(--navy-950); stroke-width:.9; stroke-dasharray:2 3;
+  opacity:.45}
+svg.wealth text.fanhead{font-size:7.5px; font-weight:600; letter-spacing:.11em;
+  fill:var(--text-muted)}
+svg.wealth .fanray{stroke:var(--muted-blue); stroke-width:1; stroke-dasharray:3 2.5}
+svg.wealth .fanend{cursor:pointer}
+svg.wealth .fanend circle{fill:var(--canvas); stroke:var(--muted-blue); stroke-width:1.4}
+svg.wealth .fanend.down circle{stroke:var(--alert)}
+svg.wealth .fanend.up circle{stroke:var(--positive)}
+svg.wealth .fanend.down .fanray{stroke:var(--alert); opacity:.7}
+svg.wealth .fanend.up .fanray{stroke:var(--positive); opacity:.7}
+svg.wealth text.fanpct{font-size:10.5px; font-weight:700; font-variant-numeric:tabular-nums;
+  fill:var(--navy-950)}
+svg.wealth .fanend.down text.fanpct{fill:var(--alert)}
+svg.wealth .fanend.up text.fanpct{fill:var(--positive)}
+svg.wealth text.fannm{font-size:8.5px; fill:var(--text-muted); letter-spacing:.02em}
+svg.wealth .fanend:hover circle, svg.wealth .fanend:focus circle{r:5}
+svg.wealth .fanend:focus{outline:none}
+svg.wealth .fanend:hover text.fannm{fill:var(--navy-950)}
+
+/* the window behind a marker */
+.step-hint{margin-top:14px; font-size:12.5px; color:var(--text-muted); line-height:1.55;
+  padding-left:12px; border-left:1px dotted var(--muted-blue); max-width:var(--measure)}
+.step{margin-top:18px; border-top:1px solid var(--navy-950); padding-top:13px}
+.step-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap}
+.step-head b{font-size:15px; color:var(--navy-950); font-weight:600}
+.step-close{margin-left:auto; font-size:11px; color:var(--text-muted); text-decoration:underline;
+  text-underline-offset:2px}
+.step-sub{margin-top:6px; font-size:12.5px; color:var(--text-secondary); max-width:var(--measure)}
+.ev{padding:14px 0 15px; border-top:1px solid var(--border-hair)}
+.ev-top{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+.ev-date{font-size:12px; font-weight:600; color:var(--navy-950)}
+.ev-kind{font-size:11.5px; color:var(--text-muted)}
+.ev-touch{margin-left:auto; font-size:11.5px; color:var(--text-secondary)}
+.ev-desc{margin-top:8px; font-size:14px; line-height:1.55; color:var(--text-secondary);
+  max-width:var(--measure)}
+.ev-hits{margin-top:9px; display:flex; align-items:baseline; gap:6px; flex-wrap:wrap}
+.ev-hits .eyebrow{margin-right:2px}
+.ev-hit{font-size:11.5px; padding:3px 9px; background:var(--surface);
+  border:1px solid var(--border-hair); border-radius:2px; color:var(--text-primary)}
+.ev-hit i{font-style:normal; color:var(--text-muted); margin-left:7px; font-size:10.5px}
+.ev-hit.more{color:var(--text-muted)}
+
+/* contribution and mix */
+.fchart.wide{max-width:none}
+/* the funding chart says one sentence; it does not need a screen to say it */
+.fchart.fund{max-width:var(--measure)}
+.fchart.fund figcaption{margin-top:6px}
+
+/* where the risk profile enters a plan */
+.plan-basis{margin:12px 0 0; font-size:11.5px; line-height:1.6; color:var(--text-secondary);
+  padding-left:12px; border-left:1px dotted var(--muted-blue); max-width:var(--measure)}
+.plan-basis b{color:var(--navy-950); font-weight:650}
+.plan-basis .eyebrow{display:block; margin-bottom:2px}
+/* in the fold-out, the plan's reasoning reads like the entries around it */
+.why-inner .plan-basis, .why-inner .plan-foot{margin:0 0 8px; padding:0; border:0;
+  font-size:13px; line-height:1.6; color:var(--text-secondary)}
+.why-inner .plan-foot{margin:0; color:var(--text-muted)}
+
+/* Language switch on the draft: English ⇄ the client's own */
+.note-head{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;
+  margin-bottom:9px}
+.note-head h4{margin:0}
+.lang-switch{margin-left:auto; display:flex; gap:0; border:1px solid var(--border-subtle);
+  border-radius:3px; overflow:hidden}
+.lang-switch button{
+  border:0; background:var(--surface); color:var(--text-secondary);
+  font-family:var(--sans); font-size:11.5px; padding:5px 11px; cursor:pointer;
+  letter-spacing:.01em;
+}
+.lang-switch button + button{border-left:1px solid var(--border-subtle)}
+.lang-switch button:hover{color:var(--navy-950); background:var(--canvas)}
+.lang-switch button[aria-selected="true"]{
+  background:var(--navy-950); color:var(--surface); font-weight:600}
+.lang-switch button:focus-visible{outline:1.5px solid var(--navy-700); outline-offset:-2px}
+/* a note filed from the composer, rather than typed on the Context tab */
+.note.own.filed{border-left:2px solid var(--navy-950); padding-left:12px}
+.note.own.filed .meta em{font-style:normal; color:var(--navy-900)}
+
+/* two rules, one obligation */
+.samefact{margin:10px 0 0; padding-left:12px; border-left:1px dotted var(--muted-blue);
+  font-size:12.5px; line-height:1.6; color:var(--text-secondary);
+  max-width:var(--measure)}
+.samefact .eyebrow{display:block; margin-bottom:2px}
+.samefact b{color:var(--navy-900); font-weight:600}
+.samefact.quiet{color:var(--text-muted)}
+.sf-go{margin-left:6px; border:0; background:none; padding:0; cursor:pointer;
+  font-family:var(--sans); font-size:12.5px; color:var(--navy-700);
+  text-decoration:underline; text-underline-offset:2px}
+/* a button that reads as a link, inside running text */
+.linkish{border:0; background:none; padding:0; cursor:pointer; font:inherit;
+  font-weight:600; color:var(--navy-700); text-decoration:underline;
+  text-underline-offset:2px}
+.finding.flash{animation:sfFlash 1.2s ease}
+@keyframes sfFlash{0%{background:rgba(20,27,75,.07)} 100%{background:transparent}}
+
+/* how the repayment figure was worked out */
+.repay{margin:14px 0 0; max-width:var(--measure)}
+.repay summary{cursor:pointer; font-size:12.5px; color:var(--navy-700);
+  text-decoration:underline; text-underline-offset:3px; list-style:none}
+.repay summary::-webkit-details-marker{display:none}
+.repay summary::before{content:"› "; text-decoration:none; display:inline-block;
+  transition:transform .15s ease}
+.repay[open] summary::before{content:"⌄ "}
+.repay-steps{list-style:none; margin:12px 0 0; padding:0;
+  border-top:1px solid var(--border-hair)}
+.repay-steps li{display:grid; grid-template-columns:22px minmax(0,1fr) auto; gap:10px;
+  align-items:baseline; padding:8px 0; border-bottom:1px solid var(--border-hair)}
+.repay-steps li.last{border-bottom:0; font-weight:600}
+.repay-steps li.last .rs-val{color:var(--alert)}
+.rs-op{color:var(--text-muted); font-size:13px; text-align:center}
+.rs-lab{font-size:13px; color:var(--text-primary); line-height:1.45}
+.rs-lab em{display:block; margin-top:2px; font-style:normal; font-size:11.5px;
+  color:var(--text-muted)}
+.rs-val{font-size:13px; font-variant-numeric:tabular-nums; color:var(--navy-950);
+  white-space:nowrap}
+.repay-note{margin:12px 0 0; font-size:12px; line-height:1.6; color:var(--text-secondary);
+  padding-left:12px; border-left:1px dotted var(--muted-blue)}
+
+/* The drawer must not label an English stand-in with the client's language */
+.lang-warn{margin:0 0 10px; padding:9px 12px; font-size:12px; line-height:1.55;
+  color:var(--text-secondary); background:var(--canvas);
+  border-left:2px solid var(--alert); max-width:var(--measure)}
+.fchart text.wt.down{fill:var(--alert)}
+.fchart text.wt.up{fill:var(--positive)}
+svg.mix text.mixlab{fill:var(--text-primary); font-size:12px}
+svg.mix tspan.mixpct{fill:var(--navy-950); font-weight:600; font-variant-numeric:tabular-nums}
+svg.mix tspan.mixmv{font-size:10.5px; fill:var(--text-muted)}
+svg.mix tspan.mixmv.up{fill:var(--positive)}
+svg.mix tspan.mixmv.down{fill:var(--alert)}
+svg.mix text.wdate{font-size:10.5px; fill:var(--text-muted)}
+
+/* context tab */
+.who{margin:0; display:grid; gap:0}
+.who > div{display:grid; grid-template-columns:180px minmax(0,1fr); gap:20px;
+  padding:11px 0; border-top:1px solid var(--border-hair)}
+.who dt{font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--text-muted);
+  font-weight:600; padding-top:3px}
+.who dd{margin:0; font-size:14.5px; line-height:1.6; color:var(--text-secondary); max-width:var(--measure)}
+
+/* notes the RM adds here */
+.note-add{margin:0 0 24px; padding:16px 18px 15px; background:var(--surface);
+  border:1px solid var(--border-subtle); max-width:var(--measure)}
+.note-add textarea{
+  width:100%; margin-top:7px; font:inherit; font-size:14.5px; line-height:1.6; padding:10px 12px;
+  border:1px solid var(--border-subtle); border-radius:3px; background:var(--canvas);
+  color:var(--text-primary); resize:vertical;
+}
+.note-add textarea:focus{outline:1.5px solid var(--navy-700); outline-offset:1px}
+.note-actions{display:flex; gap:10px; align-items:center; margin-top:10px}
+.note-actions select{font:inherit; font-size:13px; padding:7px 10px; border-radius:3px;
+  border:1px solid var(--border-subtle); background:var(--canvas)}
+.note-warn{margin-top:11px; font-size:11.5px; color:var(--text-muted); line-height:1.55;
+  padding-left:12px; border-left:1px dotted var(--muted-blue)}
+.note-warn code{font-family:var(--mono); font-size:10.5px}
+.note.own{border-left:2px solid var(--caution); padding-left:13px}
+.note.own .meta{color:var(--caution)}
+.note-del{margin-left:10px; font-size:10.5px; color:var(--text-muted);
+  text-decoration:underline; text-underline-offset:2px}
+.note-del:hover{color:var(--alert)}
+
+/* the two rebuilt ladders — C5 rung waterfall and C3 stacked rungs */
+svg.wealth text.rule, svg.mix text.rule{
+  font-size:7.5px; font-weight:600; letter-spacing:.12em; fill:var(--text-muted);
+}
+.fchart text.rule{font-size:7.5px; font-weight:600; letter-spacing:.12em; fill:var(--text-muted)}
+.fchart text.wnum{font-size:11px; font-weight:800; font-variant-numeric:tabular-nums;
+  paint-order:stroke; stroke:var(--canvas); stroke-width:3.5px; stroke-linejoin:round}
+.fchart text.wnum.down{fill:var(--alert)}
+.fchart text.wnum.up{fill:var(--navy-700)}
+.fchart text.wnum.net{fill:var(--navy-950)}
+.fchart text.wname{font-size:8px; font-weight:600; letter-spacing:.06em;
+  text-transform:uppercase; fill:var(--text-muted)}
+.fchart text.wname.net{fill:var(--navy-950); font-weight:700}
+.fchart text.foot{font-size:8px; font-weight:600; letter-spacing:.1em; fill:var(--text-muted)}
+svg.mix text.mixtot{font-size:11px; font-weight:800; fill:var(--navy-950);
+  font-variant-numeric:tabular-nums}
+
+/* ── the composer's provenance ──────────────────────────────────────────
+   An RM who cannot tell whether she is reading the model's words or a
+   template cannot take responsibility for what she sends, so the drawer
+   says which, and what was checked. */
+.src-row{display:flex; align-items:center; gap:9px; flex-wrap:wrap; margin-top:10px}
+.src-note{font-size:11px; color:var(--text-muted); line-height:1.5}
+.checked{
+  padding:11px 14px; font-size:12.5px; line-height:1.55; margin-bottom:20px;
+  border-left:2px solid var(--positive); background:var(--surface); color:var(--text-secondary);
+}
+.checked b{color:var(--text-primary); font-weight:600}
+.checked code{font-family:var(--mono); font-size:11.5px; color:var(--text-primary)}
+.checked.bad{border-left-color:var(--alert); background:var(--alert-sunk)}
+.checked.bad b{color:var(--alert)}
+.en-copy{font-size:13.5px; line-height:1.65; color:var(--text-secondary); margin-bottom:11px}
+.drawer textarea[lang="zh-Hant"], .drawer textarea[lang="zh-Hans"],
+.drawer textarea[lang="ja"], .drawer textarea[lang="ko"]{
+  font-size:15px; line-height:1.85; letter-spacing:.01em;
+}
+/* translation at the keyboard — engine/serve.py */
+.translate-row{display:flex; align-items:center; gap:6px 12px; flex-wrap:wrap; margin-top:12px}
+.translate-row .btn{padding:6px 13px; font-size:12.5px}
+.tr-hint{flex:1 1 220px; font-size:11.5px; line-height:1.5; color:var(--text-muted)}
+.tr-error{flex:1 1 100%; margin:2px 0 0; font-size:12px; color:var(--alert)}
+.checked.tr-check{margin:12px 0 0}
+.tr-meta, .tr-note{display:block; margin-top:5px; font-size:11px; color:var(--text-muted)}
+.tr-note{font-style:italic}
+.btn[disabled]{opacity:.45; cursor:not-allowed}
+.btn[disabled]:hover{background:var(--navy-950)}
+.cal-rec{display:block; font-style:normal; font-size:10.5px; color:var(--text-muted);
+  margin-top:3px; letter-spacing:.01em}
+
+/* the funding verdict — what the silence means */
+.verdict{
+  margin-bottom:18px; padding:11px 14px; font-size:13.5px; line-height:1.6;
+  background:var(--surface); border-left:2px solid var(--positive);
+  color:var(--text-secondary); max-width:var(--measure);
+}
+.verdict b{color:var(--text-primary); font-weight:600}
+.verdict.loud{border-left-color:var(--alert); background:var(--alert-sunk)}
+.verdict.loud b{color:var(--alert)}
+.cover-covered{font-size:11px; color:var(--positive)}
+.cover-watch{font-size:11px; color:var(--caution)}
+.cover-tight, .cover-not{font-size:11px; color:var(--alert); font-weight:600}
+.cover-beyond{font-size:11px; color:var(--text-muted)}
+
+/* ── Module E, the constrained plan ─────────────────────────────────────
+   The right-hand column is the feature: for every position the plan does not
+   touch, the rule that stopped it. */
+.plan{margin-top:16px; border:1px solid var(--border-subtle); background:var(--surface)}
+.plan-head{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
+  padding:12px 15px 11px; border-bottom:1px solid var(--border-subtle)}
+.plan-head .eyebrow{flex:0 0 auto}
+.plan-head b{font-size:14.5px; color:var(--navy-950); font-weight:600}
+.plan-arc{margin-left:auto; font-size:12px; color:var(--text-secondary)}
+table.plan-table{width:100%; font-size:12.5px}
+@media (max-width:760px){
+  /* each trade on two lines: what and how much, then why */
+  table.plan-table, table.plan-table tbody{display:block}
+  table.plan-table tr{display:grid; grid-template-columns:auto minmax(0,1fr) auto;
+    column-gap:10px; row-gap:3px; padding:9px 10px; border-bottom:1px solid var(--border-hair)}
+  table.plan-table tr:last-child{border-bottom:0}
+  table.plan-table td{padding:0 !important; border:0 !important}
+  table.plan-table td:nth-child(4){grid-column:2 / -1}
+  .pt-act{width:auto}
+  .pt-nm{min-width:0}
+  .pt-why{grid-column:1 / -1; max-width:none}
+}
+table.plan-table td{padding:9px 10px; border-bottom:1px solid var(--border-hair);
+  vertical-align:top}
+table.plan-table tr:last-child td{border-bottom:0}
+table.plan-table tr.stop{background:var(--canvas)}
+.pt-act{width:62px; font-size:10px; letter-spacing:.09em; text-transform:uppercase;
+  font-weight:600; color:var(--text-muted); padding-top:11px !important}
+tr.do .pt-act{color:var(--navy-700)}
+tr.stop .pt-act{color:var(--alert)}
+tr.into .pt-act{color:var(--positive)}
+.pt-nm{color:var(--text-primary); font-weight:500; min-width:180px}
+.pt-why{color:var(--text-secondary); line-height:1.5; max-width:44ch}
+.pt-why b{color:var(--alert); font-weight:600}
+.pt-cons{font-size:10px; letter-spacing:.08em; text-transform:uppercase; font-weight:600;
+  padding:2px 7px; border-radius:2px; background:var(--alert-sunk); color:var(--alert)}
+.pt-cons.c-liquidity{background:var(--surface-sunk); color:var(--text-secondary)}
+.pt-quote{display:block; margin-top:6px; padding-left:10px;
+  border-left:2px solid var(--muted-blue); font-style:italic; color:var(--text-muted)}
+.pt-quote cite{font-style:normal; margin-left:6px; font-size:10.5px}
+.plan-ltv, .plan-short, .plan-ok, .plan-note{
+  margin:0; padding:10px 15px; font-size:12.5px; line-height:1.55;
+  border-top:1px solid var(--border-hair); color:var(--text-secondary);
+}
+.plan-ltv b{color:var(--navy-950)}
+.plan-ltv.bad{background:var(--alert-sunk)}
+.plan-ltv.bad b{color:var(--alert)}
+.plan-short{background:var(--alert-sunk)}
+.plan-short b{color:var(--alert); font-weight:600}
+.plan-ok{color:var(--positive)}
+.plan-foot{margin:0; padding:9px 15px 11px; font-size:11px; line-height:1.55;
+  color:var(--text-muted); border-top:1px solid var(--border-hair)}
+
+/* ── Module F, the stated shock ─────────────────────────────────────────
+   Nothing here forecasts, and the styling must not imply otherwise: no
+   alarm colour on the headline, only on a facility that actually crosses. */
+.shock-pick{display:flex; gap:2px; flex-wrap:wrap; margin-bottom:18px;
+  border-bottom:1px solid var(--border-subtle); padding-bottom:10px}
+.shock-pick button{font-size:13px; padding:7px 13px; border-radius:3px;
+  color:var(--text-secondary); border:1px solid var(--border-subtle);
+  background:var(--surface); display:inline-flex; align-items:baseline; gap:7px}
+.shock-pick button:hover{border-color:var(--slate-blue); color:var(--navy-950)}
+.shock-pick button[aria-selected="true"]{background:var(--navy-950); color:var(--surface);
+  border-color:var(--navy-950)}
+.shock-pick button i{font-style:normal; font-size:10px; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--caution); font-weight:600}
+.shock-pick button[aria-selected="true"] i{color:var(--gold-600)}
+
+.shock-top{display:flex; flex-wrap:wrap; gap:0; border-top:1px solid var(--border-subtle);
+  border-bottom:1px solid var(--border-hair); margin-bottom:16px}
+.sh-fig{flex:1 1 240px; padding:14px 26px 15px 0; border-right:1px solid var(--border-hair)}
+.sh-fig:last-child{border-right:0}
+.sh-fig .v{font-family:var(--serif); font-size:29px; line-height:1; letter-spacing:-.02em}
+.sh-fig .k{margin-top:8px; font-size:12px; color:var(--text-secondary); max-width:44ch}
+.sh-premise{font-size:15px; line-height:1.65; color:var(--text-secondary); max-width:var(--measure)}
+.sh-meta, .sh-caveat{margin-top:10px; font-size:12.5px; line-height:1.55;
+  color:var(--text-muted); max-width:var(--measure)}
+.sh-meta .eyebrow, .sh-caveat .eyebrow{display:inline; margin-right:8px}
+.sh-caveat{padding-left:12px; border-left:1px dotted var(--muted-blue)}
+.sh-ltv{margin-top:16px; padding:11px 14px; font-size:13px; line-height:1.6;
+  background:var(--surface); border-left:2px solid var(--positive);
+  color:var(--text-secondary); max-width:var(--measure)}
+.sh-ltv b{color:var(--navy-950)}
+.sh-ltv.bad{background:var(--alert-sunk); border-left-color:var(--alert)}
+.sh-ltv.bad b{color:var(--alert)}
+.sh-bands{margin-top:16px}
+.sh-band{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; padding:7px 0;
+  border-top:1px solid var(--border-hair); font-size:13px; color:var(--text-secondary)}
+.sh-band b{color:var(--navy-950); font-weight:600}
+.sh-cross{margin-left:auto; font-size:11.5px}
+.sh-band.out .sh-cross{color:var(--alert)}
+.sh-band.in .sh-cross{color:var(--positive)}
+table.shock-table{margin-top:16px}
+.sh-chan{max-width:38ch}
+.sh-ch{display:block; font-size:11.5px; color:var(--text-secondary); margin-bottom:3px}
+.sh-ch b{color:var(--navy-950); font-weight:600; margin-left:5px}
+.sh-ch i{display:block; font-style:normal; font-size:10.5px; color:var(--text-muted)}
+.fchart text.tr-nm{font-size:11px; font-weight:600; fill:var(--text-secondary)}
+.fchart text.tr-val{font-size:12px; font-weight:800; fill:var(--navy-950);
+  font-variant-numeric:tabular-nums; paint-order:stroke; stroke:var(--canvas);
+  stroke-width:3px; stroke-linejoin:round}
+.fchart text.tr-val.alert{fill:var(--alert)}
+.fchart text.tr-trig{font-size:9.5px; font-weight:600; letter-spacing:.08em;
+  fill:var(--navy-950); text-transform:uppercase}

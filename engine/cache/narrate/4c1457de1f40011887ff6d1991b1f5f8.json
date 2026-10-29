@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Your Lombard facility at 68.2% against a 72% margin level",
+  "english": "Dear [[FIRST_NAME]],\n\nI would like us to look at your Lombard facility before you draw on it again. You have USD 6.6m drawn against USD 9.7m of value the bank will lend against your pledged holdings, so the loan stands at 68.2% of that value. The level at which the bank must ask for money back is 72%.\n\nOver the past year that figure has gone from 67.7% to 69.3%, up to 72.4% at the end of March, and back to 69.8% and now 68.2%. So it has already crossed the 72% level once. I would like to understand whether it came back below because of something that was done, or simply because prices moved back.\n\nWith room this thin, a fall in the pledged holdings could take it over again without anything being sold or drawn. What I would suggest is that we agree how much headroom you want to keep before you rely on the facility to bridge you to the Lumora sale or listing.\n\nCould we speak by phone this week?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nI would like us to look at your Lombard facility before you draw on it again. You have USD 6.6m drawn against USD 9.7m of value the bank will lend against your pledged holdings, so the loan stands at 68.2% of that value. The level at which the bank must ask for money back is 72%.\n\nOver the past year that figure has gone from 67.7% to 69.3%, up to 72.4% at the end of March, and back to 69.8% and now 68.2%. So it has already crossed the 72% level once. I would like to understand whether it came back below because of something that was done, or simply because prices moved back.\n\nWith room this thin, a fall in the pledged holdings could take it over again without anything being sold or drawn. What I would suggest is that we agree how much headroom you want to keep before you rely on the facility to bridge you to the Lumora sale or listing.\n\nCould we speak by phone this week?",
+  "raises": "Asks the client to confirm how the March breach was cured and agree how much headroom to keep before relying on the facility."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

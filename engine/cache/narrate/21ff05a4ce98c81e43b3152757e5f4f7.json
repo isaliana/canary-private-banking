@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "A possible tax offset — to confirm with wealth planning first",
+  "english": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at, and I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAcross your holdings there are about USD 2.2m of losses on paper and about USD 3.1m of gains. The largest loss is on the Qinghe Battery Technology shares, at about USD 1.2m. Our records show you as taxed in China while living in Hong Kong, and if that is still correct, realising some of the losses might be set against the gains.\n\nI am not suggesting selling anything yet, least of all a holding you want to keep. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would apply, including whether buying a holding back soon afterwards would cancel the benefit.\n\nCould I call you this week to explain and check the details?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n您的组合中可能有一个值得研究的税务问题。由于这取决于一些需要先向您确认的事实，我想谨慎地提出。\n\n您的持仓目前合计约有 USD 2.2m 的账面亏损，以及约 USD 3.1m 的账面收益。最大的一笔亏损来自 Qinghe Battery Technology 股份，约为 USD 1.2m。根据我们的记录，您居住在香港，但在中国纳税；如果这一点仍然正确，实现部分亏损或许可以与收益相抵。\n\n我现在并不是建议出售任何资产，更不是您希望保留的持仓。我的建议是先由我们的财富规划同事确认您目前的纳税地以及相关规则如何适用，包括在短期内买回同一持仓是否会抵消这项好处。\n\n我可否在本周致电向您说明并核对细节？",
+  "raises": "Asks her to let wealth planning confirm her tax position before any loss is realised."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Simplified Chinese"
+}

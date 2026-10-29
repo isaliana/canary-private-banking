@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Having the Shanghai apartment funds ready for February 2027",
+  "english": "Dear [[FIRST_NAME]],\n\nWith the purchase of the apartment in Shanghai for your parents confirmed for February 2027, I would like to make sure the money is ready on the day, and not only that it is there.\n\nThe purchase is CNH 14,500,000, about USD 2.0m, which is 11% of your wealth with us. The question I would like us to settle early is how and when that amount is raised and moved into renminbi, so that it is available on time without selling something at an awkward moment.\n\nWhat I would suggest is that we agree which holdings will fund it and set a date, comfortably before completion, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n既然为父母在上海购买公寓一事已确定于 2027 年二月完成，我希望确保款项到时能准时备妥，而不只是确认资金存在。\n\n这笔购房款为 CNH 14,500,000，约 USD 2.0m，占您在我们这里财富的 11%。我希望及早解决的问题，是这笔资金如何以及何时筹集并换成人民币，以便按时到位，而无须在不合适的时候出售资产。\n\n我的建议是商定由哪些持仓支付，并在交易完成之前预留充足时间，定下一个现金到位的日期。\n\n我可否在本周致电与您商讨这个安排？",
+  "raises": "Asks him to agree which holdings fund the purchase and by when the cash should be ready."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Simplified Chinese"
+}

@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Commodities slightly above range in your managed portfolio",
+  "english": "Dear [[FIRST_NAME]],\n\nA short note, because I know you prefer no surprises. In the portfolio we manage for you, commodities are now 11.0%, against a range of 0% to 10% under your Balanced mandate, with 5% as the aim. That is 1.0 point above the upper limit.\n\nIt is a small difference, and nothing has gone wrong in the sense of a loss. But because we manage this portfolio on your behalf, keeping it within the agreed range is our responsibility, and I would rather you heard about it from me.\n\nWhat I would propose is that we bring the commodity portion back within the range in the ordinary course. If you would prefer to discuss it first, I am happy to do so before anything is traded.\n\nCould I call you this week?",
+  "client_language": "Lieber [[FIRST_NAME]],\n\neine kurze Nachricht, da ich weiss, dass Sie keine Überraschungen mögen. In dem Portfolio, das wir für Sie verwalten, machen Rohstoffe inzwischen 11.0% aus, bei einer Bandbreite von 0% bis 10% gemäss Ihrem ausgewogenen Mandat und einem Zielwert von 5%. Das ist 1.0 Punkt über der Obergrenze.\n\nEs ist eine kleine Abweichung, und es ist nichts im Sinne eines Verlusts schiefgelaufen. Da wir dieses Portfolio aber in Ihrem Auftrag verwalten, liegt es in unserer Verantwortung, es innerhalb der vereinbarten Bandbreite zu halten, und ich möchte, dass Sie das von mir erfahren.\n\nIch würde vorschlagen, dass wir den Rohstoffanteil im Rahmen der laufenden Verwaltung wieder in die Bandbreite zurückführen. Wenn Sie das vorher besprechen möchten, tue ich das gern, bevor etwas gehandelt wird.\n\nDarf ich Sie diese Woche anrufen?",
+  "raises": "Asks him to agree to bringing commodities back within range, or to discuss it before any trade."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "German"
+}

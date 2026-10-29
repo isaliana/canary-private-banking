@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Your Conservative portfolio holds 54.0% in shares",
+  "english": "Dear [[FIRST_NAME]],\n\nI need to tell you about something in the portfolio we manage for you. Under your Conservative mandate, shares are meant to be between 10% and 30% of that portfolio, with 20% as the aim. Today they are 54.0%, which is 24.0 points above the upper limit.\n\nBecause we manage this portfolio on your behalf, keeping it inside those limits is our responsibility, not yours. It also runs against what you asked of us: to simplify what you inherited, reduce the risk and give you a steady income.\n\nWhat I would propose is that we bring the share portion back within the agreed range in an orderly way, and I would like to go through how we would do that with you before anything is traded.\n\nCould I call you this week?",
+  "client_language": "Liebe [[FIRST_NAME]],\n\nich muss Ihnen etwas zu dem Portfolio mitteilen, das wir für Sie verwalten. Nach Ihrem konservativen Mandat sollen Aktien zwischen 10% und 30% dieses Portfolios ausmachen, mit 20% als Zielwert. Heute sind es 54.0%, also 24.0 Punkte über der Obergrenze.\n\nDa wir dieses Portfolio in Ihrem Auftrag verwalten, liegt es in unserer Verantwortung, es innerhalb dieser Grenzen zu halten, nicht in Ihrer. Es steht auch im Widerspruch zu dem, worum Sie uns gebeten haben: das Geerbte zu vereinfachen, das Risiko zu senken und Ihnen ein stetiges Einkommen zu sichern.\n\nIch würde vorschlagen, dass wir den Aktienanteil geordnet wieder in die vereinbarte Bandbreite zurückführen, und ich möchte mit Ihnen besprechen, wie wir dabei vorgehen würden, bevor etwas gehandelt wird.\n\nDarf ich Sie diese Woche anrufen?",
+  "raises": "Asks her to agree to bringing the share portion back within the agreed range before trades are placed."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "German"
+}

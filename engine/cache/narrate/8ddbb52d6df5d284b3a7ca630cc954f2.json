@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Bonds are 23.0% of your portfolio against a 25–50% range",
+  "english": "Dear [[FIRST_NAME]],\n\nAhead of your next review, there is one small thing I would like to raise. Under the Balanced approach we agreed for your portfolio, bonds are meant to be between 25% and 50% of it, with 35% as the aim. Today they are 23.0%, which is 2.0 points below the lower end.\n\nIt is not a loss and nothing has gone wrong; the portfolio is simply carrying a little less of the steady income you asked for than the shape you signed up to. As this is an advisory portfolio, the decision is yours.\n\nWhat I would suggest is that we either bring the bond portion back into range, or you tell me you are comfortable as it is and I record that on your file. Both are fine; leaving it undecided is not.\n\nCould I call you before the review to talk it through?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nAhead of your next review, there is one small thing I would like to raise. Under the Balanced approach we agreed for your portfolio, bonds are meant to be between 25% and 50% of it, with 35% as the aim. Today they are 23.0%, which is 2.0 points below the lower end.\n\nIt is not a loss and nothing has gone wrong; the portfolio is simply carrying a little less of the steady income you asked for than the shape you signed up to. As this is an advisory portfolio, the decision is yours.\n\nWhat I would suggest is that we either bring the bond portion back into range, or you tell me you are comfortable as it is and I record that on your file. Both are fine; leaving it undecided is not.\n\nCould I call you before the review to talk it through?",
+  "raises": "Asks her to decide whether to bring bonds back into range or record that she is comfortable as it is."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

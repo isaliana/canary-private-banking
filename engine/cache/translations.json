@@ -1,0 +1,40 @@
+[
+ {
+  "text": "Raymond Wong Ka Lok 您好：\n\n我一直在研究您預計於 2027 年初支付的土地訂金應如何籌措，當中有一個問題，我希望在日期臨近之前，由我親自告訴您。\n\n表面上，組合足以應付：可於一日內出售的持倉約有 USD 34.0m，而未來十二個月到期的款項為 USD 10.3m。但這些持倉全部都已抵押予您的 Lombard 信貸額度。若出售其中 HKD 80.0m，銀行可貸出的價值會減少 HKD 45.3m，貸款相對該價值的比率會由 68.8% 升至約 97%，遠高於銀行必須要求您補回款項的 70% 水平。您需要在出售之前、而不是之後，先償還約 HKD 29.9m 的額度。\n\n因此，最直接的做法——出售部分流動持倉——正正就是觸發補倉的做法。我的建議是先降低信貸額度，或以抵押組合以外的資金支付訂金，並及早商定各個步驟的先後次序。\n\n我下星期會在香港，如您希望當面詳談，我可以到家族辦公室拜訪您。\n\n您在八月亦問過，若香港物業再次下跌，Lombard 額度會受到甚麼影響。如您方便，我希望本週致電，把兩個問題一併向您說明。\n\n順頌時祺\n張慧玲\n翰登銀行",
+  "note": "",
+  "check": {
+   "added": [],
+   "dropped": [],
+   "names_lost": [],
+   "names_invented": []
+  },
+  "clean": true,
+  "model": "claude-opus-5-5",
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "finding_id": "FUN-CL-0002",
+  "source": "Dear Raymond Wong Ka Lok,\n\nI have been working through how the land deposit you expect to pay in early 2027 would be funded, and there is a problem I want you to hear from me well before the date.\n\nOn paper the portfolio can cover it: about USD 34.0m of your holdings could be sold within a day, against USD 10.3m falling due in the next twelve months. But all of it is pledged against your Lombard facility. Selling HKD 80.0m of it would take away HKD 45.3m of the value the bank lends against, and the loan would go from 68.8% of that value to about 97% — well past the 70% level at which the bank must ask for money back. You would need to repay about HKD 29.9m of the facility before such a sale, not after it.\n\nSo the obvious route, selling some liquid holdings, is the one that causes the margin call. What I would suggest is either reducing the facility first, or funding the deposit from outside the pledged portfolio, and agreeing the order of the steps well ahead of time.\n\nI am in Hong Kong next week and could come to the family office, if you would rather go through this in person.\n\nYou also asked in August what happens to the Lombard line if Hong Kong property falls again. I would like to answer both questions together on a call this week, if that suits you.\n\nWith best regards,\nClara Teo\nHalden Rowe",
+  "amendment": "I am in Hong Kong next week and could come to the family office, if you would rather go through this in person.",
+  "from": "English",
+  "to": "Traditional Chinese"
+ },
+ {
+  "text": "Park Hyun-woo 님께,\n\n어느 한 장의 명세서에도 따로 나타나지 않는 수치를 하나 보여 드리고 싶습니다. 저희에게 맡기신 자산 전체를 합산하면, Veltrion Semiconductor 관련 자산이 전체 자산의 31.0%에 이릅니다.\n\n이는 두 가지 경로로 이루어져 있습니다. 직접 보유하고 계신 Veltrion 주식, 그리고 연 9.0%의 쿠폰을 지급하지만 바스켓 구성 종목 중 하나인 Veltrion에 결과가 연동되는 Fixed Coupon Note ref. Basket Q입니다.\n\n고객님께서는 잘 아시는 반도체 업황에 어느 정도 투자를 유지하고 싶다고 하셨고, 동시에 회사 매각 이후 분산된 포트폴리오를 다시 구축하고 싶다고 하셨습니다. 지금은 앞의 목표가 뒤의 목표보다 커져 있습니다. 함께 전체 규모를 살펴보시고, 얼마만큼을 유지하실지 결정하시기를 제안드립니다. 현재 상태가 괜찮으시다면 그 내용을 고객 기록에 남겨 두겠습니다.\n\n또한 저희 자산관리 플래닝 팀에 비중 축소를 모교 기부 시기와 어떻게 맞출 수 있을지 검토를 요청해 두었습니다.\n\n이번 주에 전화로 말씀 나눌 수 있을까요?\n\n감사합니다.\n클라라 테오\n할든 로우",
+  "note": "",
+  "check": {
+   "added": [],
+   "dropped": [],
+   "names_lost": [],
+   "names_invented": []
+  },
+  "clean": true,
+  "model": "claude-opus-5-5",
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "finding_id": "CON-CL-0011",
+  "source": "Dear Park Hyun-woo,\n\nThere is one figure I would like you to see, because no single statement shows it. Across everything you hold with us, Veltrion Semiconductor comes to 31.0% of your wealth.\n\nIt arrives by two routes: the Veltrion shares you hold directly, and the Fixed Coupon Note ref. Basket Q, which pays 9.0% a year but whose outcome is tied to Veltrion as one of the names in its basket.\n\nYou told us you wanted to keep some exposure to the chip cycle you know, and also to rebuild a diversified portfolio after the sale of your company. At the moment the first is outweighing the second. What I would suggest is that we look at the total together and you decide how much of it you want to keep. If you are comfortable as it stands, I will note that on your file.\n\nI have also asked our wealth planning team how any reduction could be timed alongside the gift to your university.\n\nCould I call you this week to talk it through?\n\nWith best regards,\nClara Teo\nHalden Rowe",
+  "amendment": "I have also asked our wealth planning team how any reduction could be timed alongside the gift to your university.",
+  "from": "English",
+  "to": "Korean"
+ }
+]

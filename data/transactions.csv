@@ -1,0 +1,429 @@
+transaction_id,trade_date,settlement_date,portfolio_id,client_id,transaction_type,instrument_id,instrument_name,quantity,price_local,currency,amount,narrative
+TXN-00001,2025-10-31,2025-10-31,PF-0001,CL-0001,Withdrawal,,,,,JPY,-15000000,Quarterly living expense transfer to Singapore account.
+TXN-00002,2025-11-10,2025-11-12,PF-0006,CL-0005,Buy,INS-EQ-010,Global Energy Producers Fund,19300.0,53.71,USD,-1036603.0,"Discretionary purchase by the portfolio manager: Global Energy Producers Fund, added for income."
+TXN-00003,2025-11-15,2025-11-15,PF-0001,CL-0001,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,8598935.0,Scheduled coupon received.
+TXN-00004,2025-11-15,2025-11-15,PF-0001,CL-0001,Coupon,INS-FI-003,Japan Government Bond 1.4% due 2044,,,JPY,838828571.0,Scheduled coupon received.
+TXN-00005,2025-11-15,2025-11-15,PF-0001,CL-0001,Coupon,INS-FI-004,Japan Government Bond 0.6% due 2033,,,JPY,111766194.0,Scheduled coupon received.
+TXN-00006,2025-11-15,2025-11-15,PF-0001,CL-0001,Coupon,INS-FI-017,Straits Commercial Bank 5.0% Perpetual,,,USD,5700200.0,Scheduled coupon received.
+TXN-00007,2025-11-15,2025-11-15,PF-0001,CL-0001,Dividend,INS-ST-006,Kitaura Precision Industries KK,,,JPY,3709834.13,Scheduled dividend received.
+TXN-00008,2025-11-15,2025-11-15,PF-0002,CL-0002,Coupon,INS-FI-018,Harbourline Property 6.25% Perpetual,,,USD,11768281.25,Scheduled coupon received.
+TXN-00009,2025-11-15,2025-11-15,PF-0002,CL-0002,Dividend,INS-ST-001,Harbourline Property Holdings Ltd,,,HKD,2044222.7,Scheduled dividend received.
+TXN-00010,2025-11-15,2025-11-15,PF-0002,CL-0002,Dividend,INS-ST-002,Straits Commercial Bank Ltd,,,SGD,77385.49,Scheduled dividend received.
+TXN-00011,2025-11-15,2025-11-15,PF-0003,CL-0003,Coupon,INS-FI-006,German Bund 2.5% due 2035,,,EUR,3219450.0,Scheduled coupon received.
+TXN-00012,2025-11-15,2025-11-15,PF-0006,CL-0005,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,4820745.0,Scheduled coupon received.
+TXN-00013,2025-11-15,2025-11-15,PF-0006,CL-0005,Dividend,INS-ST-009,Rimba Lestari Plantations Bhd,,,MYR,53488.19,Scheduled dividend received.
+TXN-00014,2025-11-15,2025-11-15,PF-0007,CL-0006,Dividend,INS-ST-005,Qinghe Battery Technology Co Ltd,,,HKD,194332.51,Scheduled dividend received.
+TXN-00015,2025-11-15,2025-11-15,PF-0008,CL-0007,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,13041507.5,Scheduled coupon received.
+TXN-00016,2025-11-15,2025-11-15,PF-0008,CL-0007,Coupon,INS-FI-007,US Treasury Inflation-Protected 1.75% due 2034,,,USD,2739476.25,Scheduled coupon received.
+TXN-00017,2025-11-15,2025-11-15,PF-0009,CL-0008,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,8660543.75,Scheduled coupon received.
+TXN-00018,2025-11-15,2025-11-15,PF-0011,CL-0009,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,9968205.0,Scheduled coupon received.
+TXN-00019,2025-11-15,2025-11-15,PF-0011,CL-0009,Dividend,INS-ST-007,Sahraa Logistics PJSC,,,AED,124080.77,Scheduled dividend received.
+TXN-00020,2025-11-15,2025-11-15,PF-0012,CL-0010,Coupon,INS-FI-006,German Bund 2.5% due 2035,,,EUR,1905725.0,Scheduled coupon received.
+TXN-00021,2025-11-15,2025-11-15,PF-0013,CL-0011,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,4233106.25,Scheduled coupon received.
+TXN-00022,2025-11-15,2025-11-15,PF-0013,CL-0011,Dividend,INS-ST-004,Veltrion Semiconductor Inc,,,USD,25233.87,Scheduled dividend received.
+TXN-00023,2025-11-15,2025-11-15,PF-0014,CL-0012,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,7540052.5,Scheduled coupon received.
+TXN-00024,2025-11-15,2025-11-15,PF-0014,CL-0012,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,3560865.0,Scheduled coupon received.
+TXN-00025,2025-11-15,2025-11-15,PF-0014,CL-0012,Coupon,INS-FI-017,Straits Commercial Bank 5.0% Perpetual,,,USD,3060175.0,Scheduled coupon received.
+TXN-00026,2025-11-15,2025-11-15,PF-0014,CL-0012,Coupon,INS-FI-018,Harbourline Property 6.25% Perpetual,,,USD,8394312.5,Scheduled coupon received.
+TXN-00027,2025-11-15,2025-11-15,PF-0015,CL-0013,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,6551908.12,Scheduled coupon received.
+TXN-00028,2025-11-15,2025-11-15,PF-0015,CL-0013,Coupon,INS-FI-007,US Treasury Inflation-Protected 1.75% due 2034,,,USD,1389710.0,Scheduled coupon received.
+TXN-00029,2025-11-15,2025-11-15,PF-0015,CL-0013,Coupon,INS-FI-016,Asia Infrastructure Finance 5.1% due 2046,,,USD,7580308.5,Scheduled coupon received.
+TXN-00030,2025-11-15,2025-11-15,PF-0016,CL-0014,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,3055410.0,Scheduled coupon received.
+TXN-00031,2025-11-15,2025-11-15,PF-0017,CL-0015,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,3865566.25,Scheduled coupon received.
+TXN-00032,2025-11-15,2025-11-15,PF-0018,CL-0016,Coupon,INS-FI-006,German Bund 2.5% due 2035,,,EUR,4407900.0,Scheduled coupon received.
+TXN-00033,2025-11-15,2025-11-15,PF-0021,CL-0019,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,3010140.0,Scheduled coupon received.
+TXN-00034,2025-12-15,2025-12-15,PF-0001,CL-0001,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,19317.38,Scheduled dividend received.
+TXN-00035,2025-12-15,2025-12-15,PF-0001,CL-0001,Dividend,INS-EQ-005,Japan Equity Fund,,,JPY,5972850.6,Scheduled dividend received.
+TXN-00036,2025-12-15,2025-12-15,PF-0002,CL-0002,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,36079.71,Scheduled distribution received.
+TXN-00037,2025-12-15,2025-12-15,PF-0002,CL-0002,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,26747.14,Scheduled dividend received.
+TXN-00038,2025-12-15,2025-12-15,PF-0002,CL-0002,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,9128.65,Scheduled dividend received.
+TXN-00039,2025-12-15,2025-12-15,PF-0002,CL-0002,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,48138.68,Scheduled dividend received.
+TXN-00040,2025-12-15,2025-12-15,PF-0002,CL-0002,Dividend,INS-EQ-008,Global Semiconductor Equity Fund,,,USD,2277.2,Scheduled dividend received.
+TXN-00041,2025-12-15,2025-12-15,PF-0003,CL-0003,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,22289.28,Scheduled dividend received.
+TXN-00042,2025-12-15,2025-12-15,PF-0003,CL-0003,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,48867.59,Scheduled dividend received.
+TXN-00043,2025-12-15,2025-12-15,PF-0004,CL-0004,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,45693.02,Scheduled dividend received.
+TXN-00044,2025-12-15,2025-12-15,PF-0004,CL-0004,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,27055.65,Scheduled dividend received.
+TXN-00045,2025-12-15,2025-12-15,PF-0004,CL-0004,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,28861.91,Scheduled dividend received.
+TXN-00046,2025-12-15,2025-12-15,PF-0004,CL-0004,Dividend,INS-EQ-013,Global Healthcare Equity Fund,,,USD,9297.32,Scheduled dividend received.
+TXN-00047,2025-12-15,2025-12-15,PF-0005,CL-0004,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,5833.43,Scheduled dividend received.
+TXN-00048,2025-12-15,2025-12-15,PF-0005,CL-0004,Dividend,INS-EQ-008,Global Semiconductor Equity Fund,,,USD,8516.73,Scheduled dividend received.
+TXN-00049,2025-12-15,2025-12-15,PF-0005,CL-0004,Valuation Update,INS-AL-007,Unlisted Holding - Lumora Analytics Pte Ltd,,41.2,USD,0.0,Quarterly review of the Lumora holding. No new priced round; carrying value left at the Jun-2025 Series C price.
+TXN-00050,2025-12-15,2025-12-15,PF-0006,CL-0005,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,32690.94,Scheduled dividend received.
+TXN-00051,2025-12-15,2025-12-15,PF-0006,CL-0005,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,19915.78,Scheduled dividend received.
+TXN-00052,2025-12-15,2025-12-15,PF-0006,CL-0005,Dividend,INS-EQ-009,Global Renewable Infrastructure Fund,,,USD,24789.87,Scheduled dividend received.
+TXN-00053,2025-12-15,2025-12-15,PF-0006,CL-0005,Dividend,INS-EQ-010,Global Energy Producers Fund,,,USD,21768.66,Scheduled dividend received.
+TXN-00054,2025-12-15,2025-12-15,PF-0006,CL-0005,Dividend,INS-EQ-011,Global Defence Equity Fund,,,USD,4216.8,Scheduled dividend received.
+TXN-00055,2025-12-15,2025-12-15,PF-0006,CL-0005,Dividend,INS-EQ-013,Global Healthcare Equity Fund,,,USD,6236.01,Scheduled dividend received.
+TXN-00056,2025-12-15,2025-12-15,PF-0007,CL-0006,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,32505.2,Scheduled dividend received.
+TXN-00057,2025-12-15,2025-12-15,PF-0007,CL-0006,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,33691.94,Scheduled dividend received.
+TXN-00058,2025-12-15,2025-12-15,PF-0007,CL-0006,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,7124.8,Scheduled dividend received.
+TXN-00059,2025-12-15,2025-12-15,PF-0007,CL-0006,Dividend,INS-EQ-007,China A-Share Growth Fund,,,CNH,118335.41,Scheduled dividend received.
+TXN-00060,2025-12-15,2025-12-15,PF-0008,CL-0007,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,60924.03,Scheduled dividend received.
+TXN-00061,2025-12-15,2025-12-15,PF-0008,CL-0007,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,27310.89,Scheduled dividend received.
+TXN-00062,2025-12-15,2025-12-15,PF-0008,CL-0007,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,22897.82,Scheduled dividend received.
+TXN-00063,2025-12-15,2025-12-15,PF-0008,CL-0007,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,38190.64,Scheduled dividend received.
+TXN-00064,2025-12-15,2025-12-15,PF-0009,CL-0008,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,81913.1,Scheduled dividend received.
+TXN-00065,2025-12-15,2025-12-15,PF-0009,CL-0008,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,20419.36,Scheduled dividend received.
+TXN-00066,2025-12-15,2025-12-15,PF-0009,CL-0008,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,42600.6,Scheduled dividend received.
+TXN-00067,2025-12-15,2025-12-15,PF-0010,CL-0008,Distribution,INS-AL-004,Serai Private Credit Fund II,,,USD,181530.04,Scheduled distribution received.
+TXN-00068,2025-12-15,2025-12-15,PF-0010,CL-0008,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,55851.66,Scheduled distribution received.
+TXN-00069,2025-12-15,2025-12-15,PF-0010,CL-0008,Distribution,INS-AL-006,Infrastructure Debt Fund III,,,USD,65509.39,Scheduled distribution received.
+TXN-00070,2025-12-15,2025-12-15,PF-0011,CL-0009,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,45930.59,Scheduled distribution received.
+TXN-00071,2025-12-15,2025-12-15,PF-0011,CL-0009,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,50336.62,Scheduled dividend received.
+TXN-00072,2025-12-15,2025-12-15,PF-0011,CL-0009,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,16845.97,Scheduled dividend received.
+TXN-00073,2025-12-15,2025-12-15,PF-0011,CL-0009,Dividend,INS-EQ-007,China A-Share Growth Fund,,,CNH,106972.13,Scheduled dividend received.
+TXN-00074,2025-12-15,2025-12-15,PF-0012,CL-0010,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,35291.36,Scheduled dividend received.
+TXN-00075,2025-12-15,2025-12-15,PF-0012,CL-0010,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,14293.55,Scheduled dividend received.
+TXN-00076,2025-12-15,2025-12-15,PF-0012,CL-0010,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11928.17,Scheduled dividend received.
+TXN-00077,2025-12-15,2025-12-15,PF-0012,CL-0010,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,38601.29,Scheduled dividend received.
+TXN-00078,2025-12-15,2025-12-15,PF-0013,CL-0011,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,46250.26,Scheduled dividend received.
+TXN-00079,2025-12-15,2025-12-15,PF-0013,CL-0011,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,20674.6,Scheduled dividend received.
+TXN-00080,2025-12-15,2025-12-15,PF-0013,CL-0011,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,24282.34,Scheduled dividend received.
+TXN-00081,2025-12-15,2025-12-15,PF-0013,CL-0011,Dividend,INS-EQ-008,Global Semiconductor Equity Fund,,,USD,5260.33,Scheduled dividend received.
+TXN-00082,2025-12-15,2025-12-15,PF-0014,CL-0012,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,35293.77,Scheduled distribution received.
+TXN-00083,2025-12-15,2025-12-15,PF-0014,CL-0012,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,21732.05,Scheduled dividend received.
+TXN-00084,2025-12-15,2025-12-15,PF-0014,CL-0012,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,27051.38,Scheduled dividend received.
+TXN-00085,2025-12-15,2025-12-15,PF-0015,CL-0013,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,28047.34,Scheduled dividend received.
+TXN-00086,2025-12-15,2025-12-15,PF-0015,CL-0013,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,27157.88,Scheduled dividend received.
+TXN-00087,2025-12-15,2025-12-15,PF-0016,CL-0014,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,13404.92,Scheduled distribution received.
+TXN-00088,2025-12-15,2025-12-15,PF-0016,CL-0014,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,24227.97,Scheduled distribution received.
+TXN-00089,2025-12-15,2025-12-15,PF-0016,CL-0014,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,27304.37,Scheduled dividend received.
+TXN-00090,2025-12-15,2025-12-15,PF-0016,CL-0014,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,20235.28,Scheduled dividend received.
+TXN-00091,2025-12-15,2025-12-15,PF-0017,CL-0015,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,28047.34,Scheduled dividend received.
+TXN-00092,2025-12-15,2025-12-15,PF-0017,CL-0015,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,5165.48,Scheduled dividend received.
+TXN-00093,2025-12-15,2025-12-15,PF-0017,CL-0015,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,19063.77,Scheduled dividend received.
+TXN-00094,2025-12-15,2025-12-15,PF-0017,CL-0015,Dividend,INS-EQ-007,China A-Share Growth Fund,,,CNH,103576.7,Scheduled dividend received.
+TXN-00095,2025-12-15,2025-12-15,PF-0018,CL-0016,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,48107.7,Scheduled dividend received.
+TXN-00096,2025-12-15,2025-12-15,PF-0018,CL-0016,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,14038.31,Scheduled dividend received.
+TXN-00097,2025-12-15,2025-12-15,PF-0018,CL-0016,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,49175.58,Scheduled dividend received.
+TXN-00098,2025-12-15,2025-12-15,PF-0019,CL-0017,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,41235.17,Scheduled dividend received.
+TXN-00099,2025-12-15,2025-12-15,PF-0019,CL-0017,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,16590.73,Scheduled dividend received.
+TXN-00100,2025-12-15,2025-12-15,PF-0019,CL-0017,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,18637.76,Scheduled dividend received.
+TXN-00101,2025-12-15,2025-12-15,PF-0020,CL-0018,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,26932.88,Scheduled dividend received.
+TXN-00102,2025-12-15,2025-12-15,PF-0020,CL-0018,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,10209.68,Scheduled dividend received.
+TXN-00103,2025-12-15,2025-12-15,PF-0020,CL-0018,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,1736.67,Scheduled dividend received.
+TXN-00104,2025-12-15,2025-12-15,PF-0020,CL-0018,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11502.16,Scheduled dividend received.
+TXN-00105,2025-12-15,2025-12-15,PF-0021,CL-0019,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,24518.21,Scheduled dividend received.
+TXN-00106,2025-12-15,2025-12-15,PF-0021,CL-0019,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11821.67,Scheduled dividend received.
+TXN-00107,2025-12-15,2025-12-15,PF-0021,CL-0019,Dividend,INS-EQ-013,Global Healthcare Equity Fund,,,USD,4006.16,Scheduled dividend received.
+TXN-00108,2025-12-15,2025-12-15,PF-0022,CL-0020,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,29347.55,Scheduled dividend received.
+TXN-00109,2025-12-15,2025-12-15,PF-0022,CL-0020,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,13783.07,Scheduled dividend received.
+TXN-00110,2025-12-15,2025-12-15,PF-0022,CL-0020,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11608.66,Scheduled dividend received.
+TXN-00111,2025-12-28,2025-12-28,PF-0001,CL-0001,Interest,INS-CA-005,JPY Call Deposit,,,JPY,256224.0,Scheduled interest received.
+TXN-00112,2025-12-28,2025-12-28,PF-0002,CL-0002,Interest,INS-CA-003,HKD Call Deposit,,,HKD,72256.0,Scheduled interest received.
+TXN-00113,2025-12-28,2025-12-28,PF-0003,CL-0003,Interest,INS-CA-004,EUR Call Deposit,,,EUR,9387.0,Scheduled interest received.
+TXN-00114,2025-12-28,2025-12-28,PF-0004,CL-0004,Interest,INS-CA-001,USD Call Deposit,,,USD,11583.0,Scheduled interest received.
+TXN-00115,2025-12-28,2025-12-28,PF-0006,CL-0005,Interest,INS-CA-002,SGD Call Deposit,,,SGD,7771.0,Scheduled interest received.
+TXN-00116,2025-12-28,2025-12-28,PF-0007,CL-0006,Interest,INS-CA-001,USD Call Deposit,,,USD,14722.5,Scheduled interest received.
+TXN-00117,2025-12-28,2025-12-28,PF-0008,CL-0007,Interest,INS-CA-001,USD Call Deposit,,,USD,25798.5,Scheduled interest received.
+TXN-00118,2025-12-28,2025-12-28,PF-0009,CL-0008,Interest,INS-CA-001,USD Call Deposit,,,USD,15990.0,Scheduled interest received.
+TXN-00119,2025-12-28,2025-12-28,PF-0011,CL-0009,Interest,INS-CA-001,USD Call Deposit,,,USD,13308.75,Scheduled interest received.
+TXN-00120,2025-12-28,2025-12-28,PF-0012,CL-0010,Interest,INS-CA-004,EUR Call Deposit,,,EUR,2965.5,Scheduled interest received.
+TXN-00121,2025-12-28,2025-12-28,PF-0013,CL-0011,Interest,INS-CA-001,USD Call Deposit,,,USD,13026.0,Scheduled interest received.
+TXN-00122,2025-12-28,2025-12-28,PF-0014,CL-0012,Interest,INS-CA-003,HKD Call Deposit,,,HKD,147264.0,Scheduled interest received.
+TXN-00123,2025-12-28,2025-12-28,PF-0016,CL-0014,Interest,INS-CA-002,SGD Call Deposit,,,SGD,5909.0,Scheduled interest received.
+TXN-00124,2025-12-28,2025-12-28,PF-0017,CL-0015,Interest,INS-CA-001,USD Call Deposit,,,USD,14274.0,Scheduled interest received.
+TXN-00125,2025-12-28,2025-12-28,PF-0018,CL-0016,Interest,INS-CA-006,CHF Call Deposit,,,CHF,681.5,Scheduled interest received.
+TXN-00126,2025-12-28,2025-12-28,PF-0019,CL-0017,Interest,INS-CA-001,USD Call Deposit,,,USD,11622.0,Scheduled interest received.
+TXN-00127,2025-12-28,2025-12-28,PF-0021,CL-0019,Interest,INS-CA-002,SGD Call Deposit,,,SGD,4849.75,Scheduled interest received.
+TXN-00128,2025-12-28,2025-12-28,PF-0022,CL-0020,Interest,INS-CA-001,USD Call Deposit,,,USD,9828.0,Scheduled interest received.
+TXN-00129,2026-01-01,2026-01-01,PF-0002,CL-0002,Interest Charge,,,,,HKD,-1354275.0,Quarterly interest on CF-0001 at 5.85% p.a.
+TXN-00130,2026-01-01,2026-01-01,PF-0005,CL-0004,Interest Charge,,,,,USD,-105600.0,Quarterly interest on CF-0002 at 6.40% p.a.
+TXN-00131,2026-01-05,2026-01-05,PF-0001,CL-0001,Management Fee,,,,,JPY,-9703117.92,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00132,2026-01-05,2026-01-05,PF-0002,CL-0002,Management Fee,,,,,HKD,-399125.11,Quarterly advisory fee at 0.55% p.a.
+TXN-00133,2026-01-05,2026-01-05,PF-0003,CL-0003,Management Fee,,,,,EUR,-31627.36,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00134,2026-01-05,2026-01-05,PF-0004,CL-0004,Management Fee,,,,,USD,-26464.9,Quarterly advisory fee at 0.55% p.a.
+TXN-00135,2026-01-05,2026-01-05,PF-0005,CL-0004,Management Fee,,,,,USD,-9202.33,Quarterly custody fee at 0.12% p.a.
+TXN-00136,2026-01-05,2026-01-05,PF-0006,CL-0005,Management Fee,,,,,SGD,-57555.51,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00137,2026-01-05,2026-01-05,PF-0007,CL-0006,Management Fee,,,,,USD,-36469.91,Quarterly advisory fee at 0.55% p.a.
+TXN-00138,2026-01-05,2026-01-05,PF-0008,CL-0007,Management Fee,,,,,USD,-85526.84,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00139,2026-01-05,2026-01-05,PF-0009,CL-0008,Management Fee,,,,,USD,-85595.53,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00140,2026-01-05,2026-01-05,PF-0010,CL-0008,Management Fee,,,,,USD,-49670.1,Quarterly advisory fee at 0.55% p.a.
+TXN-00141,2026-01-05,2026-01-05,PF-0011,CL-0009,Management Fee,,,,,USD,-37453.18,Quarterly advisory fee at 0.55% p.a.
+TXN-00142,2026-01-05,2026-01-05,PF-0012,CL-0010,Management Fee,,,,,EUR,-21448.19,Quarterly advisory fee at 0.55% p.a.
+TXN-00143,2026-01-05,2026-01-05,PF-0013,CL-0011,Management Fee,,,,,USD,-45016.24,Quarterly advisory fee at 0.55% p.a.
+TXN-00144,2026-01-05,2026-01-05,PF-0014,CL-0012,Management Fee,,,,,HKD,-396686.2,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00145,2026-01-05,2026-01-05,PF-0015,CL-0013,Management Fee,,,,,USD,-35570.21,Quarterly advisory fee at 0.55% p.a.
+TXN-00146,2026-01-05,2026-01-05,PF-0016,CL-0014,Management Fee,,,,,SGD,-28299.39,Quarterly advisory fee at 0.55% p.a.
+TXN-00147,2026-01-05,2026-01-05,PF-0017,CL-0015,Management Fee,,,,,USD,-24690.37,Quarterly advisory fee at 0.55% p.a.
+TXN-00148,2026-01-05,2026-01-05,PF-0018,CL-0016,Management Fee,,,,,CHF,-47696.01,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00149,2026-01-05,2026-01-05,PF-0019,CL-0017,Management Fee,,,,,USD,-19851.71,Quarterly advisory fee at 0.55% p.a.
+TXN-00150,2026-01-05,2026-01-05,PF-0020,CL-0018,Management Fee,,,,,SGD,-15776.53,Quarterly advisory fee at 0.55% p.a.
+TXN-00151,2026-01-05,2026-01-05,PF-0021,CL-0019,Management Fee,,,,,SGD,-30432.54,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00152,2026-01-05,2026-01-05,PF-0022,CL-0020,Management Fee,,,,,USD,-14965.56,Quarterly advisory fee at 0.55% p.a.
+TXN-00153,2026-01-12,2026-01-12,PF-0002,CL-0002,Facility Drawdown,,,,,HKD,15700000.0,Drawdown on CF-0001 to settle the accumulator subscription.
+TXN-00154,2026-01-12,2026-01-14,PF-0002,CL-0002,Structured Product Subscription,INS-SP-001,"Accumulator ref. Harbourline Property Holdings, 12M",337300.0,59.58,HKD,-20096334.0,"12-month accumulator on Harbourline Property Holdings. Strike HKD 11.40, knock-out HKD 13.10, double-up below strike."
+TXN-00155,2026-01-30,2026-01-30,PF-0001,CL-0001,Withdrawal,,,,,JPY,-15000000,Quarterly living expense transfer to Singapore account.
+TXN-00156,2026-02-16,2026-02-16,PF-0003,CL-0003,Transfer In,,,,,EUR,9400000,Shares and cash transferred in from the late Mr Brandt's estate.
+TXN-00157,2026-02-20,2026-02-20,PF-0010,CL-0008,Capital Call,,,,,USD,-2400000,Northfield Private Equity Partners IX capital call. USD 12.9m remains uncalled.
+TXN-00158,2026-03-12,2026-03-14,PF-0012,CL-0010,Buy,INS-CM-001,Gold Bullion ETF,1800.0,353.0,USD,-635400.0,"Client-directed addition to the gold ETF, above the commodity limit. Instruction confirmed in writing."
+TXN-00159,2026-03-15,2026-03-15,PF-0002,CL-0002,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,33137.33,Scheduled distribution received.
+TXN-00160,2026-03-15,2026-03-15,PF-0010,CL-0008,Distribution,INS-AL-004,Serai Private Credit Fund II,,,USD,173339.09,Scheduled distribution received.
+TXN-00161,2026-03-15,2026-03-15,PF-0010,CL-0008,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,54679.33,Scheduled distribution received.
+TXN-00162,2026-03-15,2026-03-15,PF-0010,CL-0008,Distribution,INS-AL-006,Infrastructure Debt Fund III,,,USD,64545.44,Scheduled distribution received.
+TXN-00163,2026-03-15,2026-03-15,PF-0011,CL-0009,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,42184.85,Scheduled distribution received.
+TXN-00164,2026-03-15,2026-03-15,PF-0014,CL-0012,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,32415.48,Scheduled distribution received.
+TXN-00165,2026-03-15,2026-03-15,PF-0016,CL-0014,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,13123.55,Scheduled distribution received.
+TXN-00166,2026-03-15,2026-03-15,PF-0016,CL-0014,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,22252.12,Scheduled distribution received.
+TXN-00167,2026-03-16,2026-03-16,PF-0005,CL-0004,Valuation Update,INS-AL-007,Unlisted Holding - Lumora Analytics Pte Ltd,,41.2,USD,0.0,Quarterly review of the Lumora holding. No new priced round; carrying value left at the Jun-2025 Series C price.
+TXN-00168,2026-03-20,2026-03-22,PF-0008,CL-0007,Buy,INS-CM-001,Gold Bullion ETF,7100.0,353.0,USD,-2506300.0,"Client-instructed purchase of gold, taken above the mandate ceiling against advice. Suitability waiver signed."
+TXN-00169,2026-03-28,2026-03-28,PF-0001,CL-0001,Interest,INS-CA-005,JPY Call Deposit,,,JPY,256224.0,Scheduled interest received.
+TXN-00170,2026-03-28,2026-03-28,PF-0002,CL-0002,Interest,INS-CA-003,HKD Call Deposit,,,HKD,72256.0,Scheduled interest received.
+TXN-00171,2026-03-28,2026-03-28,PF-0003,CL-0003,Interest,INS-CA-004,EUR Call Deposit,,,EUR,9387.0,Scheduled interest received.
+TXN-00172,2026-03-28,2026-03-28,PF-0004,CL-0004,Interest,INS-CA-001,USD Call Deposit,,,USD,11583.0,Scheduled interest received.
+TXN-00173,2026-03-28,2026-03-28,PF-0006,CL-0005,Interest,INS-CA-002,SGD Call Deposit,,,SGD,7771.0,Scheduled interest received.
+TXN-00174,2026-03-28,2026-03-28,PF-0007,CL-0006,Interest,INS-CA-001,USD Call Deposit,,,USD,14722.5,Scheduled interest received.
+TXN-00175,2026-03-28,2026-03-28,PF-0008,CL-0007,Interest,INS-CA-001,USD Call Deposit,,,USD,25798.5,Scheduled interest received.
+TXN-00176,2026-03-28,2026-03-28,PF-0009,CL-0008,Interest,INS-CA-001,USD Call Deposit,,,USD,15990.0,Scheduled interest received.
+TXN-00177,2026-03-28,2026-03-28,PF-0011,CL-0009,Interest,INS-CA-001,USD Call Deposit,,,USD,13308.75,Scheduled interest received.
+TXN-00178,2026-03-28,2026-03-28,PF-0012,CL-0010,Interest,INS-CA-004,EUR Call Deposit,,,EUR,2965.5,Scheduled interest received.
+TXN-00179,2026-03-28,2026-03-28,PF-0013,CL-0011,Interest,INS-CA-001,USD Call Deposit,,,USD,13026.0,Scheduled interest received.
+TXN-00180,2026-03-28,2026-03-28,PF-0014,CL-0012,Interest,INS-CA-003,HKD Call Deposit,,,HKD,147264.0,Scheduled interest received.
+TXN-00181,2026-03-28,2026-03-28,PF-0016,CL-0014,Interest,INS-CA-002,SGD Call Deposit,,,SGD,5909.0,Scheduled interest received.
+TXN-00182,2026-03-28,2026-03-28,PF-0017,CL-0015,Interest,INS-CA-001,USD Call Deposit,,,USD,14274.0,Scheduled interest received.
+TXN-00183,2026-03-28,2026-03-28,PF-0018,CL-0016,Interest,INS-CA-006,CHF Call Deposit,,,CHF,681.5,Scheduled interest received.
+TXN-00184,2026-03-28,2026-03-28,PF-0019,CL-0017,Interest,INS-CA-001,USD Call Deposit,,,USD,11622.0,Scheduled interest received.
+TXN-00185,2026-03-28,2026-03-28,PF-0021,CL-0019,Interest,INS-CA-002,SGD Call Deposit,,,SGD,4849.75,Scheduled interest received.
+TXN-00186,2026-03-28,2026-03-28,PF-0022,CL-0020,Interest,INS-CA-001,USD Call Deposit,,,USD,9828.0,Scheduled interest received.
+TXN-00187,2026-04-01,2026-04-01,PF-0002,CL-0002,Interest Charge,,,,,HKD,-1583887.5,Quarterly interest on CF-0001 at 5.85% p.a.
+TXN-00188,2026-04-01,2026-04-01,PF-0005,CL-0004,Interest Charge,,,,,USD,-105600.0,Quarterly interest on CF-0002 at 6.40% p.a.
+TXN-00189,2026-04-02,2026-04-02,PF-0010,CL-0008,Redemption Request,INS-AL-004,Serai Private Credit Fund II,,,USD,0.0,Full redemption requested from Serai Private Credit Fund II. Manager applied the gate; request queued with no settlement date.
+TXN-00190,2026-04-02,2026-04-02,PF-0023,CL-0020,Transfer In,,,,,USD,2400000,Corlane Medical Systems shares transferred in from a US brokerage account.
+TXN-00191,2026-04-05,2026-04-05,PF-0001,CL-0001,Management Fee,,,,,JPY,-9367520.13,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00192,2026-04-05,2026-04-05,PF-0002,CL-0002,Management Fee,,,,,HKD,-376564.82,Quarterly advisory fee at 0.55% p.a.
+TXN-00193,2026-04-05,2026-04-05,PF-0003,CL-0003,Management Fee,,,,,EUR,-42953.06,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00194,2026-04-05,2026-04-05,PF-0004,CL-0004,Management Fee,,,,,USD,-25749.69,Quarterly advisory fee at 0.55% p.a.
+TXN-00195,2026-04-05,2026-04-05,PF-0005,CL-0004,Management Fee,,,,,USD,-9000.57,Quarterly custody fee at 0.12% p.a.
+TXN-00196,2026-04-05,2026-04-05,PF-0006,CL-0005,Management Fee,,,,,SGD,-57484.51,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00197,2026-04-05,2026-04-05,PF-0007,CL-0006,Management Fee,,,,,USD,-34378.04,Quarterly advisory fee at 0.55% p.a.
+TXN-00198,2026-04-05,2026-04-05,PF-0008,CL-0007,Management Fee,,,,,USD,-89476.42,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00199,2026-04-05,2026-04-05,PF-0009,CL-0008,Management Fee,,,,,USD,-83437.64,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00200,2026-04-05,2026-04-05,PF-0010,CL-0008,Management Fee,,,,,USD,-48969.21,Quarterly advisory fee at 0.55% p.a.
+TXN-00201,2026-04-05,2026-04-05,PF-0011,CL-0009,Management Fee,,,,,USD,-36129.23,Quarterly advisory fee at 0.55% p.a.
+TXN-00202,2026-04-05,2026-04-05,PF-0012,CL-0010,Management Fee,,,,,EUR,-22192.53,Quarterly advisory fee at 0.55% p.a.
+TXN-00203,2026-04-05,2026-04-05,PF-0013,CL-0011,Management Fee,,,,,USD,-42002.3,Quarterly advisory fee at 0.55% p.a.
+TXN-00204,2026-04-05,2026-04-05,PF-0014,CL-0012,Management Fee,,,,,HKD,-380763.93,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00205,2026-04-05,2026-04-05,PF-0015,CL-0013,Management Fee,,,,,USD,-35058.79,Quarterly advisory fee at 0.55% p.a.
+TXN-00206,2026-04-05,2026-04-05,PF-0016,CL-0014,Management Fee,,,,,SGD,-27924.3,Quarterly advisory fee at 0.55% p.a.
+TXN-00207,2026-04-05,2026-04-05,PF-0017,CL-0015,Management Fee,,,,,USD,-23868.22,Quarterly advisory fee at 0.55% p.a.
+TXN-00208,2026-04-05,2026-04-05,PF-0018,CL-0016,Management Fee,,,,,CHF,-47440.83,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00209,2026-04-05,2026-04-05,PF-0019,CL-0017,Management Fee,,,,,USD,-19345.79,Quarterly advisory fee at 0.55% p.a.
+TXN-00210,2026-04-05,2026-04-05,PF-0020,CL-0018,Management Fee,,,,,SGD,-15532.04,Quarterly advisory fee at 0.55% p.a.
+TXN-00211,2026-04-05,2026-04-05,PF-0021,CL-0019,Management Fee,,,,,SGD,-30422.16,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00212,2026-04-05,2026-04-05,PF-0022,CL-0020,Management Fee,,,,,USD,-14574.38,Quarterly advisory fee at 0.55% p.a.
+TXN-00213,2026-04-30,2026-04-30,PF-0001,CL-0001,Withdrawal,,,,,JPY,-15000000,Quarterly living expense transfer to Singapore account.
+TXN-00214,2026-05-06,2026-05-08,PF-0007,CL-0006,Buy,INS-ST-005,Qinghe Battery Technology Co Ltd,254800.0,36.74,HKD,-9361352.0,Client-directed purchase of Qinghe Battery Technology shares after first-quarter results.
+TXN-00215,2026-05-15,2026-05-15,PF-0001,CL-0001,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,8598935.0,Scheduled coupon received.
+TXN-00216,2026-05-15,2026-05-15,PF-0001,CL-0001,Coupon,INS-FI-003,Japan Government Bond 1.4% due 2044,,,JPY,838828571.0,Scheduled coupon received.
+TXN-00217,2026-05-15,2026-05-15,PF-0001,CL-0001,Coupon,INS-FI-004,Japan Government Bond 0.6% due 2033,,,JPY,111766194.0,Scheduled coupon received.
+TXN-00218,2026-05-15,2026-05-15,PF-0001,CL-0001,Coupon,INS-FI-017,Straits Commercial Bank 5.0% Perpetual,,,USD,5700200.0,Scheduled coupon received.
+TXN-00219,2026-05-15,2026-05-15,PF-0001,CL-0001,Dividend,INS-ST-006,Kitaura Precision Industries KK,,,JPY,3772397.77,Scheduled dividend received.
+TXN-00220,2026-05-15,2026-05-15,PF-0002,CL-0002,Coupon,INS-FI-018,Harbourline Property 6.25% Perpetual,,,USD,11768281.25,Scheduled coupon received.
+TXN-00221,2026-05-15,2026-05-15,PF-0002,CL-0002,Dividend,INS-ST-001,Harbourline Property Holdings Ltd,,,HKD,1571916.6,Scheduled dividend received.
+TXN-00222,2026-05-15,2026-05-15,PF-0002,CL-0002,Dividend,INS-ST-002,Straits Commercial Bank Ltd,,,SGD,74972.82,Scheduled dividend received.
+TXN-00223,2026-05-15,2026-05-15,PF-0003,CL-0003,Coupon,INS-FI-006,German Bund 2.5% due 2035,,,EUR,3219450.0,Scheduled coupon received.
+TXN-00224,2026-05-15,2026-05-15,PF-0003,CL-0003,Dividend,INS-ST-003,Lindenhof Antriebstechnik AG,,,EUR,47894.64,Scheduled dividend received.
+TXN-00225,2026-05-15,2026-05-15,PF-0006,CL-0005,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,4820745.0,Scheduled coupon received.
+TXN-00226,2026-05-15,2026-05-15,PF-0006,CL-0005,Dividend,INS-ST-009,Rimba Lestari Plantations Bhd,,,MYR,53323.1,Scheduled dividend received.
+TXN-00227,2026-05-15,2026-05-15,PF-0007,CL-0006,Dividend,INS-ST-005,Qinghe Battery Technology Co Ltd,,,HKD,233997.06,Scheduled dividend received.
+TXN-00228,2026-05-15,2026-05-15,PF-0008,CL-0007,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,13041507.5,Scheduled coupon received.
+TXN-00229,2026-05-15,2026-05-15,PF-0008,CL-0007,Coupon,INS-FI-007,US Treasury Inflation-Protected 1.75% due 2034,,,USD,2739476.25,Scheduled coupon received.
+TXN-00230,2026-05-15,2026-05-15,PF-0009,CL-0008,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,8660543.75,Scheduled coupon received.
+TXN-00231,2026-05-15,2026-05-15,PF-0011,CL-0009,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,9968205.0,Scheduled coupon received.
+TXN-00232,2026-05-15,2026-05-15,PF-0011,CL-0009,Dividend,INS-ST-007,Sahraa Logistics PJSC,,,AED,108474.34,Scheduled dividend received.
+TXN-00233,2026-05-15,2026-05-15,PF-0012,CL-0010,Coupon,INS-FI-006,German Bund 2.5% due 2035,,,EUR,1905725.0,Scheduled coupon received.
+TXN-00234,2026-05-15,2026-05-15,PF-0013,CL-0011,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,4233106.25,Scheduled coupon received.
+TXN-00235,2026-05-15,2026-05-15,PF-0013,CL-0011,Dividend,INS-ST-004,Veltrion Semiconductor Inc,,,USD,24064.5,Scheduled dividend received.
+TXN-00236,2026-05-15,2026-05-15,PF-0014,CL-0012,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,7540052.5,Scheduled coupon received.
+TXN-00237,2026-05-15,2026-05-15,PF-0014,CL-0012,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,3560865.0,Scheduled coupon received.
+TXN-00238,2026-05-15,2026-05-15,PF-0014,CL-0012,Coupon,INS-FI-017,Straits Commercial Bank 5.0% Perpetual,,,USD,3060175.0,Scheduled coupon received.
+TXN-00239,2026-05-15,2026-05-15,PF-0014,CL-0012,Coupon,INS-FI-018,Harbourline Property 6.25% Perpetual,,,USD,8394312.5,Scheduled coupon received.
+TXN-00240,2026-05-15,2026-05-15,PF-0015,CL-0013,Coupon,INS-FI-002,US Treasury 3.875% due 2049,,,USD,6551908.12,Scheduled coupon received.
+TXN-00241,2026-05-15,2026-05-15,PF-0015,CL-0013,Coupon,INS-FI-007,US Treasury Inflation-Protected 1.75% due 2034,,,USD,1389710.0,Scheduled coupon received.
+TXN-00242,2026-05-15,2026-05-15,PF-0015,CL-0013,Coupon,INS-FI-016,Asia Infrastructure Finance 5.1% due 2046,,,USD,7580308.5,Scheduled coupon received.
+TXN-00243,2026-05-15,2026-05-15,PF-0016,CL-0014,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,3055410.0,Scheduled coupon received.
+TXN-00244,2026-05-15,2026-05-15,PF-0017,CL-0015,Coupon,INS-FI-001,US Treasury 4.25% due 2030,,,USD,3865566.25,Scheduled coupon received.
+TXN-00245,2026-05-15,2026-05-15,PF-0018,CL-0016,Coupon,INS-FI-006,German Bund 2.5% due 2035,,,EUR,4407900.0,Scheduled coupon received.
+TXN-00246,2026-05-15,2026-05-15,PF-0021,CL-0019,Coupon,INS-FI-005,Singapore Government Securities 3.0% due 2032,,,SGD,3010140.0,Scheduled coupon received.
+TXN-00247,2026-05-15,2026-05-15,PF-0023,CL-0020,Dividend,INS-ST-010,Corlane Medical Systems Inc,,,USD,10598.94,Scheduled dividend received.
+TXN-00248,2026-05-18,2026-05-18,PF-0010,CL-0008,Capital Call,,,,,USD,-1500000,Infrastructure Debt Fund III capital call.
+TXN-00249,2026-06-15,2026-06-15,PF-0001,CL-0001,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,19627.71,Scheduled dividend received.
+TXN-00250,2026-06-15,2026-06-15,PF-0001,CL-0001,Dividend,INS-EQ-005,Japan Equity Fund,,,JPY,6041875.2,Scheduled dividend received.
+TXN-00251,2026-06-15,2026-06-15,PF-0002,CL-0002,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,33827.76,Scheduled distribution received.
+TXN-00252,2026-06-15,2026-06-15,PF-0002,CL-0002,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,27176.83,Scheduled dividend received.
+TXN-00253,2026-06-15,2026-06-15,PF-0002,CL-0002,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,9268.05,Scheduled dividend received.
+TXN-00254,2026-06-15,2026-06-15,PF-0002,CL-0002,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,47350.84,Scheduled dividend received.
+TXN-00255,2026-06-15,2026-06-15,PF-0002,CL-0002,Dividend,INS-EQ-008,Global Semiconductor Equity Fund,,,USD,2186.4,Scheduled dividend received.
+TXN-00256,2026-06-15,2026-06-15,PF-0003,CL-0003,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,22647.36,Scheduled dividend received.
+TXN-00257,2026-06-15,2026-06-15,PF-0003,CL-0003,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,10652.27,Scheduled dividend received.
+TXN-00258,2026-06-15,2026-06-15,PF-0003,CL-0003,Dividend,INS-EQ-005,Japan Equity Fund,,,JPY,1328562.88,Scheduled dividend received.
+TXN-00259,2026-06-15,2026-06-15,PF-0003,CL-0003,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,49061.8,Scheduled dividend received.
+TXN-00260,2026-06-15,2026-06-15,PF-0004,CL-0004,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,46427.09,Scheduled dividend received.
+TXN-00261,2026-06-15,2026-06-15,PF-0004,CL-0004,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,27540.02,Scheduled dividend received.
+TXN-00262,2026-06-15,2026-06-15,PF-0004,CL-0004,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,28389.55,Scheduled dividend received.
+TXN-00263,2026-06-15,2026-06-15,PF-0004,CL-0004,Dividend,INS-EQ-013,Global Healthcare Equity Fund,,,USD,9168.91,Scheduled dividend received.
+TXN-00264,2026-06-15,2026-06-15,PF-0005,CL-0004,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,5922.51,Scheduled dividend received.
+TXN-00265,2026-06-15,2026-06-15,PF-0005,CL-0004,Dividend,INS-EQ-008,Global Semiconductor Equity Fund,,,USD,8177.14,Scheduled dividend received.
+TXN-00266,2026-06-15,2026-06-15,PF-0005,CL-0004,Valuation Update,INS-AL-007,Unlisted Holding - Lumora Analytics Pte Ltd,,41.2,USD,0.0,Quarterly review of the Lumora holding. No new priced round; carrying value left at the Jun-2025 Series C price.
+TXN-00267,2026-06-15,2026-06-15,PF-0006,CL-0005,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,33216.13,Scheduled dividend received.
+TXN-00268,2026-06-15,2026-06-15,PF-0006,CL-0005,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,19589.84,Scheduled dividend received.
+TXN-00269,2026-06-15,2026-06-15,PF-0006,CL-0005,Dividend,INS-EQ-009,Global Renewable Infrastructure Fund,,,USD,25363.86,Scheduled dividend received.
+TXN-00270,2026-06-15,2026-06-15,PF-0006,CL-0005,Dividend,INS-EQ-010,Global Energy Producers Fund,,,USD,20147.46,Scheduled dividend received.
+TXN-00271,2026-06-15,2026-06-15,PF-0006,CL-0005,Dividend,INS-EQ-011,Global Defence Equity Fund,,,USD,4419.8,Scheduled dividend received.
+TXN-00272,2026-06-15,2026-06-15,PF-0006,CL-0005,Dividend,INS-EQ-013,Global Healthcare Equity Fund,,,USD,6149.88,Scheduled dividend received.
+TXN-00273,2026-06-15,2026-06-15,PF-0007,CL-0006,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,33027.4,Scheduled dividend received.
+TXN-00274,2026-06-15,2026-06-15,PF-0007,CL-0006,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,34295.12,Scheduled dividend received.
+TXN-00275,2026-06-15,2026-06-15,PF-0007,CL-0006,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,7233.6,Scheduled dividend received.
+TXN-00276,2026-06-15,2026-06-15,PF-0007,CL-0006,Dividend,INS-EQ-007,China A-Share Growth Fund,,,CNH,111004.9,Scheduled dividend received.
+TXN-00277,2026-06-15,2026-06-15,PF-0008,CL-0007,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,61902.78,Scheduled dividend received.
+TXN-00278,2026-06-15,2026-06-15,PF-0008,CL-0007,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,27799.83,Scheduled dividend received.
+TXN-00279,2026-06-15,2026-06-15,PF-0008,CL-0007,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,22523.08,Scheduled dividend received.
+TXN-00280,2026-06-15,2026-06-15,PF-0008,CL-0007,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,38342.41,Scheduled dividend received.
+TXN-00281,2026-06-15,2026-06-15,PF-0009,CL-0008,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,83229.05,Scheduled dividend received.
+TXN-00282,2026-06-15,2026-06-15,PF-0009,CL-0008,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,20784.92,Scheduled dividend received.
+TXN-00283,2026-06-15,2026-06-15,PF-0009,CL-0008,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,41903.4,Scheduled dividend received.
+TXN-00284,2026-06-15,2026-06-15,PF-0010,CL-0008,Distribution,INS-AL-004,Serai Private Credit Fund II,,,USD,171399.13,Scheduled distribution received.
+TXN-00285,2026-06-15,2026-06-15,PF-0010,CL-0008,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,54087.98,Scheduled distribution received.
+TXN-00286,2026-06-15,2026-06-15,PF-0010,CL-0008,Distribution,INS-AL-006,Infrastructure Debt Fund III,,,USD,63333.99,Scheduled distribution received.
+TXN-00287,2026-06-15,2026-06-15,PF-0011,CL-0009,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,43063.78,Scheduled distribution received.
+TXN-00288,2026-06-15,2026-06-15,PF-0011,CL-0009,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,51145.29,Scheduled dividend received.
+TXN-00289,2026-06-15,2026-06-15,PF-0011,CL-0009,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,17147.56,Scheduled dividend received.
+TXN-00290,2026-06-15,2026-06-15,PF-0011,CL-0009,Dividend,INS-EQ-007,China A-Share Growth Fund,,,CNH,100345.54,Scheduled dividend received.
+TXN-00291,2026-06-15,2026-06-15,PF-0012,CL-0010,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,35858.32,Scheduled dividend received.
+TXN-00292,2026-06-15,2026-06-15,PF-0012,CL-0010,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,14549.44,Scheduled dividend received.
+TXN-00293,2026-06-15,2026-06-15,PF-0012,CL-0010,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11732.95,Scheduled dividend received.
+TXN-00294,2026-06-15,2026-06-15,PF-0012,CL-0010,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,38754.7,Scheduled dividend received.
+TXN-00295,2026-06-15,2026-06-15,PF-0013,CL-0011,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,46993.27,Scheduled dividend received.
+TXN-00296,2026-06-15,2026-06-15,PF-0013,CL-0011,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,21044.73,Scheduled dividend received.
+TXN-00297,2026-06-15,2026-06-15,PF-0013,CL-0011,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,23884.94,Scheduled dividend received.
+TXN-00298,2026-06-15,2026-06-15,PF-0013,CL-0011,Dividend,INS-EQ-008,Global Semiconductor Equity Fund,,,USD,5050.58,Scheduled dividend received.
+TXN-00299,2026-06-15,2026-06-15,PF-0014,CL-0012,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,33090.87,Scheduled distribution received.
+TXN-00300,2026-06-15,2026-06-15,PF-0014,CL-0012,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,22081.18,Scheduled dividend received.
+TXN-00301,2026-06-15,2026-06-15,PF-0014,CL-0012,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,26608.66,Scheduled dividend received.
+TXN-00302,2026-06-15,2026-06-15,PF-0015,CL-0013,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,28497.93,Scheduled dividend received.
+TXN-00303,2026-06-15,2026-06-15,PF-0015,CL-0013,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,26713.42,Scheduled dividend received.
+TXN-00304,2026-06-15,2026-06-15,PF-0016,CL-0014,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,12981.61,Scheduled distribution received.
+TXN-00305,2026-06-15,2026-06-15,PF-0016,CL-0014,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,22715.75,Scheduled distribution received.
+TXN-00306,2026-06-15,2026-06-15,PF-0016,CL-0014,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,27743.02,Scheduled dividend received.
+TXN-00307,2026-06-15,2026-06-15,PF-0016,CL-0014,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,19904.12,Scheduled dividend received.
+TXN-00308,2026-06-15,2026-06-15,PF-0017,CL-0015,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,28497.93,Scheduled dividend received.
+TXN-00309,2026-06-15,2026-06-15,PF-0017,CL-0015,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,5244.36,Scheduled dividend received.
+TXN-00310,2026-06-15,2026-06-15,PF-0017,CL-0015,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,18751.77,Scheduled dividend received.
+TXN-00311,2026-06-15,2026-06-15,PF-0017,CL-0015,Dividend,INS-EQ-007,China A-Share Growth Fund,,,CNH,97160.45,Scheduled dividend received.
+TXN-00312,2026-06-15,2026-06-15,PF-0018,CL-0016,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,48880.55,Scheduled dividend received.
+TXN-00313,2026-06-15,2026-06-15,PF-0018,CL-0016,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,14289.63,Scheduled dividend received.
+TXN-00314,2026-06-15,2026-06-15,PF-0018,CL-0016,Dividend,INS-EQ-006,Europe Equity Income Fund,,,EUR,49371.01,Scheduled dividend received.
+TXN-00315,2026-06-15,2026-06-15,PF-0019,CL-0017,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,41897.62,Scheduled dividend received.
+TXN-00316,2026-06-15,2026-06-15,PF-0019,CL-0017,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,16887.75,Scheduled dividend received.
+TXN-00317,2026-06-15,2026-06-15,PF-0019,CL-0017,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,18332.74,Scheduled dividend received.
+TXN-00318,2026-06-15,2026-06-15,PF-0020,CL-0018,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,27365.56,Scheduled dividend received.
+TXN-00319,2026-06-15,2026-06-15,PF-0020,CL-0018,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,10392.46,Scheduled dividend received.
+TXN-00320,2026-06-15,2026-06-15,PF-0020,CL-0018,Dividend,INS-EQ-003,US Technology Leaders Fund,,,USD,1763.19,Scheduled dividend received.
+TXN-00321,2026-06-15,2026-06-15,PF-0020,CL-0018,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11313.92,Scheduled dividend received.
+TXN-00322,2026-06-15,2026-06-15,PF-0021,CL-0019,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,24912.1,Scheduled dividend received.
+TXN-00323,2026-06-15,2026-06-15,PF-0021,CL-0019,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11628.19,Scheduled dividend received.
+TXN-00324,2026-06-15,2026-06-15,PF-0021,CL-0019,Dividend,INS-EQ-013,Global Healthcare Equity Fund,,,USD,3950.83,Scheduled dividend received.
+TXN-00325,2026-06-15,2026-06-15,PF-0022,CL-0020,Dividend,INS-EQ-001,World Developed Equity Index Fund,,,USD,29819.02,Scheduled dividend received.
+TXN-00326,2026-06-15,2026-06-15,PF-0022,CL-0020,Dividend,INS-EQ-002,US Large Cap Equity Fund,,,USD,14029.82,Scheduled dividend received.
+TXN-00327,2026-06-15,2026-06-15,PF-0022,CL-0020,Dividend,INS-EQ-004,Asia ex-Japan Equity Fund,,,USD,11418.68,Scheduled dividend received.
+TXN-00328,2026-06-28,2026-06-28,PF-0001,CL-0001,Interest,INS-CA-005,JPY Call Deposit,,,JPY,256224.0,Scheduled interest received.
+TXN-00329,2026-06-28,2026-06-28,PF-0002,CL-0002,Interest,INS-CA-003,HKD Call Deposit,,,HKD,72256.0,Scheduled interest received.
+TXN-00330,2026-06-28,2026-06-28,PF-0003,CL-0003,Interest,INS-CA-004,EUR Call Deposit,,,EUR,9387.0,Scheduled interest received.
+TXN-00331,2026-06-28,2026-06-28,PF-0004,CL-0004,Interest,INS-CA-001,USD Call Deposit,,,USD,11583.0,Scheduled interest received.
+TXN-00332,2026-06-28,2026-06-28,PF-0006,CL-0005,Interest,INS-CA-002,SGD Call Deposit,,,SGD,7771.0,Scheduled interest received.
+TXN-00333,2026-06-28,2026-06-28,PF-0007,CL-0006,Interest,INS-CA-001,USD Call Deposit,,,USD,14722.5,Scheduled interest received.
+TXN-00334,2026-06-28,2026-06-28,PF-0008,CL-0007,Interest,INS-CA-001,USD Call Deposit,,,USD,25798.5,Scheduled interest received.
+TXN-00335,2026-06-28,2026-06-28,PF-0009,CL-0008,Interest,INS-CA-001,USD Call Deposit,,,USD,15990.0,Scheduled interest received.
+TXN-00336,2026-06-28,2026-06-28,PF-0011,CL-0009,Interest,INS-CA-001,USD Call Deposit,,,USD,13308.75,Scheduled interest received.
+TXN-00337,2026-06-28,2026-06-28,PF-0012,CL-0010,Interest,INS-CA-004,EUR Call Deposit,,,EUR,2965.5,Scheduled interest received.
+TXN-00338,2026-06-28,2026-06-28,PF-0013,CL-0011,Interest,INS-CA-001,USD Call Deposit,,,USD,13026.0,Scheduled interest received.
+TXN-00339,2026-06-28,2026-06-28,PF-0014,CL-0012,Interest,INS-CA-003,HKD Call Deposit,,,HKD,147264.0,Scheduled interest received.
+TXN-00340,2026-06-28,2026-06-28,PF-0016,CL-0014,Interest,INS-CA-002,SGD Call Deposit,,,SGD,5909.0,Scheduled interest received.
+TXN-00341,2026-06-28,2026-06-28,PF-0017,CL-0015,Interest,INS-CA-001,USD Call Deposit,,,USD,14274.0,Scheduled interest received.
+TXN-00342,2026-06-28,2026-06-28,PF-0018,CL-0016,Interest,INS-CA-006,CHF Call Deposit,,,CHF,681.5,Scheduled interest received.
+TXN-00343,2026-06-28,2026-06-28,PF-0019,CL-0017,Interest,INS-CA-001,USD Call Deposit,,,USD,11622.0,Scheduled interest received.
+TXN-00344,2026-06-28,2026-06-28,PF-0021,CL-0019,Interest,INS-CA-002,SGD Call Deposit,,,SGD,4849.75,Scheduled interest received.
+TXN-00345,2026-06-28,2026-06-28,PF-0022,CL-0020,Interest,INS-CA-001,USD Call Deposit,,,USD,9828.0,Scheduled interest received.
+TXN-00346,2026-06-28,2026-06-28,PF-0023,CL-0020,Interest,INS-CA-001,USD Call Deposit,,,USD,2028.0,Scheduled interest received.
+TXN-00347,2026-07-01,2026-07-01,PF-0002,CL-0002,Interest Charge,,,,,HKD,-1583887.5,Quarterly interest on CF-0001 at 5.85% p.a.
+TXN-00348,2026-07-01,2026-07-01,PF-0005,CL-0004,Interest Charge,,,,,USD,-105600.0,Quarterly interest on CF-0002 at 6.40% p.a.
+TXN-00349,2026-07-05,2026-07-05,PF-0001,CL-0001,Management Fee,,,,,JPY,-9231614.41,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00350,2026-07-05,2026-07-05,PF-0002,CL-0002,Management Fee,,,,,HKD,-392336.96,Quarterly advisory fee at 0.55% p.a.
+TXN-00351,2026-07-05,2026-07-05,PF-0003,CL-0003,Management Fee,,,,,EUR,-43787.31,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00352,2026-07-05,2026-07-05,PF-0004,CL-0004,Management Fee,,,,,USD,-26525.57,Quarterly advisory fee at 0.55% p.a.
+TXN-00353,2026-07-05,2026-07-05,PF-0005,CL-0004,Management Fee,,,,,USD,-9167.67,Quarterly custody fee at 0.12% p.a.
+TXN-00354,2026-07-05,2026-07-05,PF-0006,CL-0005,Management Fee,,,,,SGD,-57834.14,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00355,2026-07-05,2026-07-05,PF-0007,CL-0006,Management Fee,,,,,USD,-40189.74,Quarterly advisory fee at 0.55% p.a.
+TXN-00356,2026-07-05,2026-07-05,PF-0008,CL-0007,Management Fee,,,,,USD,-91653.34,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00357,2026-07-05,2026-07-05,PF-0009,CL-0008,Management Fee,,,,,USD,-85468.57,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00358,2026-07-05,2026-07-05,PF-0010,CL-0008,Management Fee,,,,,USD,-49009.93,Quarterly advisory fee at 0.55% p.a.
+TXN-00359,2026-07-05,2026-07-05,PF-0011,CL-0009,Management Fee,,,,,USD,-36577.97,Quarterly advisory fee at 0.55% p.a.
+TXN-00360,2026-07-05,2026-07-05,PF-0012,CL-0010,Management Fee,,,,,EUR,-22566.37,Quarterly advisory fee at 0.55% p.a.
+TXN-00361,2026-07-05,2026-07-05,PF-0013,CL-0011,Management Fee,,,,,USD,-44189.74,Quarterly advisory fee at 0.55% p.a.
+TXN-00362,2026-07-05,2026-07-05,PF-0014,CL-0012,Management Fee,,,,,HKD,-382005.28,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00363,2026-07-05,2026-07-05,PF-0015,CL-0013,Management Fee,,,,,USD,-35173.17,Quarterly advisory fee at 0.55% p.a.
+TXN-00364,2026-07-05,2026-07-05,PF-0016,CL-0014,Management Fee,,,,,SGD,-28327.48,Quarterly advisory fee at 0.55% p.a.
+TXN-00365,2026-07-05,2026-07-05,PF-0017,CL-0015,Management Fee,,,,,USD,-24504.79,Quarterly advisory fee at 0.55% p.a.
+TXN-00366,2026-07-05,2026-07-05,PF-0018,CL-0016,Management Fee,,,,,CHF,-48270.59,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00367,2026-07-05,2026-07-05,PF-0019,CL-0017,Management Fee,,,,,USD,-20048.24,Quarterly advisory fee at 0.55% p.a.
+TXN-00368,2026-07-05,2026-07-05,PF-0020,CL-0018,Management Fee,,,,,SGD,-16046.88,Quarterly advisory fee at 0.55% p.a.
+TXN-00369,2026-07-05,2026-07-05,PF-0021,CL-0019,Management Fee,,,,,SGD,-30721.39,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00370,2026-07-05,2026-07-05,PF-0022,CL-0020,Management Fee,,,,,USD,-15062.21,Quarterly advisory fee at 0.55% p.a.
+TXN-00371,2026-07-05,2026-07-05,PF-0023,CL-0020,Management Fee,,,,,USD,-769.0,Quarterly custody fee at 0.12% p.a.
+TXN-00372,2026-07-31,2026-07-31,PF-0001,CL-0001,Withdrawal,,,,,JPY,-15000000,Quarterly living expense transfer to Singapore account.
+TXN-00373,2026-08-20,2026-08-20,PF-0014,CL-0012,Withdrawal,,,,,HKD,-1250000,"Annual school fees, two grandchildren."
+TXN-00374,2026-08-24,2026-08-24,PF-0010,CL-0008,Capital Call,,,,,USD,-2400000,Northfield Private Equity Partners IX capital call. USD 10.5m remains uncalled.
+TXN-00375,2026-09-01,2026-09-01,PF-0016,CL-0014,Withdrawal,,,,,SGD,-317000,"University fees, two children, first year."
+TXN-00376,2026-09-15,2026-09-15,PF-0002,CL-0002,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,34585.94,Scheduled distribution received.
+TXN-00377,2026-09-15,2026-09-15,PF-0005,CL-0004,Valuation Update,INS-AL-007,Unlisted Holding - Lumora Analytics Pte Ltd,,41.2,USD,0.0,Quarterly review of the Lumora holding. No new priced round; carrying value left at the Jun-2025 Series C price.
+TXN-00378,2026-09-15,2026-09-15,PF-0010,CL-0008,Distribution,INS-AL-004,Serai Private Credit Fund II,,,USD,172800.21,Scheduled distribution received.
+TXN-00379,2026-09-15,2026-09-15,PF-0010,CL-0008,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,53999.79,Scheduled distribution received.
+TXN-00380,2026-09-15,2026-09-15,PF-0010,CL-0008,Distribution,INS-AL-006,Infrastructure Debt Fund III,,,USD,64350.05,Scheduled distribution received.
+TXN-00381,2026-09-15,2026-09-15,PF-0011,CL-0009,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,44028.97,Scheduled distribution received.
+TXN-00382,2026-09-15,2026-09-15,PF-0014,CL-0012,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,33832.53,Scheduled distribution received.
+TXN-00383,2026-09-15,2026-09-15,PF-0016,CL-0014,Distribution,INS-AL-005,Pan-Asia Logistics Real Estate Fund,,,USD,12960.45,Scheduled distribution received.
+TXN-00384,2026-09-15,2026-09-15,PF-0016,CL-0014,Distribution,INS-EQ-012,Asia Pacific REIT Fund,,,SGD,23224.88,Scheduled distribution received.
+TXN-00385,2026-09-28,2026-09-28,PF-0001,CL-0001,Interest,INS-CA-005,JPY Call Deposit,,,JPY,256224.0,Scheduled interest received.
+TXN-00386,2026-09-28,2026-09-28,PF-0002,CL-0002,Interest,INS-CA-003,HKD Call Deposit,,,HKD,72256.0,Scheduled interest received.
+TXN-00387,2026-09-28,2026-09-28,PF-0003,CL-0003,Interest,INS-CA-004,EUR Call Deposit,,,EUR,9387.0,Scheduled interest received.
+TXN-00388,2026-09-28,2026-09-28,PF-0004,CL-0004,Interest,INS-CA-001,USD Call Deposit,,,USD,11583.0,Scheduled interest received.
+TXN-00389,2026-09-28,2026-09-28,PF-0006,CL-0005,Interest,INS-CA-002,SGD Call Deposit,,,SGD,7771.0,Scheduled interest received.
+TXN-00390,2026-09-28,2026-09-28,PF-0007,CL-0006,Interest,INS-CA-001,USD Call Deposit,,,USD,14722.5,Scheduled interest received.
+TXN-00391,2026-09-28,2026-09-28,PF-0008,CL-0007,Interest,INS-CA-001,USD Call Deposit,,,USD,25798.5,Scheduled interest received.
+TXN-00392,2026-09-28,2026-09-28,PF-0009,CL-0008,Interest,INS-CA-001,USD Call Deposit,,,USD,15990.0,Scheduled interest received.
+TXN-00393,2026-09-28,2026-09-28,PF-0011,CL-0009,Interest,INS-CA-001,USD Call Deposit,,,USD,13308.75,Scheduled interest received.
+TXN-00394,2026-09-28,2026-09-28,PF-0012,CL-0010,Interest,INS-CA-004,EUR Call Deposit,,,EUR,2965.5,Scheduled interest received.
+TXN-00395,2026-09-28,2026-09-28,PF-0013,CL-0011,Interest,INS-CA-001,USD Call Deposit,,,USD,13026.0,Scheduled interest received.
+TXN-00396,2026-09-28,2026-09-28,PF-0014,CL-0012,Interest,INS-CA-003,HKD Call Deposit,,,HKD,147264.0,Scheduled interest received.
+TXN-00397,2026-09-28,2026-09-28,PF-0016,CL-0014,Interest,INS-CA-002,SGD Call Deposit,,,SGD,5909.0,Scheduled interest received.
+TXN-00398,2026-09-28,2026-09-28,PF-0017,CL-0015,Interest,INS-CA-001,USD Call Deposit,,,USD,14274.0,Scheduled interest received.
+TXN-00399,2026-09-28,2026-09-28,PF-0018,CL-0016,Interest,INS-CA-006,CHF Call Deposit,,,CHF,681.5,Scheduled interest received.
+TXN-00400,2026-09-28,2026-09-28,PF-0019,CL-0017,Interest,INS-CA-001,USD Call Deposit,,,USD,11622.0,Scheduled interest received.
+TXN-00401,2026-09-28,2026-09-28,PF-0021,CL-0019,Interest,INS-CA-002,SGD Call Deposit,,,SGD,4849.75,Scheduled interest received.
+TXN-00402,2026-09-28,2026-09-28,PF-0022,CL-0020,Interest,INS-CA-001,USD Call Deposit,,,USD,9828.0,Scheduled interest received.
+TXN-00403,2026-09-28,2026-09-28,PF-0023,CL-0020,Interest,INS-CA-001,USD Call Deposit,,,USD,2028.0,Scheduled interest received.
+TXN-00404,2026-10-01,2026-10-01,PF-0002,CL-0002,Interest Charge,,,,,HKD,-1583887.5,Quarterly interest on CF-0001 at 5.85% p.a.
+TXN-00405,2026-10-01,2026-10-01,PF-0005,CL-0004,Interest Charge,,,,,USD,-105600.0,Quarterly interest on CF-0002 at 6.40% p.a.
+TXN-00406,2026-10-05,2026-10-05,PF-0001,CL-0001,Management Fee,,,,,JPY,-9076185.62,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00407,2026-10-05,2026-10-05,PF-0002,CL-0002,Management Fee,,,,,HKD,-413998.33,Quarterly advisory fee at 0.55% p.a.
+TXN-00408,2026-10-05,2026-10-05,PF-0003,CL-0003,Management Fee,,,,,EUR,-44309.81,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00409,2026-10-05,2026-10-05,PF-0004,CL-0004,Management Fee,,,,,USD,-27173.16,Quarterly advisory fee at 0.55% p.a.
+TXN-00410,2026-10-05,2026-10-05,PF-0005,CL-0004,Management Fee,,,,,USD,-9269.21,Quarterly custody fee at 0.12% p.a.
+TXN-00411,2026-10-05,2026-10-05,PF-0006,CL-0005,Management Fee,,,,,SGD,-57803.82,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00412,2026-10-05,2026-10-05,PF-0007,CL-0006,Management Fee,,,,,USD,-41565.95,Quarterly advisory fee at 0.55% p.a.
+TXN-00413,2026-10-05,2026-10-05,PF-0008,CL-0007,Management Fee,,,,,USD,-93513.49,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00414,2026-10-05,2026-10-05,PF-0009,CL-0008,Management Fee,,,,,USD,-87201.21,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00415,2026-10-05,2026-10-05,PF-0010,CL-0008,Management Fee,,,,,USD,-49465.41,Quarterly advisory fee at 0.55% p.a.
+TXN-00416,2026-10-05,2026-10-05,PF-0011,CL-0009,Management Fee,,,,,USD,-37569.92,Quarterly advisory fee at 0.55% p.a.
+TXN-00417,2026-10-05,2026-10-05,PF-0012,CL-0010,Management Fee,,,,,EUR,-22661.97,Quarterly advisory fee at 0.55% p.a.
+TXN-00418,2026-10-05,2026-10-05,PF-0013,CL-0011,Management Fee,,,,,USD,-45948.79,Quarterly advisory fee at 0.55% p.a.
+TXN-00419,2026-10-05,2026-10-05,PF-0014,CL-0012,Management Fee,,,,,HKD,-391107.56,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00420,2026-10-05,2026-10-05,PF-0015,CL-0013,Management Fee,,,,,USD,-35874.11,Quarterly advisory fee at 0.55% p.a.
+TXN-00421,2026-10-05,2026-10-05,PF-0016,CL-0014,Management Fee,,,,,SGD,-28485.26,Quarterly advisory fee at 0.55% p.a.
+TXN-00422,2026-10-05,2026-10-05,PF-0017,CL-0015,Management Fee,,,,,USD,-25160.72,Quarterly advisory fee at 0.55% p.a.
+TXN-00423,2026-10-05,2026-10-05,PF-0018,CL-0016,Management Fee,,,,,CHF,-48227.17,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00424,2026-10-05,2026-10-05,PF-0019,CL-0017,Management Fee,,,,,USD,-20485.56,Quarterly advisory fee at 0.55% p.a.
+TXN-00425,2026-10-05,2026-10-05,PF-0020,CL-0018,Management Fee,,,,,SGD,-16200.67,Quarterly advisory fee at 0.55% p.a.
+TXN-00426,2026-10-05,2026-10-05,PF-0021,CL-0019,Management Fee,,,,,SGD,-30971.95,Quarterly discretionary management fee at 0.85% p.a.
+TXN-00427,2026-10-05,2026-10-05,PF-0022,CL-0020,Management Fee,,,,,USD,-15388.96,Quarterly advisory fee at 0.55% p.a.
+TXN-00428,2026-10-05,2026-10-05,PF-0023,CL-0020,Management Fee,,,,,USD,-783.12,Quarterly custody fee at 0.12% p.a.

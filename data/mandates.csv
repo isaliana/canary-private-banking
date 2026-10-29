@@ -1,0 +1,43 @@
+mandate_code,mandate_name,asset_class,min_pct,target_pct,max_pct,max_single_position_pct,mandate_notes
+CONS,Conservative,Cash and Equivalents,5,10,20,10.0,Capital preservation first. No single position above 10%.
+CONS,Conservative,Fixed Income,50,65,80,10.0,Capital preservation first. No single position above 10%.
+CONS,Conservative,Equity,10,20,30,10.0,Capital preservation first. No single position above 10%.
+CONS,Conservative,Alternatives,0,5,10,10.0,Capital preservation first. No single position above 10%.
+CONS,Conservative,Commodities,0,0,5,10.0,Capital preservation first. No single position above 10%.
+CONS,Conservative,Structured Products,0,0,5,10.0,Capital preservation first. No single position above 10%.
+INC,Income,Cash and Equivalents,2,8,15,10.0,Income from a diversified bond core. No single position above 10%.
+INC,Income,Fixed Income,45,60,75,10.0,Income from a diversified bond core. No single position above 10%.
+INC,Income,Equity,15,25,35,10.0,Income from a diversified bond core. No single position above 10%.
+INC,Income,Alternatives,0,5,10,10.0,Income from a diversified bond core. No single position above 10%.
+INC,Income,Commodities,0,2,5,10.0,Income from a diversified bond core. No single position above 10%.
+INC,Income,Structured Products,0,0,10,10.0,Income from a diversified bond core. No single position above 10%.
+BAL,Balanced,Cash and Equivalents,2,5,15,12.0,Balanced growth and income.
+BAL,Balanced,Fixed Income,25,35,50,12.0,Balanced growth and income.
+BAL,Balanced,Equity,30,45,60,12.0,Balanced growth and income.
+BAL,Balanced,Alternatives,0,10,15,12.0,Balanced growth and income.
+BAL,Balanced,Commodities,0,5,10,12.0,Balanced growth and income.
+BAL,Balanced,Structured Products,0,0,10,12.0,Balanced growth and income.
+SUSBAL,Sustainable Balanced,Cash and Equivalents,2,5,15,12.0,"Balanced allocation with binding exclusions: thermal coal mining, oil and gas exploration and production, controversial weapons, and palm oil producers without certified supply chains."
+SUSBAL,Sustainable Balanced,Fixed Income,25,35,50,12.0,"Balanced allocation with binding exclusions: thermal coal mining, oil and gas exploration and production, controversial weapons, and palm oil producers without certified supply chains."
+SUSBAL,Sustainable Balanced,Equity,30,45,60,12.0,"Balanced allocation with binding exclusions: thermal coal mining, oil and gas exploration and production, controversial weapons, and palm oil producers without certified supply chains."
+SUSBAL,Sustainable Balanced,Alternatives,0,10,15,12.0,"Balanced allocation with binding exclusions: thermal coal mining, oil and gas exploration and production, controversial weapons, and palm oil producers without certified supply chains."
+SUSBAL,Sustainable Balanced,Commodities,0,0,5,12.0,"Balanced allocation with binding exclusions: thermal coal mining, oil and gas exploration and production, controversial weapons, and palm oil producers without certified supply chains."
+SUSBAL,Sustainable Balanced,Structured Products,0,0,10,12.0,"Balanced allocation with binding exclusions: thermal coal mining, oil and gas exploration and production, controversial weapons, and palm oil producers without certified supply chains."
+BALG,Balanced Growth,Cash and Equivalents,0,5,10,15.0,Growth tilt with a meaningful bond buffer.
+BALG,Balanced Growth,Fixed Income,15,25,40,15.0,Growth tilt with a meaningful bond buffer.
+BALG,Balanced Growth,Equity,40,55,70,15.0,Growth tilt with a meaningful bond buffer.
+BALG,Balanced Growth,Alternatives,0,10,20,15.0,Growth tilt with a meaningful bond buffer.
+BALG,Balanced Growth,Commodities,0,5,10,15.0,Growth tilt with a meaningful bond buffer.
+BALG,Balanced Growth,Structured Products,0,0,10,15.0,Growth tilt with a meaningful bond buffer.
+GROW,Growth,Cash and Equivalents,0,3,10,15.0,Long-horizon equity growth.
+GROW,Growth,Fixed Income,5,15,30,15.0,Long-horizon equity growth.
+GROW,Growth,Equity,55,70,85,15.0,Long-horizon equity growth.
+GROW,Growth,Alternatives,0,10,20,15.0,Long-horizon equity growth.
+GROW,Growth,Commodities,0,2,10,15.0,Long-horizon equity growth.
+GROW,Growth,Structured Products,0,0,15,15.0,Long-horizon equity growth.
+ALTS,Alternatives Sleeve,Cash and Equivalents,0,5,20,25.0,Private markets and hedge funds. No single fund above 25%.
+ALTS,Alternatives Sleeve,Fixed Income,0,0,30,25.0,Private markets and hedge funds. No single fund above 25%.
+ALTS,Alternatives Sleeve,Equity,0,0,20,25.0,Private markets and hedge funds. No single fund above 25%.
+ALTS,Alternatives Sleeve,Alternatives,60,90,100,25.0,Private markets and hedge funds. No single fund above 25%.
+ALTS,Alternatives Sleeve,Commodities,0,0,10,25.0,Private markets and hedge funds. No single fund above 25%.
+ALTS,Alternatives Sleeve,Structured Products,0,0,10,25.0,Private markets and hedge funds. No single fund above 25%.

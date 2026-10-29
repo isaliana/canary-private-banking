@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Tax is not a reason to sell or to wait",
+  "english": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in the portfolio, which come to about USD 0.8m on paper. Because the family office is taxed in Singapore, where there is no tax on capital gains, selling at a loss would bring no tax benefit, and holding on would not protect one.\n\nSo tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself.\n\nWhat I would suggest is that we look at those positions on their merits when we next review the portfolio, and, as recommended, bring in our alternatives team before the next capital call so the two conversations fit together.\n\nCould we arrange a call this week?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in the portfolio, which come to about USD 0.8m on paper. Because the family office is taxed in Singapore, where there is no tax on capital gains, selling at a loss would bring no tax benefit, and holding on would not protect one.\n\nSo tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself.\n\nWhat I would suggest is that we look at those positions on their merits when we next review the portfolio, and, as recommended, bring in our alternatives team before the next capital call so the two conversations fit together.\n\nCould we arrange a call this week?",
+  "raises": "Asks the family office to review loss-making positions on their merits, since Singapore levies no capital gains tax."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

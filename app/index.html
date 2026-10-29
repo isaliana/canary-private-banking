@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canary — Halden Rowe</title>
+<meta name="description" content="A workbench for a private-bank relationship manager: a deterministic engine finds the problems no single statement shows and ranks clients by consequence; Claude drafts the client's letter in their language, and a check proves it never changed a figure. Every person, bank and number is invented.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://isaliana.github.io/canary-private-banking/">
+<meta property="og:title" content="Canary — finds the problem no statement shows">
+<meta property="og:description" content="A workbench for a private-bank relationship manager: a deterministic engine finds the problems no single statement shows and ranks clients by consequence; Claude drafts the client's letter in their language, and a check proves it never changed a figure. Every person, bank and number is invented.">
+<meta property="og:image" content="https://isaliana.github.io/canary-private-banking/assets/social-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+<link rel="icon" href="../assets/canary.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="mark">
+    <img class="bank-logo" src="../assets/halden-rowe.svg"
+         alt="Halden Rowe Private Bank" width="232" height="32">
+    <span class="mark-rule" aria-hidden="true"></span>
+    <img class="app-mark" src="../assets/canary.svg" alt="" width="20" height="20">
+    <b>Canary</b>
+  </div>
+  <div class="user">
+    <span class="avatar" id="rmInitials" aria-hidden="true"></span>
+    <span class="user-txt">
+      <span class="user-nm" id="rmName">&mdash;</span>
+      <span class="user-role">Relationship Manager</span>
+    </span>
+  </div>
+</header>
+
+<main class="shell" id="view"></main>
+
+<div id="drawer"></div>
+
+<script src="findings.js"></script>
+<script src="triage.js"></script>
+<script src="calendar.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

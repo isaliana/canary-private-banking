@@ -1,0 +1,692 @@
+{
+ "EXC-PF-0006": {
+  "draft": {
+   "subject": "Three holdings outside your sustainable mandate — our error, and what I propose",
+   "english": "Dear [[FIRST_NAME]],\n\nWhen we met in January you asked how the Global Energy Producers Fund came to be in your sustainable portfolio. I owe you a straight answer, and a wider one: it is not the only holding there that should not be. Three holdings in that portfolio are on the exclusion list your mandate is built around — the Global Energy Producers Fund at 4.0%, the Global Defence Equity Fund at 3.0% and Rimba Lestari Plantations at 3.0%, 10.0% of the portfolio between them.\n\nThis is our error, not yours. The mandate is discretionary, so those decisions were the bank's to make, and they were made against the values you asked us to invest by.\n\nWhat I would like to propose is that we sell the two funds. Rimba Lestari is different: I know it came to you from your late father's estate, and I would not want to touch it before hearing from you how you would like it handled within the mandate.\n\nCould we speak this week? I would rather explain this properly on a call than leave it to a letter.",
+   "client_language": "Dear [[FIRST_NAME]],\n\nWhen we met in January you asked how the Global Energy Producers Fund came to be in your sustainable portfolio. I owe you a straight answer, and a wider one: it is not the only holding there that should not be. Three holdings in that portfolio are on the exclusion list your mandate is built around — the Global Energy Producers Fund at 4.0%, the Global Defence Equity Fund at 3.0% and Rimba Lestari Plantations at 3.0%, 10.0% of the portfolio between them.\n\nThis is our error, not yours. The mandate is discretionary, so those decisions were the bank's to make, and they were made against the values you asked us to invest by.\n\nWhat I would like to propose is that we sell the two funds. Rimba Lestari is different: I know it came to you from your late father's estate, and I would not want to touch it before hearing from you how you would like it handled within the mandate.\n\nCould we speak this week? I would rather explain this properly on a call than leave it to a letter.",
+   "raises": "Asks her to agree to selling the two excluded funds, and to say how she wants the inherited Rimba Lestari holding handled within the mandate."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "COL-CF-0001": {
+  "draft": {
+   "subject": "Your Lombard facility: 68.8% against a 70% margin level",
+   "english": "Dear [[FIRST_NAME]],\n\nI would like us to look at your Lombard facility together before anything else happens on it. You have HKD 108.3m drawn against HKD 157.3m of value the bank will lend against your pledged holdings, which puts the loan at 68.8% of that value. The level at which the bank has to ask for money back is 70%.\n\nOver the past year that figure has moved from 56.9% to 57.3%, then to 74.4% and 71.6%, and back to 68.8% today. In other words it went through the 70% level at the end of March and was still above it at the end of June. I want to be sure whether it came back below because something was done, or only because prices recovered.\n\nThat matters because the same thing can happen again without anyone doing anything. I cannot tell you where markets go from here, and I do not want your margin to depend on it. Before we talk about the land deposit or any new drawing, I would like to agree with you how much room you want to keep below that level.\n\nCould I call you this week to go through it?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n在您的 Lombard 信貸額度有任何進一步動作之前，我希望我們先一起檢視一下。目前額度已動用 HKD 108.3m，而銀行就您抵押資產可貸出的價值為 HKD 157.3m，即貸款相當於該價值的 68.8%。銀行必須要求您補回款項的水平是 70%。\n\n過去一年，這個比率由 56.9% 升至 57.3%，再升至 74.4% 及 71.6%，今天回落至 68.8%。換言之，它在三月底已越過 70% 的水平，到六月底仍在其上。我想確認它回落到該水平以下，是因為有人採取了行動，還是純粹因為價格回升。\n\n這一點很重要，因為即使沒有任何人做任何事，同樣的情況也可能再次發生。我無法告訴您市場會如何走，也不希望您的安全空間取決於市場。在討論土地訂金或任何新的提款之前，我希望先與您商定，您希望在該水平之下保留多少空間。\n\n我可否在本週致電與您詳談？",
+   "raises": "Asks him to confirm whether the earlier breaches were cured by any action, and to agree how much room to keep below the margin level before any new drawing."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "FUN-CL-0002": {
+  "draft": {
+   "subject": "Paying the land deposit without triggering a margin call",
+   "english": "Dear [[FIRST_NAME]],\n\nI have been working through how the land deposit you expect to pay in early 2027 would be funded, and there is a problem I want you to hear from me well before the date.\n\nOn paper the portfolio can cover it: about USD 34.0m of your holdings could be sold within a day, against USD 10.3m falling due in the next twelve months. But all of it is pledged against your Lombard facility. Selling HKD 80.0m of it would take away HKD 45.3m of the value the bank lends against, and the loan would go from 68.8% of that value to about 97% — well past the 70% level at which the bank must ask for money back. You would need to repay about HKD 29.9m of the facility before such a sale, not after it.\n\nSo the obvious route, selling some liquid holdings, is the one that causes the margin call. What I would suggest is either reducing the facility first, or funding the deposit from outside the pledged portfolio, and agreeing the order of the steps well ahead of time.\n\nYou also asked in August what happens to the Lombard line if Hong Kong property falls again. I would like to answer both questions together on a call this week, if that suits you.",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n我一直在研究您預計於 2027 年初支付的土地訂金應如何籌措，當中有一個問題，我希望在日期臨近之前，由我親自告訴您。\n\n表面上，組合足以應付：可於一日內出售的持倉約有 USD 34.0m，而未來十二個月到期的款項為 USD 10.3m。但這些持倉全部都已抵押予您的 Lombard 信貸額度。若出售其中 HKD 80.0m，銀行可貸出的價值會減少 HKD 45.3m，貸款相對該價值的比率會由 68.8% 升至約 97%，遠高於銀行必須要求您補回款項的 70% 水平。您需要在出售之前、而不是之後，先償還約 HKD 29.9m 的額度。\n\n因此，最直接的做法——出售部分流動持倉——正正就是觸發補倉的做法。我的建議是先降低信貸額度，或以抵押組合以外的資金支付訂金，並及早商定各個步驟的先後次序。\n\n您在八月亦問過，若香港物業再次下跌，Lombard 額度會受到甚麼影響。如您方便，我希望本週致電，把兩個問題一併向您說明。",
+   "raises": "Asks him to choose between reducing the Lombard facility first or funding the deposit from outside the pledged portfolio, before any sale."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "CON-CL-0004": {
+  "draft": {
+   "subject": "Lumora is 45.7% of your wealth with us",
+   "english": "Dear [[FIRST_NAME]],\n\nThere is one number I would like you to have in front of you that none of your statements shows on its own. Your Lumora Analytics shares are 45.7% of everything you hold with us.\n\nI know that is no accident — Lumora is your company, and until a secondary sale or a listing it is where most of your wealth sits. But it does mean your fortune and your portfolio rest on the same thing, and the portfolio is not yet doing the job of spreading that out.\n\nI am not suggesting any change before the liquidity event you are planning for. I would simply like us to agree what the picture should look like afterwards, so that when the moment comes we are ready to diversify rather than starting the conversation then.\n\nCould we find half an hour on a call this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nThere is one number I would like you to have in front of you that none of your statements shows on its own. Your Lumora Analytics shares are 45.7% of everything you hold with us.\n\nI know that is no accident — Lumora is your company, and until a secondary sale or a listing it is where most of your wealth sits. But it does mean your fortune and your portfolio rest on the same thing, and the portfolio is not yet doing the job of spreading that out.\n\nI am not suggesting any change before the liquidity event you are planning for. I would simply like us to agree what the picture should look like afterwards, so that when the moment comes we are ready to diversify rather than starting the conversation then.\n\nCould we find half an hour on a call this week?",
+   "raises": "Asks the client to agree, ahead of the planned liquidity event, what a diversified portfolio should look like afterwards."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "FIT-CL-0001": {
+  "draft": {
+   "subject": "Bonds maturing after 2036, and waiting for them to recover",
+   "english": "Dear [[FIRST_NAME]],\n\nYou have told me you would rather wait for your bonds to recover than sell them at a loss, and I understand why selling can feel like admitting a mistake. I would like to put one thing alongside that view before we decide anything.\n\nThe plan we agreed is to fund your living costs until 2036. Today 41.0% of your wealth is in bonds that do not repay until after that date, and together they are about USD 2.8m below what was paid for them. The largest is the Japan Government Bond 1.4% due 2044. The only point at which these bonds are certain to repay in full is when they mature, and for these that is well beyond the period the money is meant to cover.\n\nSelling at a loss would not be admitting a mistake; it would be moving money to where it can actually be used. What I would suggest is that we look at shortening the maturities step by step, so that what you need to draw comes due when you need it, rather than all at once.\n\nMay I call you this week to go through it together?",
+   "client_language": "[[FIRST_NAME]] 様\n\n債券は損失を出して売却するよりも回復を待ちたい、売却は過ちを認めることのように感じる、とのお考えを伺っております。そのお気持ちはよく理解しております。何かを決める前に、ひとつだけ併せてご覧いただきたいことがございます。\n\nお約束したプランでは、2036 年までの生活費をまかなうことになっております。現在、ご資産の 41.0% はその時点より後に償還を迎える債券で運用されており、合計で取得価格を約 USD 2.8m 下回っております。最も大きいのは Japan Government Bond 1.4% due 2044 です。これらの債券が確実に全額償還されるのは満期の時点だけであり、その時期は資金が必要とされる期間を大きく超えております。\n\n損失を出して売却することは、過ちを認めることではなく、資金を実際に使える場所へ移すことだと考えております。ご提案としては、償還時期を段階的に短くし、お引き出しが必要な時期に必要な資金が満期を迎えるようにすることを、ご一緒に検討できればと存じます。\n\n今週中にお電話にてご説明させていただいてもよろしいでしょうか。",
+   "raises": "Asks him to consider shortening the bond maturities step by step so they fall due when the money is needed."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Japanese"
+ },
+ "CON-CL-0002": {
+  "draft": {
+   "subject": "Harbourline across all your holdings: 38.0% of your wealth",
+   "english": "Dear [[FIRST_NAME]],\n\nI know the Harbourline shares are not for sale — it is the family company and your father still chairs it, and I am not writing to change that. I would like you to see one figure that no single statement shows.\n\nCounting everything you hold that depends on Harbourline, it comes to 38.0% of your wealth with us. That is the shares themselves, the Harbourline Property 6.25% Perpetual, and the 12-month accumulator on Harbourline shares, which buys more of them if the price falls below its strike. Each appears on a different line or a different statement, so the total is easy to miss.\n\nYour family's wealth was built in Hong Kong property, and today the portfolio adds to that same bet rather than balancing it. What I would suggest is that we look at the total together, and you decide whether it is the position you want. If it is, nothing needs to change, and I would record your decision on your file.\n\nCould we speak by phone this week?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n我明白 Harbourline 的股份是不會出售的——那是家族公司，令尊仍是主席，我寫這封信並不是要改變這一點。我只是希望您看到一個任何單一結單都不會顯示的數字。\n\n把所有與 Harbourline 掛鈎的持倉合計，佔您在我們這裡財富的 38.0%。當中包括股份本身、Harbourline Property 6.25% Perpetual，以及以 Harbourline 股份為標的、為期 12 個月的累計期權——股價跌穿行使價時，它會買入更多股份。這些持倉分別列在不同的項目或不同的結單上，所以總數很容易被忽略。\n\n您家族的財富建基於香港物業，而目前的組合是在加重同一個押注，而不是加以平衡。我的建議是我們一起看看這個總數，由您決定這是否是您想要的持倉。如果是，便無需作任何改動，我會把您的決定記錄在檔案中。\n\n我可否在本週致電與您詳談？",
+   "raises": "Asks him to look at the combined Harbourline exposure and confirm whether that is the position he wants."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "CON-CL-0011": {
+  "draft": {
+   "subject": "Veltrion across your holdings: 31.0% of your wealth",
+   "english": "Dear [[FIRST_NAME]],\n\nThere is one figure I would like you to see, because no single statement shows it. Across everything you hold with us, Veltrion Semiconductor comes to 31.0% of your wealth.\n\nIt arrives by two routes: the Veltrion shares you hold directly, and the Fixed Coupon Note ref. Basket Q, which pays 9.0% a year but whose outcome is tied to Veltrion as one of the names in its basket.\n\nYou told us you wanted to keep some exposure to the chip cycle you know, and also to rebuild a diversified portfolio after the sale of your company. At the moment the first is outweighing the second. What I would suggest is that we look at the total together and you decide how much of it you want to keep. If you are comfortable as it stands, I will note that on your file.\n\nCould I call you this week to talk it through?",
+   "client_language": "[[FIRST_NAME]] 님께,\n\n어느 한 장의 명세서에도 따로 나타나지 않는 수치를 하나 보여 드리고 싶습니다. 저희에게 맡기신 자산 전체를 합산하면, Veltrion Semiconductor 관련 자산이 전체 자산의 31.0%에 이릅니다.\n\n이는 두 가지 경로로 이루어져 있습니다. 직접 보유하고 계신 Veltrion 주식, 그리고 연 9.0%의 쿠폰을 지급하지만 바스켓 구성 종목 중 하나인 Veltrion에 결과가 연동되는 Fixed Coupon Note ref. Basket Q입니다.\n\n고객님께서는 잘 아시는 반도체 업황에 어느 정도 투자를 유지하고 싶다고 하셨고, 동시에 회사 매각 이후 분산된 포트폴리오를 다시 구축하고 싶다고 하셨습니다. 지금은 앞의 목표가 뒤의 목표보다 커져 있습니다. 함께 전체 규모를 살펴보시고, 얼마만큼을 유지하실지 결정하시기를 제안드립니다. 현재 상태가 괜찮으시다면 그 내용을 고객 기록에 남겨 두겠습니다.\n\n이번 주에 전화로 말씀 나눌 수 있을까요?",
+   "raises": "Asks him to decide how much of the combined Veltrion exposure he wants to keep."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Korean"
+ },
+ "LIF-CN-002": {
+  "draft": {
+   "subject": "Making sure the land deposit can be paid on the day",
+   "english": "Dear [[FIRST_NAME]],\n\nNow that the land deposit for the family company is confirmed for February 2027, I would like to make sure the money will be ready on the day, and not only that it exists.\n\nThe deposit is HKD 80,000,000, about USD 10.3m, which is 27% of your wealth with us. Having enough is one question; having it in a form that can be paid on that date without selling the wrong thing at the wrong moment is another, and it is the one I want us to settle well ahead.\n\nWhat I would suggest is that we agree now which holdings will fund it and in what order, and set a date by which the cash is in place before the deposit falls due.\n\nCould I call you this week to go through the plan?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n既然家族公司的土地訂金已確定於 2027 年二月支付，我希望確保款項到時能夠準時備妥，而不只是確認資金存在。\n\n訂金為 HKD 80,000,000，約 USD 10.3m，相當於您在我們這裡財富的 27%。資金是否足夠是一個問題；能否在那一天以合適的形式支付，而無須在錯誤的時候出售錯誤的持倉，則是另一個問題，也是我希望我們及早解決的問題。\n\n我的建議是現在就商定由哪些持倉支付、以甚麼次序處理，並定下一個日期，在訂金到期之前把現金準備好。\n\n我可否在本週致電與您商討這個安排？",
+   "raises": "Asks him to agree which holdings fund the deposit, in what order, and by when the cash should be in place."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "COL-CF-0002": {
+  "draft": {
+   "subject": "Your Lombard facility at 68.2% against a 72% margin level",
+   "english": "Dear [[FIRST_NAME]],\n\nI would like us to look at your Lombard facility before you draw on it again. You have USD 6.6m drawn against USD 9.7m of value the bank will lend against your pledged holdings, so the loan stands at 68.2% of that value. The level at which the bank must ask for money back is 72%.\n\nOver the past year that figure has gone from 67.7% to 69.3%, up to 72.4% at the end of March, and back to 69.8% and now 68.2%. So it has already crossed the 72% level once. I would like to understand whether it came back below because of something that was done, or simply because prices moved back.\n\nWith room this thin, a fall in the pledged holdings could take it over again without anything being sold or drawn. What I would suggest is that we agree how much headroom you want to keep before you rely on the facility to bridge you to the Lumora sale or listing.\n\nCould we speak by phone this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nI would like us to look at your Lombard facility before you draw on it again. You have USD 6.6m drawn against USD 9.7m of value the bank will lend against your pledged holdings, so the loan stands at 68.2% of that value. The level at which the bank must ask for money back is 72%.\n\nOver the past year that figure has gone from 67.7% to 69.3%, up to 72.4% at the end of March, and back to 69.8% and now 68.2%. So it has already crossed the 72% level once. I would like to understand whether it came back below because of something that was done, or simply because prices moved back.\n\nWith room this thin, a fall in the pledged holdings could take it over again without anything being sold or drawn. What I would suggest is that we agree how much headroom you want to keep before you rely on the facility to bridge you to the Lumora sale or listing.\n\nCould we speak by phone this week?",
+   "raises": "Asks the client to confirm how the March breach was cured and agree how much headroom to keep before relying on the facility."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "TAX-CL-0001": {
+  "draft": {
+   "subject": "A possible tax offset on your losses — to confirm first",
+   "english": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at, and I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAt the moment there are about USD 3.2m of losses on paper across your holdings, alongside about USD 2.7m of gains. The largest loss is the Japan Government Bond 1.4% due 2044, at about USD 1.5m. Our records show you as taxed in Japan while living in Singapore, and if that is still right, realising some of the losses could be set against those gains.\n\nI know you would prefer not to sell at a loss, and I am not suggesting any sale yet. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would treat it, including whether buying back a similar holding would undo the benefit. Only then would it be worth discussing.\n\nMay I call you this week to explain, and to check the details?",
+   "client_language": "[[FIRST_NAME]] 様\n\nポートフォリオの含み損について、税務の観点から検討する価値があるかもしれない点がございます。ただし、まずご確認させていただく必要のある事実に左右されますので、慎重にお伝えしたいと存じます。\n\n現在、保有資産全体で約 USD 3.2m の含み損がある一方、約 USD 2.7m の含み益がございます。最も大きな含み損は Japan Government Bond 1.4% due 2044 で、約 USD 1.5m です。当方の記録では、シンガポールにお住まいで、日本で課税されていることになっております。これが現在も正しければ、損失の一部を実現することで、含み益と相殺できる可能性がございます。\n\n損失を出して売却することを望まれないことは承知しており、現時点で売却をご提案するものではございません。まずは当行のウェルス・プランニング担当が、現在の課税地と取り扱いを確認し、同様の銘柄を買い戻した場合にその効果が失われないかも含めて検討することをご提案いたします。そのうえで、改めてご相談できればと存じます。\n\n今週中にお電話でご説明し、詳細を確認させていただいてもよろしいでしょうか。",
+   "raises": "Asks him to let wealth planning confirm his tax position before any loss is realised."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Japanese"
+ },
+ "MAN-PF-0003-EQUI": {
+  "draft": {
+   "subject": "Your Conservative portfolio holds 54.0% in shares",
+   "english": "Dear [[FIRST_NAME]],\n\nI need to tell you about something in the portfolio we manage for you. Under your Conservative mandate, shares are meant to be between 10% and 30% of that portfolio, with 20% as the aim. Today they are 54.0%, which is 24.0 points above the upper limit.\n\nBecause we manage this portfolio on your behalf, keeping it inside those limits is our responsibility, not yours. It also runs against what you asked of us: to simplify what you inherited, reduce the risk and give you a steady income.\n\nWhat I would propose is that we bring the share portion back within the agreed range in an orderly way, and I would like to go through how we would do that with you before anything is traded.\n\nCould I call you this week?",
+   "client_language": "Liebe [[FIRST_NAME]],\n\nich muss Ihnen etwas zu dem Portfolio mitteilen, das wir für Sie verwalten. Nach Ihrem konservativen Mandat sollen Aktien zwischen 10% und 30% dieses Portfolios ausmachen, mit 20% als Zielwert. Heute sind es 54.0%, also 24.0 Punkte über der Obergrenze.\n\nDa wir dieses Portfolio in Ihrem Auftrag verwalten, liegt es in unserer Verantwortung, es innerhalb dieser Grenzen zu halten, nicht in Ihrer. Es steht auch im Widerspruch zu dem, worum Sie uns gebeten haben: das Geerbte zu vereinfachen, das Risiko zu senken und Ihnen ein stetiges Einkommen zu sichern.\n\nIch würde vorschlagen, dass wir den Aktienanteil geordnet wieder in die vereinbarte Bandbreite zurückführen, und ich möchte mit Ihnen besprechen, wie wir dabei vorgehen würden, bevor etwas gehandelt wird.\n\nDarf ich Sie diese Woche anrufen?",
+   "raises": "Asks her to agree to bringing the share portion back within the agreed range before trades are placed."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "German"
+ },
+ "FIT-CL-0012": {
+  "draft": {
+   "subject": "Bonds maturing after 2034, and your income",
+   "english": "Dear [[FIRST_NAME]],\n\nYou have told me you would rather wait for your holding to recover than sell it, and I understand the connection your late husband had with the family behind it. I would like to put one thing next to that before we decide anything.\n\nThe plan is for your portfolio to provide your income until 2034. Today 26.0% of your wealth is in bonds and similar holdings that do not repay until after that date, and together they are about USD 1.4m below what was paid for them. The largest is the US Treasury 3.875% due 2049. These are only certain to repay in full when they mature, which is after the years the money is meant to cover.\n\nWhat I would suggest is that we move gradually toward holdings that come due when you will need the money, in steps you are comfortable with and can easily explain to your son. Nothing needs to happen all at once.\n\nMay I call you this week to talk it through?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n您曾說過寧願等待該項持倉回升，也不想出售，我也明白您已故的先生與其背後家族的淵源。在作任何決定之前，我希望您同時考慮一件事。\n\n按照計劃，您的組合要為您提供收入至 2034 年。目前您財富的 26.0% 投放在 2034 年之後才到期的債券及類似持倉上，合計比買入價低約 USD 1.4m。當中最大的一項是 US Treasury 3.875% due 2049。這些持倉只有在到期時才肯定能全數償還，而到期日都在資金需要使用的年份之後。\n\n我的建議是按您覺得合適的步伐，逐步轉向在您需要用錢時到期的持倉，而每一步都能讓您輕鬆向兒子解釋清楚。這些事不需要一次過完成。\n\n我可否在本週致電與您詳談？",
+   "raises": "Asks her to consider gradually shifting toward holdings that mature when she needs the income."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "CON-CL-0006": {
+  "draft": {
+   "subject": "Qinghe across your holdings: 29.0% of your wealth",
+   "english": "Dear [[FIRST_NAME]],\n\nThere is one figure I would like you to see, because no single statement shows it. Counting everything linked to Qinghe Battery Technology, it comes to 29.0% of your wealth with us.\n\nThat is made up of the Qinghe shares, including the additional purchase you instructed after the first-quarter results; the Equity Linked Note on Qinghe, paying 10.5% a year over 6 months; and the Fixed Coupon Note on Basket Q, paying 9.0% a year over 12 months, whose outcome is also tied to Qinghe. The two notes look like income, but their outcome depends on the same company as the shares.\n\nI know you want to stay invested in the supply chain you know, and that is your decision to make. My concern is only that your business and a large part of your portfolio now depend on the same company. What I would suggest is that we look at the total together and you decide whether it is the position you want; if it is, I will note that on your file.\n\nCould I call you this week?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n有一个数字我希望您能看到，因为任何一份单独的结单都不会显示它。把所有与 Qinghe Battery Technology 挂钩的持仓合计，占您在我们这里财富的 29.0%。\n\n这包括 Qinghe 股份本身（其中包括您在第一季度业绩公布后指示追加买入的部分）；以 Qinghe 为标的、年息 10.5%、期限 6 个月的股票挂钩票据；以及以 Basket Q 为标的、年息 9.0%、期限 12 个月、结果同样与 Qinghe 挂钩的固定票息票据。这两张票据看起来像是收益产品，但它们的结果取决于与股份相同的公司。\n\n我知道您希望继续投资于您熟悉的产业链，这是您的决定。我只是担心，您的事业和组合中很大一部分如今都取决于同一家公司。我的建议是我们一起看看这个总数，由您决定这是否是您想要的持仓；如果是，我会把这一点记录在您的档案中。\n\n我可否在本周致电与您详谈？",
+   "raises": "Asks her to look at the combined Qinghe exposure and confirm whether it is the position she wants."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Simplified Chinese"
+ },
+ "TAX-CL-0006": {
+  "draft": {
+   "subject": "A possible tax offset — to confirm with wealth planning first",
+   "english": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at, and I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAcross your holdings there are about USD 2.2m of losses on paper and about USD 3.1m of gains. The largest loss is on the Qinghe Battery Technology shares, at about USD 1.2m. Our records show you as taxed in China while living in Hong Kong, and if that is still correct, realising some of the losses might be set against the gains.\n\nI am not suggesting selling anything yet, least of all a holding you want to keep. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would apply, including whether buying a holding back soon afterwards would cancel the benefit.\n\nCould I call you this week to explain and check the details?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n您的组合中可能有一个值得研究的税务问题。由于这取决于一些需要先向您确认的事实，我想谨慎地提出。\n\n您的持仓目前合计约有 USD 2.2m 的账面亏损，以及约 USD 3.1m 的账面收益。最大的一笔亏损来自 Qinghe Battery Technology 股份，约为 USD 1.2m。根据我们的记录，您居住在香港，但在中国纳税；如果这一点仍然正确，实现部分亏损或许可以与收益相抵。\n\n我现在并不是建议出售任何资产，更不是您希望保留的持仓。我的建议是先由我们的财富规划同事确认您目前的纳税地以及相关规则如何适用，包括在短期内买回同一持仓是否会抵消这项好处。\n\n我可否在本周致电向您说明并核对细节？",
+   "raises": "Asks her to let wealth planning confirm her tax position before any loss is realised."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Simplified Chinese"
+ },
+ "LIF-CN-005": {
+  "draft": {
+   "subject": "Having the foundation endowment ready for May 2027",
+   "english": "Dear [[FIRST_NAME]],\n\nI know how much it matters to you that the foundation is endowed on the timetable you have set, and that you are there for the signing. I would like to make sure the money is ready for that day, and not only that it exists.\n\nThe initial endowment is USD 7,500,000, which is 17% of your wealth with us, and it is due in May 2027. Having the amount is one thing; having it in cash on that date without selling something at an awkward moment is another, and it is the part I would like us to plan now.\n\nWhat I would suggest is that we agree which holdings will fund the endowment and set a date, comfortably before the signing, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nI know how much it matters to you that the foundation is endowed on the timetable you have set, and that you are there for the signing. I would like to make sure the money is ready for that day, and not only that it exists.\n\nThe initial endowment is USD 7,500,000, which is 17% of your wealth with us, and it is due in May 2027. Having the amount is one thing; having it in cash on that date without selling something at an awkward moment is another, and it is the part I would like us to plan now.\n\nWhat I would suggest is that we agree which holdings will fund the endowment and set a date, comfortably before the signing, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+   "raises": "Asks him to agree which holdings fund the endowment and when the cash should be in place."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "LIM-PF-0013-INS-ST-004": {
+  "draft": {
+   "subject": "Veltrion is 26.0% of one portfolio against a 15% limit",
+   "english": "Dear [[FIRST_NAME]],\n\nIn one of your portfolios, Veltrion Semiconductor now makes up 26.0%. The Growth mandate for that portfolio limits any single holding to 15%, so it is 11.0 points over the limit.\n\nI know Veltrion is a company you understand well, and keeping some exposure to the chip cycle is something you asked for. But the limit is part of what we agreed for that portfolio, and it should either be respected or deliberately set aside by you.\n\nWhat I would suggest is one of two things: we reduce the holding to the limit, or you tell me you want to keep it as it is and I record that decision on your file. Either is fine; leaving it undecided is not.\n\nCould I call you this week to hear which you prefer?",
+   "client_language": "[[FIRST_NAME]] 님께,\n\n고객님의 포트폴리오 중 하나에서 Veltrion Semiconductor가 현재 26.0%를 차지하고 있습니다. 해당 포트폴리오의 Growth 운용 계약은 단일 종목 비중을 15%로 제한하고 있어, 한도를 11.0%포인트 초과한 상태입니다.\n\nVeltrion은 고객님께서 잘 아시는 회사이고, 반도체 업황에 어느 정도 투자를 유지하는 것도 고객님께서 원하신 부분이라는 점을 알고 있습니다. 다만 이 한도는 해당 포트폴리오에 대해 합의한 내용의 일부이므로, 지켜지거나 고객님의 뜻에 따라 의도적으로 예외로 두어야 합니다.\n\n두 가지 중 하나를 제안드립니다. 보유 비중을 한도까지 줄이거나, 현재 상태를 유지하시겠다고 말씀해 주시면 그 결정을 고객 기록에 남겨 두겠습니다. 어느 쪽이든 괜찮지만, 결정하지 않은 채로 두는 것은 바람직하지 않습니다.\n\n이번 주에 전화로 어느 쪽을 원하시는지 여쭤봐도 될까요?",
+   "raises": "Asks him to choose between trimming Veltrion to the 15% limit or recording a decision to keep it."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Korean"
+ },
+ "LIF-CN-011": {
+  "draft": {
+   "subject": "The USD 4.0m injection into the coffee business",
+   "english": "Dear [[FIRST_NAME]],\n\nOur notes record a working capital injection of USD 4,000,000 into the coffee business, expected around the end of March 2027 and marked as likely rather than confirmed. At 25% of your wealth with us, it is large enough that I would like to plan for it properly.\n\nFirst, I would like to check with you whether it is still likely, and whether the amount and timing are right. If it is going ahead, the next question is not only whether the money is there, but whether it can be released on that date without selling something at a bad moment.\n\nWhat I would suggest is that once you have confirmed it, we agree which holdings would fund it and by when the cash should be ready.\n\nCould I call you this week to check where things stand?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nOur notes record a working capital injection of USD 4,000,000 into the coffee business, expected around the end of March 2027 and marked as likely rather than confirmed. At 25% of your wealth with us, it is large enough that I would like to plan for it properly.\n\nFirst, I would like to check with you whether it is still likely, and whether the amount and timing are right. If it is going ahead, the next question is not only whether the money is there, but whether it can be released on that date without selling something at a bad moment.\n\nWhat I would suggest is that once you have confirmed it, we agree which holdings would fund it and by when the cash should be ready.\n\nCould I call you this week to check where things stand?",
+   "raises": "Asks the client to confirm whether the working capital injection is still likely, and its amount and timing."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "FUN-CL-0008": {
+  "draft": {
+   "subject": "USD 21.2m due in the next twelve months, against USD 28.1m sellable",
+   "english": "Dear [[FIRST_NAME]],\n\nLooking ahead at the next twelve months, about USD 21.2m is due to be paid out, including capital calls on your private markets commitments. Against that, about USD 28.1m of your holdings could be sold within a day, none of it pledged. That covers the requirement 1.3 times.\n\nThat is enough, but not by a wide margin, and capital calls do not always arrive when it is convenient. Your aim has always been to meet them without being forced to sell, and with this little room the order in which things are sold matters.\n\nWhat I would suggest is that we map out now which holdings would fund each payment, and in what order, rather than deciding at the moment each one arrives.\n\nCould we arrange a call this week with whoever in the family office handles the cash plan?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nLooking ahead at the next twelve months, about USD 21.2m is due to be paid out, including capital calls on your private markets commitments. Against that, about USD 28.1m of your holdings could be sold within a day, none of it pledged. That covers the requirement 1.3 times.\n\nThat is enough, but not by a wide margin, and capital calls do not always arrive when it is convenient. Your aim has always been to meet them without being forced to sell, and with this little room the order in which things are sold matters.\n\nWhat I would suggest is that we map out now which holdings would fund each payment, and in what order, rather than deciding at the moment each one arrives.\n\nCould we arrange a call this week with whoever in the family office handles the cash plan?",
+   "raises": "Asks the family office to agree in advance which holdings will fund each payment due in the next twelve months."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "STA-CL-0004-INS-AL-007": {
+  "draft": {
+   "subject": "Updating the Lumora valuation",
+   "english": "Dear [[FIRST_NAME]],\n\nI would like to ask for your help with something on our side. The value we show for your Lumora Analytics shares has not changed since the price set at the end of June 2025, which is now 15 months old. For a private company a delay of a few months is normal; this is longer than I am comfortable with.\n\nIt matters more than usual because those shares are 45.7% of your wealth with us, and they also support your credit facility. Every percentage we show you, including how much room there is on the facility, depends on that one figure.\n\nWhat I would suggest is that we obtain a current valuation before making any decision that relies on it. If you have a more recent figure from a funding round or from the company's own reporting, that would be a good place to start.\n\nCould I call you this week to talk about how best to get one?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nI would like to ask for your help with something on our side. The value we show for your Lumora Analytics shares has not changed since the price set at the end of June 2025, which is now 15 months old. For a private company a delay of a few months is normal; this is longer than I am comfortable with.\n\nIt matters more than usual because those shares are 45.7% of your wealth with us, and they also support your credit facility. Every percentage we show you, including how much room there is on the facility, depends on that one figure.\n\nWhat I would suggest is that we obtain a current valuation before making any decision that relies on it. If you have a more recent figure from a funding round or from the company's own reporting, that would be a good place to start.\n\nCould I call you this week to talk about how best to get one?",
+   "raises": "Asks the client to help obtain a current valuation of the Lumora shares before any decision relies on it."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "LIF-CN-007": {
+  "draft": {
+   "subject": "Having the Tuscany purchase funds ready for 2027",
+   "english": "Dear [[FIRST_NAME]],\n\nNow that the purchase of your family home in Tuscany is confirmed for 2027, I would like to make sure the money is ready on the day, and not only that it is there.\n\nThe purchase is EUR 2,850,000, about USD 3.3m, which is 17% of your wealth with us. The question I would like us to settle early is how and when that amount is raised and converted, so that it is available by the end of April without selling something at an awkward moment.\n\nWhat I would suggest is that we agree which holdings will fund it and set a date, comfortably before completion, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+   "client_language": "Gentile [[FIRST_NAME]],\n\nora che l'acquisto della casa di famiglia in Toscana è confermato per il 2027, vorrei assicurarmi che il denaro sia pronto il giorno stabilito, e non soltanto che ci sia.\n\nL'acquisto è di EUR 2,850,000, circa USD 3.3m, pari al 17% del Suo patrimonio presso di noi. La questione che vorrei risolvere per tempo è come e quando raccogliere e convertire quell'importo, in modo che sia disponibile entro la fine di aprile senza dover vendere qualcosa in un momento poco opportuno.\n\nIl mio suggerimento è di concordare quali posizioni finanzieranno l'acquisto e di fissare una data, ben prima del rogito, entro la quale la liquidità dovrà essere disponibile.\n\nPosso chiamarLa questa settimana per parlarne insieme?",
+   "raises": "Asks her to agree which holdings fund the purchase and by when the cash should be ready."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Italian"
+ },
+ "TAX-CL-0011": {
+  "draft": {
+   "subject": "A possible tax offset — to confirm with wealth planning first",
+   "english": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at. I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAcross your holdings there are about USD 2.1m of losses on paper and about USD 1.6m of gains. The largest loss is on Veltrion Semiconductor, at about USD 1.7m. Our records show you as taxed in South Korea while living in Singapore, and if that is still correct, realising some of the losses might be set against the gains.\n\nI am not suggesting any sale yet. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would apply, including whether buying a holding back soon afterwards would cancel the benefit.\n\nCould I call you this week to explain and check the details?",
+   "client_language": "[[FIRST_NAME]] 님께,\n\n고객님의 포트폴리오에 검토해 볼 만한 세무 사항이 있을 수 있습니다. 먼저 고객님께 확인드려야 할 사실에 달려 있는 문제이기에 신중하게 말씀드리고자 합니다.\n\n현재 보유 자산 전체에 약 USD 2.1m의 평가 손실과 약 USD 1.6m의 평가 이익이 있습니다. 가장 큰 손실은 Veltrion Semiconductor로, 약 USD 1.7m입니다. 저희 기록상 고객님께서는 싱가포르에 거주하시면서 한국에서 과세되고 계십니다. 이 내용이 지금도 맞다면, 일부 손실을 실현하여 이익과 상계할 수 있을지도 모릅니다.\n\n아직 매도를 제안드리는 것은 아닙니다. 먼저 저희 자산관리 플래닝 담당자가 현재 과세 거주지와 관련 규정이 어떻게 적용되는지, 그리고 매도 후 곧바로 다시 매수할 경우 그 효과가 사라지는지를 확인하도록 하는 것을 제안드립니다.\n\n이번 주에 전화로 설명드리고 세부 사항을 확인해도 될까요?",
+   "raises": "Asks him to let wealth planning confirm his tax position before any loss is realised."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Korean"
+ },
+ "MAN-PF-0003-FIXE": {
+  "draft": {
+   "subject": "Your Conservative portfolio holds 32.0% in bonds",
+   "english": "Dear [[FIRST_NAME]],\n\nI need to tell you about something in the portfolio we manage for you. Under your Conservative mandate, bonds are meant to make up between 50% and 80% of that portfolio, with 65% as the aim. Today they are 32.0%, which is 18.0 points below the lower limit.\n\nBonds are the part of the portfolio meant to give you the steady income you asked for, so this works directly against that aim. And because we manage this portfolio on your behalf, keeping it within the agreed limits is our responsibility, not yours.\n\nWhat I would propose is that we bring the bond portion back within the agreed range in an orderly way, and I would like to go through how we would do it with you before anything is traded.\n\nCould I call you this week?",
+   "client_language": "Liebe [[FIRST_NAME]],\n\nich muss Ihnen etwas zu dem Portfolio mitteilen, das wir für Sie verwalten. Nach Ihrem konservativen Mandat sollen Anleihen zwischen 50% und 80% dieses Portfolios ausmachen, mit 65% als Zielwert. Heute sind es 32.0%, also 18.0 Punkte unter der Untergrenze.\n\nAnleihen sind der Teil des Portfolios, der Ihnen das stetige Einkommen sichern soll, um das Sie uns gebeten haben; diese Lücke wirkt also direkt gegen dieses Ziel. Und da wir dieses Portfolio in Ihrem Auftrag verwalten, liegt es in unserer Verantwortung, es innerhalb der vereinbarten Grenzen zu halten, nicht in Ihrer.\n\nIch würde vorschlagen, dass wir den Anleihenanteil geordnet wieder in die vereinbarte Bandbreite zurückführen, und ich möchte mit Ihnen besprechen, wie wir dabei vorgehen würden, bevor etwas gehandelt wird.\n\nDarf ich Sie diese Woche anrufen?",
+   "raises": "Asks her to agree to bringing the bond portion back within the agreed range before trades are placed."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "German"
+ },
+ "CON-CL-0020": {
+  "draft": {
+   "subject": "Corlane Medical is 17.4% of your wealth",
+   "english": "Dear [[FIRST_NAME]],\n\nThere is one figure I would like you to see. Corlane Medical Systems is now 17.4% of your wealth with us, in a single holding.\n\nYou told us at the outset that you wanted to avoid single-stock risk, and this is the one place in the portfolio where it has crept back in. It is also a company in the same field as your practice, so your income and a sizeable part of your savings now depend on the same industry.\n\nWhat I would suggest is that we look at it together and you decide whether it is a position you want to keep. If it is, nothing needs to change and I will note your decision; if not, we can plan to reduce it gradually.\n\nCould I call you this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nThere is one figure I would like you to see. Corlane Medical Systems is now 17.4% of your wealth with us, in a single holding.\n\nYou told us at the outset that you wanted to avoid single-stock risk, and this is the one place in the portfolio where it has crept back in. It is also a company in the same field as your practice, so your income and a sizeable part of your savings now depend on the same industry.\n\nWhat I would suggest is that we look at it together and you decide whether it is a position you want to keep. If it is, nothing needs to change and I will note your decision; if not, we can plan to reduce it gradually.\n\nCould I call you this week?",
+   "raises": "Asks him to decide whether to keep the Corlane position or reduce it gradually."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "LIF-CN-004": {
+  "draft": {
+   "subject": "The Mid-Levels apartment purchase",
+   "english": "Dear [[FIRST_NAME]],\n\nOur notes record the purchase of an apartment in Mid-Levels for HKD 46,000,000, about USD 5.9m, expected around the end of March 2027 and marked as likely rather than confirmed. At 20% of your wealth with us, it is large enough that I would like to plan for it properly.\n\nFirst, I would like to check with you whether the purchase is still going ahead, and whether the amount and timing are right. If it is, the next question is not only whether the money is there, but whether it can be ready on that date without selling something at a bad moment.\n\nWhat I would suggest is that once you have confirmed it, we agree which holdings would fund it and by when the cash should be in place.\n\nCould I call you this week to check where things stand?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n我们的记录显示，您计划以 HKD 46,000,000（约 USD 5.9m）购买半山区的一套公寓，预计在 2027 年三月底前后完成，目前记录为“可能”而非“已确认”。这笔款项占您在我们这里财富的 20%，金额之大，值得我们好好规划。\n\n首先，我想向您确认这项购买是否仍在进行，金额和时间是否正确。如果确定进行，接下来的问题不只是资金是否足够，而是能否在那一天准备妥当，而无须在不利的时候出售资产。\n\n我的建议是，在您确认之后，我们商定由哪些持仓支付，以及现金需要在什么时候到位。\n\n我可否在本周致电向您了解最新情况？",
+   "raises": "Asks her to confirm whether the apartment purchase is going ahead, and its amount and timing."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Simplified Chinese"
+ },
+ "FIT-CL-0013": {
+  "draft": {
+   "subject": "Lining up your bonds with the income you will draw",
+   "english": "Dear [[FIRST_NAME]],\n\nAs you get closer to replacing your salary with income from the portfolio, I would like to look at when your bonds actually repay.\n\nThe plan we work to runs until 2036. Today 21.0% of your wealth is in bonds and similar holdings that do not repay until after that date, and together they are about USD 0.9m below what was paid for them. The largest is the US Treasury 3.875% due 2049. These are only certain to repay in full when they mature, which is after the period the income is meant to cover.\n\nWhat I would suggest is that we line up the maturities with the income you will start drawing, moving gradually toward holdings that come due when you need them. It does not need to happen all at once, and we can keep the reserve in US dollars you wanted.\n\nCould I call you this week to go through it?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nAs you get closer to replacing your salary with income from the portfolio, I would like to look at when your bonds actually repay.\n\nThe plan we work to runs until 2036. Today 21.0% of your wealth is in bonds and similar holdings that do not repay until after that date, and together they are about USD 0.9m below what was paid for them. The largest is the US Treasury 3.875% due 2049. These are only certain to repay in full when they mature, which is after the period the income is meant to cover.\n\nWhat I would suggest is that we line up the maturities with the income you will start drawing, moving gradually toward holdings that come due when you need them. It does not need to happen all at once, and we can keep the reserve in US dollars you wanted.\n\nCould I call you this week to go through it?",
+   "raises": "Asks her to agree to gradually aligning bond maturities with her planned drawdown."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "LIM-PF-0010-INS-AL-003": {
+  "draft": {
+   "subject": "Northfield IX is 33.0% of the alternatives portfolio against a 25% limit",
+   "english": "Dear [[FIRST_NAME]],\n\nIn your alternatives portfolio, Northfield Private Equity Partners IX now makes up 33.0%. The mandate for that portfolio limits any single holding to 25%, so it is 8.0 points over the limit.\n\nA private equity fund is not something that can usually be trimmed quickly, and the position may well be deliberate. But the limit is part of what was agreed for that portfolio, so it should either be brought back within it over time or set aside by a decision you have made and we have recorded.\n\nWhat I would suggest is that we agree which of the two it is. If the family office is comfortable with the position as it stands, I will note that on file; if not, we can plan how to bring it back within the limit.\n\nCould we arrange a call this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nIn your alternatives portfolio, Northfield Private Equity Partners IX now makes up 33.0%. The mandate for that portfolio limits any single holding to 25%, so it is 8.0 points over the limit.\n\nA private equity fund is not something that can usually be trimmed quickly, and the position may well be deliberate. But the limit is part of what was agreed for that portfolio, so it should either be brought back within it over time or set aside by a decision you have made and we have recorded.\n\nWhat I would suggest is that we agree which of the two it is. If the family office is comfortable with the position as it stands, I will note that on file; if not, we can plan how to bring it back within the limit.\n\nCould we arrange a call this week?",
+   "raises": "Asks the family office to decide whether to bring Northfield IX back within the limit over time or record it as a deliberate exception."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "LIF-CN-012": {
+  "draft": {
+   "subject": "The deposit on the Singapore investment property",
+   "english": "Dear [[FIRST_NAME]],\n\nOur notes record a deposit of SGD 3,600,000, about USD 2.8m, on a Singapore investment property, expected in January 2027 and marked as likely rather than confirmed. At 17% of your wealth with us, it is large enough that I would like to plan for it properly.\n\nFirst, I would like to check with you whether the purchase is still going ahead, and whether the amount and timing are right. If it is, the next question is whether the money can be ready on that date without selling something at a bad moment.\n\nWhat I would suggest is that once you have confirmed it, we agree which holdings would fund it and by when the cash should be in place.\n\nCould I call you this week to check where things stand?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nOur notes record a deposit of SGD 3,600,000, about USD 2.8m, on a Singapore investment property, expected in January 2027 and marked as likely rather than confirmed. At 17% of your wealth with us, it is large enough that I would like to plan for it properly.\n\nFirst, I would like to check with you whether the purchase is still going ahead, and whether the amount and timing are right. If it is, the next question is whether the money can be ready on that date without selling something at a bad moment.\n\nWhat I would suggest is that once you have confirmed it, we agree which holdings would fund it and by when the cash should be in place.\n\nCould I call you this week to check where things stand?",
+   "raises": "Asks the client to confirm whether the property deposit is going ahead, and its amount and timing."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "CON-CL-0003": {
+  "draft": {
+   "subject": "Lindenhof is 17.0% of your wealth",
+   "english": "Dear [[FIRST_NAME]],\n\nI know how much the Lindenhof shares mean to you, and that you want to keep a meaningful part of them because your husband ran the company for so many years. I am not writing to change that.\n\nI would simply like you to see the figure as a whole. Lindenhof Antriebstechnik is 17.0% of your wealth with us, in a single holding. That means a sizeable part of what you inherited still depends on one business.\n\nWhat I would suggest is that we talk about how much of the stake you would like to keep, and whether the rest could be reduced gradually, in line with your wish to simplify things and steady your income. If you are comfortable as it stands, I will note that on your file.\n\nCould I call you this week?",
+   "client_language": "Liebe [[FIRST_NAME]],\n\nich weiss, wie viel Ihnen die Lindenhof-Aktien bedeuten und dass Sie einen wesentlichen Teil davon behalten möchten, weil Ihr Mann das Unternehmen so viele Jahre geführt hat. Ich schreibe Ihnen nicht, um daran etwas zu ändern.\n\nIch möchte Ihnen lediglich die Zahl im Ganzen zeigen. Lindenhof Antriebstechnik macht 17.0% Ihres Vermögens bei uns aus, in einer einzigen Position. Das bedeutet, dass ein beträchtlicher Teil dessen, was Sie geerbt haben, weiterhin von einem einzigen Unternehmen abhängt.\n\nIch würde vorschlagen, dass wir besprechen, wie viel der Beteiligung Sie behalten möchten und ob der Rest schrittweise reduziert werden könnte, im Einklang mit Ihrem Wunsch, die Dinge zu vereinfachen und Ihr Einkommen zu stabilisieren. Wenn Sie mit der jetzigen Lage einverstanden sind, halte ich das in Ihren Unterlagen fest.\n\nDarf ich Sie diese Woche anrufen?",
+   "raises": "Asks her how much of the Lindenhof stake she wants to keep, and whether the rest could be reduced gradually."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "German"
+ },
+ "CON-CL-0008": {
+  "draft": {
+   "subject": "Northfield IX is 15.4% of the family's wealth",
+   "english": "Dear [[FIRST_NAME]],\n\nThere is one figure I would like the family office to see, because no single statement shows it in this form. Northfield Private Equity Partners IX is 15.4% of your total wealth with us.\n\nThat is a large share to rest on one private fund. It sits comfortably with your aim of keeping a strategic alternatives programme, but it also means one manager's results carry a good deal of weight for the whole family.\n\nWhat I would suggest is that we look at the figure together and you decide whether it is the position you want. If it is, nothing needs to change and I will note the decision on file.\n\nCould we arrange a call this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nThere is one figure I would like the family office to see, because no single statement shows it in this form. Northfield Private Equity Partners IX is 15.4% of your total wealth with us.\n\nThat is a large share to rest on one private fund. It sits comfortably with your aim of keeping a strategic alternatives programme, but it also means one manager's results carry a good deal of weight for the whole family.\n\nWhat I would suggest is that we look at the figure together and you decide whether it is the position you want. If it is, nothing needs to change and I will note the decision on file.\n\nCould we arrange a call this week?",
+   "raises": "Asks the family office to confirm whether the Northfield IX exposure is the position they want."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "LIM-PF-0003-INS-ST-003": {
+  "draft": {
+   "subject": "Lindenhof is 17.0% of your managed portfolio against a 10% limit",
+   "english": "Dear [[FIRST_NAME]],\n\nIn the portfolio we manage for you, the Lindenhof Antriebstechnik shares now make up 17.0%. Your Conservative mandate limits any single holding to 10%, so it is 7.0 points over the limit.\n\nI know this holding is not like the others, and there may be good reasons to keep more of it than the mandate allows. But the limit is part of what we agreed, so it should either be respected or set aside by a decision you have made and we have recorded.\n\nWhat I would suggest is one of two things: we reduce the holding to the limit, or you tell me you want to keep it as it is, and I record that on your file. Either is fine; leaving it undecided is not.\n\nCould I call you this week?",
+   "client_language": "Liebe [[FIRST_NAME]],\n\nin dem Portfolio, das wir für Sie verwalten, machen die Aktien der Lindenhof Antriebstechnik inzwischen 17.0% aus. Ihr konservatives Mandat begrenzt jede Einzelposition auf 10%, die Position liegt also 7.0 Punkte über dem Limit.\n\nIch weiss, dass diese Position nicht wie die anderen ist, und es mag gute Gründe geben, mehr davon zu halten, als das Mandat vorsieht. Das Limit ist aber Teil dessen, was wir vereinbart haben; es sollte deshalb entweder eingehalten oder durch eine Entscheidung von Ihnen, die wir festhalten, bewusst ausgesetzt werden.\n\nIch würde eines von zwei Dingen vorschlagen: Wir reduzieren die Position auf das Limit, oder Sie sagen mir, dass Sie sie so behalten möchten, und ich halte das in Ihren Unterlagen fest. Beides ist in Ordnung; es offen zu lassen nicht.\n\nDarf ich Sie diese Woche anrufen?",
+   "raises": "Asks her to choose between reducing Lindenhof to the 10% limit or recording a decision to keep it."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "German"
+ },
+ "LIF-CN-013": {
+  "draft": {
+   "subject": "Having the Shanghai apartment funds ready for February 2027",
+   "english": "Dear [[FIRST_NAME]],\n\nWith the purchase of the apartment in Shanghai for your parents confirmed for February 2027, I would like to make sure the money is ready on the day, and not only that it is there.\n\nThe purchase is CNH 14,500,000, about USD 2.0m, which is 11% of your wealth with us. The question I would like us to settle early is how and when that amount is raised and moved into renminbi, so that it is available on time without selling something at an awkward moment.\n\nWhat I would suggest is that we agree which holdings will fund it and set a date, comfortably before completion, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n既然为父母在上海购买公寓一事已确定于 2027 年二月完成，我希望确保款项到时能准时备妥，而不只是确认资金存在。\n\n这笔购房款为 CNH 14,500,000，约 USD 2.0m，占您在我们这里财富的 11%。我希望及早解决的问题，是这笔资金如何以及何时筹集并换成人民币，以便按时到位，而无须在不合适的时候出售资产。\n\n我的建议是商定由哪些持仓支付，并在交易完成之前预留充足时间，定下一个现金到位的日期。\n\n我可否在本周致电与您商讨这个安排？",
+   "raises": "Asks him to agree which holdings fund the purchase and by when the cash should be ready."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Simplified Chinese"
+ },
+ "LIM-PF-0002-INS-ST-001": {
+  "draft": {
+   "subject": "Harbourline is 24.0% of your Growth portfolio against a 15% limit",
+   "english": "Dear [[FIRST_NAME]],\n\nIn your Growth portfolio, the Harbourline Property Holdings shares now make up 24.0%. The mandate for that portfolio limits any single holding to 15%, so it is 9.0 points over the limit.\n\nI know you want to stay invested in Hong Kong property, and I am not assuming these shares should be sold. It is worth bearing in mind, though, that the accumulator you took out in January adds more shares if the price falls below its strike, which would take this figure further over the limit.\n\nWhat I would suggest is one of two things: we reduce the holding to the limit, or you tell me you want to keep it as it is, and I record that decision on your file. Either is fine; leaving it undecided is not.\n\nCould I call you this week?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n在您的 Growth 組合中，Harbourline Property Holdings 的股份目前佔 24.0%。該組合的委託協議規定任何單一持倉不得超過 15%，因此已超出上限 9.0 個百分點。\n\n我明白您希望繼續投資於香港物業，我並不假設這些股份應該出售。不過值得留意的是，您在一月承接的累計期權，若股價跌穿行使價便會再買入更多股份，令這個比例進一步超出上限。\n\n我建議兩者擇一：我們把持倉減至上限，或您告訴我希望維持現狀，我會把這個決定記錄在您的檔案中。兩者皆可，唯獨懸而未決不宜。\n\n我可否在本週致電與您詳談？",
+   "raises": "Asks him to choose between trimming Harbourline to the limit or recording a decision to keep it."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "TAX-CL-0013": {
+  "draft": {
+   "subject": "A possible tax offset — to confirm with wealth planning first",
+   "english": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at. I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAcross your holdings there are about USD 1.1m of losses on paper and about USD 1.8m of gains. The largest loss is on the US Treasury 3.875% due 2049, at about USD 0.5m. Our records show you as taxed in Thailand, and if that is still correct, realising some of the losses might be set against the gains.\n\nI am not suggesting any sale yet. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would apply, including whether buying a holding back soon afterwards would cancel the benefit.\n\nCould I call you this week to explain and check the details?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at. I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAcross your holdings there are about USD 1.1m of losses on paper and about USD 1.8m of gains. The largest loss is on the US Treasury 3.875% due 2049, at about USD 0.5m. Our records show you as taxed in Thailand, and if that is still correct, realising some of the losses might be set against the gains.\n\nI am not suggesting any sale yet. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would apply, including whether buying a holding back soon afterwards would cancel the benefit.\n\nCould I call you this week to explain and check the details?",
+   "raises": "Asks her to let wealth planning confirm her tax position before any loss is realised."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "FUN-CL-0014": {
+  "draft": {
+   "subject": "USD 7.1m due in the next twelve months",
+   "english": "Dear [[FIRST_NAME]],\n\nLooking at the next twelve months as a whole, about USD 7.1m is expected to be paid out across three commitments, against about USD 11.5m of your holdings that could be sold within a day. That covers the total 1.6 times, which is enough, but without much room to spare.\n\nSome of this is still uncertain: 1 of the 3 items is recorded as likely rather than confirmed. Before planning around it, I would like to check the timing and amounts with you.\n\nWhat I would suggest is that, once we have confirmed them, we map out which holdings fund each payment and in what order, rather than deciding as each one falls due. With your business also needing a cash buffer, I would rather we had the order settled early.\n\nCould I call you this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nLooking at the next twelve months as a whole, about USD 7.1m is expected to be paid out across three commitments, against about USD 11.5m of your holdings that could be sold within a day. That covers the total 1.6 times, which is enough, but without much room to spare.\n\nSome of this is still uncertain: 1 of the 3 items is recorded as likely rather than confirmed. Before planning around it, I would like to check the timing and amounts with you.\n\nWhat I would suggest is that, once we have confirmed them, we map out which holdings fund each payment and in what order, rather than deciding as each one falls due. With your business also needing a cash buffer, I would rather we had the order settled early.\n\nCould I call you this week?",
+   "raises": "Asks the client to confirm the timing of the uncertain item and agree the order in which holdings fund each payment."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "TAX-CL-0015": {
+  "draft": {
+   "subject": "A possible tax offset — to confirm with wealth planning first",
+   "english": "Dear [[FIRST_NAME]],\n\nThere may be a tax point in your portfolio worth looking at. I want to raise it carefully, because it depends on facts I need to confirm with you first.\n\nAcross your holdings there are about USD 0.6m of losses on paper and about USD 2.1m of gains. The largest loss is the China A-Share Growth Fund, at about USD 0.6m. Our records show you as taxed in China while living in Singapore, and if that is still correct, realising the loss might be set against some of the gains.\n\nI am not suggesting any sale yet. What I would suggest is that our wealth planning colleagues first confirm where you are taxed today and how the rules would apply, including whether buying a similar holding back soon afterwards would cancel the benefit.\n\nCould I call you this week to explain and check the details?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n您的组合中可能有一个值得研究的税务问题。由于这取决于一些需要先向您确认的事实，我想谨慎地提出。\n\n您的持仓目前合计约有 USD 0.6m 的账面亏损，以及约 USD 2.1m 的账面收益。最大的一笔亏损来自 China A-Share Growth Fund，约为 USD 0.6m。根据我们的记录，您居住在新加坡，但在中国纳税；如果这一点仍然正确，实现这笔亏损或许可以与部分收益相抵。\n\n我现在并不是建议出售任何资产。我的建议是先由我们的财富规划同事确认您目前的纳税地以及相关规则如何适用，包括在短期内买回同类持仓是否会抵消这项好处。\n\n我可否在本周致电向您说明并核对细节？",
+   "raises": "Asks him to let wealth planning confirm his tax position before any loss is realised."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Simplified Chinese"
+ },
+ "CHK-CL-0001": {
+  "draft": {
+   "subject": "Which annual drawing figure is right: USD 0.50m or USD 0.44m?",
+   "english": "Dear [[FIRST_NAME]],\n\nI would like to check one number with you, because a good deal of your plan rests on it. When we set your objectives, we wrote down that you would draw about USD 0.50m a year for living costs. Elsewhere in our records, the amount you expect to need each year is USD 0.44m.\n\nThe difference is not large in itself, but it changes how much needs to come due each year and how the rest of the portfolio is arranged, so I would rather not guess which is right.\n\nCould you tell me which figure reflects what you actually spend, or whether it has changed? I will update our records and plan from that.\n\nMay I call you this week to confirm it?",
+   "client_language": "[[FIRST_NAME]] 様\n\nご計画の多くがこの数字に基づいておりますので、ひとつ確認させていただきたいことがございます。運用目標を設定した際には、生活費として年に約 USD 0.50m をお引き出しになると記録いたしました。一方、別の記録では、毎年必要とされる金額が USD 0.44m となっております。\n\n差そのものは大きくありませんが、毎年どれだけの資金が満期を迎える必要があるか、またポートフォリオ全体をどう組み立てるかに関わりますので、どちらが正しいかを推測で決めることは避けたく存じます。\n\n実際のご支出に近いのはどちらの金額か、あるいは変わったことがあるか、お教えいただけますでしょうか。記録を更新し、それに基づいて計画いたします。\n\n今週中にお電話で確認させていただいてもよろしいでしょうか。",
+   "raises": "Asks him which annual drawing figure is correct so the plan can be built on it."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Japanese"
+ },
+ "LIF-CN-006": {
+  "draft": {
+   "subject": "Planning the annual family distributions",
+   "english": "Dear [[FIRST_NAME]],\n\nWith the next of the annual distributions to family beneficiaries due in December 2026, I would like to make sure each payment is planned for, not only covered. Each distribution is USD 3,200,000, about 4% of your wealth with us, and they continue every year until 2045.\n\nThe amount is well within the family's means. What I would like to settle is where each year's payment comes from, so that it is never met by selling something at an awkward moment, particularly in a year when capital calls fall due as well.\n\nWhat I would suggest is that we agree a standing arrangement for funding the distributions, and review it once a year alongside the private markets commitments.\n\nCould we arrange a call this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nWith the next of the annual distributions to family beneficiaries due in December 2026, I would like to make sure each payment is planned for, not only covered. Each distribution is USD 3,200,000, about 4% of your wealth with us, and they continue every year until 2045.\n\nThe amount is well within the family's means. What I would like to settle is where each year's payment comes from, so that it is never met by selling something at an awkward moment, particularly in a year when capital calls fall due as well.\n\nWhat I would suggest is that we agree a standing arrangement for funding the distributions, and review it once a year alongside the private markets commitments.\n\nCould we arrange a call this week?",
+   "raises": "Asks the family office to agree a standing arrangement for funding the annual distributions."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "LIM-PF-0007-INS-ST-005": {
+  "draft": {
+   "subject": "Qinghe is 19.0% of one portfolio against a 15% limit",
+   "english": "Dear [[FIRST_NAME]],\n\nIn one of your Growth portfolios, the Qinghe Battery Technology shares now make up 19.0%. The mandate for that portfolio limits any single holding to 15%, so it is 4.0 points over the limit. The holding includes the additional purchase you instructed after the first-quarter results.\n\nThat was your decision to make, and I am not questioning it. But the limit is part of what we agreed for that portfolio, so the position should either be brought back within it or recorded as a choice you have made.\n\nWhat I would suggest is one of two things: we reduce the holding to the limit, or you confirm that you want to keep it as it is, and I record that on your file. Either is fine; leaving it undecided is not.\n\nCould I call you this week?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n在您其中一个 Growth 组合中，Qinghe Battery Technology 的股份目前占 19.0%。该组合的委托协议规定任何单一持仓不得超过 15%，因此已超出上限 4.0 个百分点。这当中包括您在第一季度业绩公布后指示追加买入的部分。\n\n那是您的决定，我并无异议。但这个上限是我们为该组合约定的内容之一，所以这项持仓要么调整回上限之内，要么记录为您作出的选择。\n\n我建议两者择一：我们把持仓减至上限，或您确认希望维持现状，我会把这一点记录在您的档案中。两者皆可，唯独悬而未决不宜。\n\n我可否在本周致电与您详谈？",
+   "raises": "Asks her to choose between trimming Qinghe to the limit or recording a decision to keep it."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Simplified Chinese"
+ },
+ "MAN-PF-0019-FIXE": {
+  "draft": {
+   "subject": "Bonds are 10.0% of your portfolio against a 15–40% range",
+   "english": "Dear [[FIRST_NAME]],\n\nAhead of your next review, there is one thing I would like to raise. Under the Balanced Growth approach we agreed for your portfolio, bonds are meant to be between 15% and 40% of it, with 25% as the aim. Today they are 10.0%, which is 5.0 points below the lower end.\n\nIt is not a loss and nothing has gone wrong; the portfolio is simply carrying a little more risk than the shape you signed up to. As this is an advisory portfolio, the decisions are yours, and I would rather you heard it from me than found it on a statement.\n\nWhat I would suggest is that we either bring the bond portion back into range, or you tell me you are comfortable as it is and I record that on your file. Both are fine; leaving it undecided is not.\n\nCould I call you before the review to talk it through?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nAhead of your next review, there is one thing I would like to raise. Under the Balanced Growth approach we agreed for your portfolio, bonds are meant to be between 15% and 40% of it, with 25% as the aim. Today they are 10.0%, which is 5.0 points below the lower end.\n\nIt is not a loss and nothing has gone wrong; the portfolio is simply carrying a little more risk than the shape you signed up to. As this is an advisory portfolio, the decisions are yours, and I would rather you heard it from me than found it on a statement.\n\nWhat I would suggest is that we either bring the bond portion back into range, or you tell me you are comfortable as it is and I record that on your file. Both are fine; leaving it undecided is not.\n\nCould I call you before the review to talk it through?",
+   "raises": "Asks him to decide whether to bring bonds back into the agreed range or record that he is comfortable as it is."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "TAX-CL-0002": {
+  "draft": {
+   "subject": "Tax is not a reason to sell or to wait",
+   "english": "Dear [[FIRST_NAME]],\n\nI want to clear up one thing that can come up when holdings are showing losses. Across your portfolio there are about USD 6.5m of losses on paper. Because you are taxed in Hong Kong, where there is no tax on capital gains, selling at a loss would not bring any tax benefit, and holding on would not protect one either.\n\nIn other words, tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself.\n\nI know the Harbourline shares are a separate matter, as the family company your father still chairs, and I am not suggesting anything about them here. For the rest, I would like us to look at each position on its own merits in the proper conversation we agreed was needed before your next review.\n\nCould I call you this week to arrange it?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n當持倉出現虧損時，有一件事可能會引起疑問，我希望先說清楚。您的組合目前合計約有 USD 6.5m 的賬面虧損。由於您在香港納稅，而香港不徵收資本增值稅，因此虧本出售不會帶來任何稅務好處，繼續持有也不會保住任何稅務好處。\n\n換言之，稅務既不是出售的理由，也不是等待的理由。某項持倉應該保留還是出售，取決於該持倉本身。\n\n我明白 Harbourline 的股份是另一回事——那是令尊仍擔任主席的家族公司，我在這裡並不是對它們提出任何建議。至於其他持倉，我希望在我們同意須於下次檢討前進行的那次詳談中，逐一按其本身的情況來檢視。\n\n我可否在本週致電與您約定時間？",
+   "raises": "Asks him to review his loss-making positions on their merits, since Hong Kong levies no capital gains tax."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "TAX-CL-0008": {
+  "draft": {
+   "subject": "Tax is not a reason to sell or to wait",
+   "english": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in the portfolio, which come to about USD 0.8m on paper. Because the family office is taxed in Singapore, where there is no tax on capital gains, selling at a loss would bring no tax benefit, and holding on would not protect one.\n\nSo tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself.\n\nWhat I would suggest is that we look at those positions on their merits when we next review the portfolio, and, as recommended, bring in our alternatives team before the next capital call so the two conversations fit together.\n\nCould we arrange a call this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in the portfolio, which come to about USD 0.8m on paper. Because the family office is taxed in Singapore, where there is no tax on capital gains, selling at a loss would bring no tax benefit, and holding on would not protect one.\n\nSo tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself.\n\nWhat I would suggest is that we look at those positions on their merits when we next review the portfolio, and, as recommended, bring in our alternatives team before the next capital call so the two conversations fit together.\n\nCould we arrange a call this week?",
+   "raises": "Asks the family office to review loss-making positions on their merits, since Singapore levies no capital gains tax."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "TAX-CL-0009": {
+  "draft": {
+   "subject": "Tax is not a reason to sell or to wait",
+   "english": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in your portfolio, which come to about USD 2.9m on paper. Because you are taxed in the United Arab Emirates, where there is no tax on capital gains, selling at a loss would not bring any tax benefit, and holding on would not protect one either.\n\nIn other words, tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself, and about your aim of moving away from Gulf real estate while keeping your income steady.\n\nWhat I would suggest is that we go through the loss-making positions together and look at each on its own merits.\n\nCould I call you this week?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in your portfolio, which come to about USD 2.9m on paper. Because you are taxed in the United Arab Emirates, where there is no tax on capital gains, selling at a loss would not bring any tax benefit, and holding on would not protect one either.\n\nIn other words, tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself, and about your aim of moving away from Gulf real estate while keeping your income steady.\n\nWhat I would suggest is that we go through the loss-making positions together and look at each on its own merits.\n\nCould I call you this week?",
+   "raises": "Asks her to review loss-making positions on their merits, since the UAE levies no capital gains tax."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "TAX-CL-0012": {
+  "draft": {
+   "subject": "Tax is not a reason to sell or to wait",
+   "english": "Dear [[FIRST_NAME]],\n\nYou have told me you would rather wait for your holding to recover than sell it, and I understand why. I only want to make sure one thing is not part of that decision. Across your portfolio there are about USD 1.7m of losses on paper. Because you are taxed in Hong Kong, where there is no tax on capital gains, selling at a loss would not bring any tax benefit, and waiting would not protect one either.\n\nSo tax is neither a reason to sell nor a reason to wait. Whether to keep a holding is a question about the holding itself, and about whether it gives you the income you live on.\n\nWhat I would suggest is that we look at the loss-making positions together, one at a time, in a way you can easily explain to your son.\n\nMay I call you this week?",
+   "client_language": "[[FIRST_NAME]] 您好：\n\n您曾說過寧願等待該項持倉回升，也不想出售，我明白其中原因。我只是想確保有一件事不會影響這個決定。您的組合目前合計約有 USD 1.7m 的賬面虧損。由於您在香港納稅，而香港不徵收資本增值稅，因此虧本出售不會帶來任何稅務好處，等待也不會保住任何稅務好處。\n\n所以，稅務既不是出售的理由，也不是等待的理由。是否保留某項持倉，取決於該持倉本身，以及它能否為您提供賴以生活的收入。\n\n我的建議是我們一起逐一檢視出現虧損的持倉，並以您能輕鬆向兒子解釋的方式進行。\n\n我可否在本週致電與您詳談？",
+   "raises": "Asks her to review loss-making positions on their merits, since Hong Kong levies no capital gains tax."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Traditional Chinese"
+ },
+ "MAN-PF-0012-COMM": {
+  "draft": {
+   "subject": "Confirming your commodities position (13.0% against a 10% limit)",
+   "english": "Dear [[FIRST_NAME]],\n\nA short note for your file rather than a concern. Commodities are now 13.0% of your portfolio, against a range of 0% to 10% under the Balanced Growth approach we agreed, which puts them 3.0 points above the upper end.\n\nYou confirmed in writing that you wanted this position despite the limit, and that instruction is on file. I would simply like to check that it still reflects what you want, especially with the purchase of your home in Tuscany coming up.\n\nIf it does, nothing needs to change and I will note your confirmation. If your view has moved, we can bring the position back within the range.\n\nCould I call you briefly this week to confirm?",
+   "client_language": "Gentile [[FIRST_NAME]],\n\nuna breve nota per la Sua posizione, più che una preoccupazione. Le materie prime rappresentano ora il 13.0% del Suo portafoglio, a fronte di una fascia dallo 0% al 10% prevista dall'impostazione Balanced Growth che abbiamo concordato: sono quindi 3.0 punti sopra il limite superiore.\n\nLei ha confermato per iscritto di voler mantenere questa posizione nonostante il limite, e l'istruzione è agli atti. Vorrei soltanto verificare che rifletta ancora ciò che desidera, soprattutto in vista dell'acquisto della casa in Toscana.\n\nSe è così, non occorre cambiare nulla e annoterò la Sua conferma. Se invece la Sua opinione è cambiata, possiamo riportare la posizione entro la fascia.\n\nPosso chiamarLa brevemente questa settimana per una conferma?",
+   "raises": "Asks her to confirm that the written instruction to hold commodities above the limit still stands."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "Italian"
+ },
+ "MAN-PF-0011-FIXE": {
+  "draft": {
+   "subject": "Bonds are 23.0% of your portfolio against a 25–50% range",
+   "english": "Dear [[FIRST_NAME]],\n\nAhead of your next review, there is one small thing I would like to raise. Under the Balanced approach we agreed for your portfolio, bonds are meant to be between 25% and 50% of it, with 35% as the aim. Today they are 23.0%, which is 2.0 points below the lower end.\n\nIt is not a loss and nothing has gone wrong; the portfolio is simply carrying a little less of the steady income you asked for than the shape you signed up to. As this is an advisory portfolio, the decision is yours.\n\nWhat I would suggest is that we either bring the bond portion back into range, or you tell me you are comfortable as it is and I record that on your file. Both are fine; leaving it undecided is not.\n\nCould I call you before the review to talk it through?",
+   "client_language": "Dear [[FIRST_NAME]],\n\nAhead of your next review, there is one small thing I would like to raise. Under the Balanced approach we agreed for your portfolio, bonds are meant to be between 25% and 50% of it, with 35% as the aim. Today they are 23.0%, which is 2.0 points below the lower end.\n\nIt is not a loss and nothing has gone wrong; the portfolio is simply carrying a little less of the steady income you asked for than the shape you signed up to. As this is an advisory portfolio, the decision is yours.\n\nWhat I would suggest is that we either bring the bond portion back into range, or you tell me you are comfortable as it is and I record that on your file. Both are fine; leaving it undecided is not.\n\nCould I call you before the review to talk it through?",
+   "raises": "Asks her to decide whether to bring bonds back into range or record that she is comfortable as it is."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "English"
+ },
+ "MAN-PF-0018-COMM": {
+  "draft": {
+   "subject": "Commodities slightly above range in your managed portfolio",
+   "english": "Dear [[FIRST_NAME]],\n\nA short note, because I know you prefer no surprises. In the portfolio we manage for you, commodities are now 11.0%, against a range of 0% to 10% under your Balanced mandate, with 5% as the aim. That is 1.0 point above the upper limit.\n\nIt is a small difference, and nothing has gone wrong in the sense of a loss. But because we manage this portfolio on your behalf, keeping it within the agreed range is our responsibility, and I would rather you heard about it from me.\n\nWhat I would propose is that we bring the commodity portion back within the range in the ordinary course. If you would prefer to discuss it first, I am happy to do so before anything is traded.\n\nCould I call you this week?",
+   "client_language": "Lieber [[FIRST_NAME]],\n\neine kurze Nachricht, da ich weiss, dass Sie keine Überraschungen mögen. In dem Portfolio, das wir für Sie verwalten, machen Rohstoffe inzwischen 11.0% aus, bei einer Bandbreite von 0% bis 10% gemäss Ihrem ausgewogenen Mandat und einem Zielwert von 5%. Das ist 1.0 Punkt über der Obergrenze.\n\nEs ist eine kleine Abweichung, und es ist nichts im Sinne eines Verlusts schiefgelaufen. Da wir dieses Portfolio aber in Ihrem Auftrag verwalten, liegt es in unserer Verantwortung, es innerhalb der vereinbarten Bandbreite zu halten, und ich möchte, dass Sie das von mir erfahren.\n\nIch würde vorschlagen, dass wir den Rohstoffanteil im Rahmen der laufenden Verwaltung wieder in die Bandbreite zurückführen. Wenn Sie das vorher besprechen möchten, tue ich das gern, bevor etwas gehandelt wird.\n\nDarf ich Sie diese Woche anrufen?",
+   "raises": "Asks him to agree to bringing commodities back within range, or to discuss it before any trade."
+  },
+  "usage": {
+   "model": "claude-opus-5-5"
+  },
+  "via": "Claude Code",
+  "at": "2026-10-17",
+  "unverified": [],
+  "language": "German"
+ }
+}

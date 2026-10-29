@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Having the Tuscany purchase funds ready for 2027",
+  "english": "Dear [[FIRST_NAME]],\n\nNow that the purchase of your family home in Tuscany is confirmed for 2027, I would like to make sure the money is ready on the day, and not only that it is there.\n\nThe purchase is EUR 2,850,000, about USD 3.3m, which is 17% of your wealth with us. The question I would like us to settle early is how and when that amount is raised and converted, so that it is available by the end of April without selling something at an awkward moment.\n\nWhat I would suggest is that we agree which holdings will fund it and set a date, comfortably before completion, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+  "client_language": "Gentile [[FIRST_NAME]],\n\nora che l'acquisto della casa di famiglia in Toscana è confermato per il 2027, vorrei assicurarmi che il denaro sia pronto il giorno stabilito, e non soltanto che ci sia.\n\nL'acquisto è di EUR 2,850,000, circa USD 3.3m, pari al 17% del Suo patrimonio presso di noi. La questione che vorrei risolvere per tempo è come e quando raccogliere e convertire quell'importo, in modo che sia disponibile entro la fine di aprile senza dover vendere qualcosa in un momento poco opportuno.\n\nIl mio suggerimento è di concordare quali posizioni finanzieranno l'acquisto e di fissare una data, ben prima del rogito, entro la quale la liquidità dovrà essere disponibile.\n\nPosso chiamarLa questa settimana per parlarne insieme?",
+  "raises": "Asks her to agree which holdings fund the purchase and by when the cash should be ready."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Italian"
+}

@@ -1,0 +1,37 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      # The engine, the committed bundle being what the engine builds, the
+      # browser ranking's parity with the engine, and the narration and
+      # translation checks — standard library only, no key, no network.
+      - name: Unit tests
+        run: python -m unittest discover tests -v
+
+      - name: Scripts parse
+        run: for f in app/*.js; do node --check "$f"; done
+
+      # The translation endpoint needs the SDK; the API itself is a stand-in.
+      - name: Install the SDK for engine/serve.py
+        run: pip install -r requirements.txt
+
+      - name: Browser checks (headless Chrome)
+        run: node tests/browser/run.mjs
+        env:
+          PYTHON: python

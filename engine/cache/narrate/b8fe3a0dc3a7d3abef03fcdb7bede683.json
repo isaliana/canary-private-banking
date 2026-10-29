@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Having the foundation endowment ready for May 2027",
+  "english": "Dear [[FIRST_NAME]],\n\nI know how much it matters to you that the foundation is endowed on the timetable you have set, and that you are there for the signing. I would like to make sure the money is ready for that day, and not only that it exists.\n\nThe initial endowment is USD 7,500,000, which is 17% of your wealth with us, and it is due in May 2027. Having the amount is one thing; having it in cash on that date without selling something at an awkward moment is another, and it is the part I would like us to plan now.\n\nWhat I would suggest is that we agree which holdings will fund the endowment and set a date, comfortably before the signing, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nI know how much it matters to you that the foundation is endowed on the timetable you have set, and that you are there for the signing. I would like to make sure the money is ready for that day, and not only that it exists.\n\nThe initial endowment is USD 7,500,000, which is 17% of your wealth with us, and it is due in May 2027. Having the amount is one thing; having it in cash on that date without selling something at an awkward moment is another, and it is the part I would like us to plan now.\n\nWhat I would suggest is that we agree which holdings will fund the endowment and set a date, comfortably before the signing, by which the cash should be in place.\n\nCould I call you this week to go through it?",
+  "raises": "Asks him to agree which holdings fund the endowment and when the cash should be in place."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

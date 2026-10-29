@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Harbourline across all your holdings: 38.0% of your wealth",
+  "english": "Dear [[FIRST_NAME]],\n\nI know the Harbourline shares are not for sale — it is the family company and your father still chairs it, and I am not writing to change that. I would like you to see one figure that no single statement shows.\n\nCounting everything you hold that depends on Harbourline, it comes to 38.0% of your wealth with us. That is the shares themselves, the Harbourline Property 6.25% Perpetual, and the 12-month accumulator on Harbourline shares, which buys more of them if the price falls below its strike. Each appears on a different line or a different statement, so the total is easy to miss.\n\nYour family's wealth was built in Hong Kong property, and today the portfolio adds to that same bet rather than balancing it. What I would suggest is that we look at the total together, and you decide whether it is the position you want. If it is, nothing needs to change, and I would record your decision on your file.\n\nCould we speak by phone this week?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n我明白 Harbourline 的股份是不會出售的——那是家族公司，令尊仍是主席，我寫這封信並不是要改變這一點。我只是希望您看到一個任何單一結單都不會顯示的數字。\n\n把所有與 Harbourline 掛鈎的持倉合計，佔您在我們這裡財富的 38.0%。當中包括股份本身、Harbourline Property 6.25% Perpetual，以及以 Harbourline 股份為標的、為期 12 個月的累計期權——股價跌穿行使價時，它會買入更多股份。這些持倉分別列在不同的項目或不同的結單上，所以總數很容易被忽略。\n\n您家族的財富建基於香港物業，而目前的組合是在加重同一個押注，而不是加以平衡。我的建議是我們一起看看這個總數，由您決定這是否是您想要的持倉。如果是，便無需作任何改動，我會把您的決定記錄在檔案中。\n\n我可否在本週致電與您詳談？",
+  "raises": "Asks him to look at the combined Harbourline exposure and confirm whether that is the position he wants."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Traditional Chinese"
+}

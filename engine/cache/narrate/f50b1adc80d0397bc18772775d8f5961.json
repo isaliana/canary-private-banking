@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Northfield IX is 33.0% of the alternatives portfolio against a 25% limit",
+  "english": "Dear [[FIRST_NAME]],\n\nIn your alternatives portfolio, Northfield Private Equity Partners IX now makes up 33.0%. The mandate for that portfolio limits any single holding to 25%, so it is 8.0 points over the limit.\n\nA private equity fund is not something that can usually be trimmed quickly, and the position may well be deliberate. But the limit is part of what was agreed for that portfolio, so it should either be brought back within it over time or set aside by a decision you have made and we have recorded.\n\nWhat I would suggest is that we agree which of the two it is. If the family office is comfortable with the position as it stands, I will note that on file; if not, we can plan how to bring it back within the limit.\n\nCould we arrange a call this week?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nIn your alternatives portfolio, Northfield Private Equity Partners IX now makes up 33.0%. The mandate for that portfolio limits any single holding to 25%, so it is 8.0 points over the limit.\n\nA private equity fund is not something that can usually be trimmed quickly, and the position may well be deliberate. But the limit is part of what was agreed for that portfolio, so it should either be brought back within it over time or set aside by a decision you have made and we have recorded.\n\nWhat I would suggest is that we agree which of the two it is. If the family office is comfortable with the position as it stands, I will note that on file; if not, we can plan how to bring it back within the limit.\n\nCould we arrange a call this week?",
+  "raises": "Asks the family office to decide whether to bring Northfield IX back within the limit over time or record it as a deliberate exception."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

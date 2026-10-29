@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Qinghe is 19.0% of one portfolio against a 15% limit",
+  "english": "Dear [[FIRST_NAME]],\n\nIn one of your Growth portfolios, the Qinghe Battery Technology shares now make up 19.0%. The mandate for that portfolio limits any single holding to 15%, so it is 4.0 points over the limit. The holding includes the additional purchase you instructed after the first-quarter results.\n\nThat was your decision to make, and I am not questioning it. But the limit is part of what we agreed for that portfolio, so the position should either be brought back within it or recorded as a choice you have made.\n\nWhat I would suggest is one of two things: we reduce the holding to the limit, or you confirm that you want to keep it as it is, and I record that on your file. Either is fine; leaving it undecided is not.\n\nCould I call you this week?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n在您其中一个 Growth 组合中，Qinghe Battery Technology 的股份目前占 19.0%。该组合的委托协议规定任何单一持仓不得超过 15%，因此已超出上限 4.0 个百分点。这当中包括您在第一季度业绩公布后指示追加买入的部分。\n\n那是您的决定，我并无异议。但这个上限是我们为该组合约定的内容之一，所以这项持仓要么调整回上限之内，要么记录为您作出的选择。\n\n我建议两者择一：我们把持仓减至上限，或您确认希望维持现状，我会把这一点记录在您的档案中。两者皆可，唯独悬而未决不宜。\n\n我可否在本周致电与您详谈？",
+  "raises": "Asks her to choose between trimming Qinghe to the limit or recording a decision to keep it."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Simplified Chinese"
+}

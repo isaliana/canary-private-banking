@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Paying the land deposit without triggering a margin call",
+  "english": "Dear [[FIRST_NAME]],\n\nI have been working through how the land deposit you expect to pay in early 2027 would be funded, and there is a problem I want you to hear from me well before the date.\n\nOn paper the portfolio can cover it: about USD 34.0m of your holdings could be sold within a day, against USD 10.3m falling due in the next twelve months. But all of it is pledged against your Lombard facility. Selling HKD 80.0m of it would take away HKD 45.3m of the value the bank lends against, and the loan would go from 68.8% of that value to about 97% — well past the 70% level at which the bank must ask for money back. You would need to repay about HKD 29.9m of the facility before such a sale, not after it.\n\nSo the obvious route, selling some liquid holdings, is the one that causes the margin call. What I would suggest is either reducing the facility first, or funding the deposit from outside the pledged portfolio, and agreeing the order of the steps well ahead of time.\n\nYou also asked in August what happens to the Lombard line if Hong Kong property falls again. I would like to answer both questions together on a call this week, if that suits you.",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n我一直在研究您預計於 2027 年初支付的土地訂金應如何籌措，當中有一個問題，我希望在日期臨近之前，由我親自告訴您。\n\n表面上，組合足以應付：可於一日內出售的持倉約有 USD 34.0m，而未來十二個月到期的款項為 USD 10.3m。但這些持倉全部都已抵押予您的 Lombard 信貸額度。若出售其中 HKD 80.0m，銀行可貸出的價值會減少 HKD 45.3m，貸款相對該價值的比率會由 68.8% 升至約 97%，遠高於銀行必須要求您補回款項的 70% 水平。您需要在出售之前、而不是之後，先償還約 HKD 29.9m 的額度。\n\n因此，最直接的做法——出售部分流動持倉——正正就是觸發補倉的做法。我的建議是先降低信貸額度，或以抵押組合以外的資金支付訂金，並及早商定各個步驟的先後次序。\n\n您在八月亦問過，若香港物業再次下跌，Lombard 額度會受到甚麼影響。如您方便，我希望本週致電，把兩個問題一併向您說明。",
+  "raises": "Asks him to choose between reducing the Lombard facility first or funding the deposit from outside the pledged portfolio, before any sale."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Traditional Chinese"
+}

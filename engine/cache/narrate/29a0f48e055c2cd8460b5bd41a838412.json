@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Bonds maturing after 2034, and your income",
+  "english": "Dear [[FIRST_NAME]],\n\nYou have told me you would rather wait for your holding to recover than sell it, and I understand the connection your late husband had with the family behind it. I would like to put one thing next to that before we decide anything.\n\nThe plan is for your portfolio to provide your income until 2034. Today 26.0% of your wealth is in bonds and similar holdings that do not repay until after that date, and together they are about USD 1.4m below what was paid for them. The largest is the US Treasury 3.875% due 2049. These are only certain to repay in full when they mature, which is after the years the money is meant to cover.\n\nWhat I would suggest is that we move gradually toward holdings that come due when you will need the money, in steps you are comfortable with and can easily explain to your son. Nothing needs to happen all at once.\n\nMay I call you this week to talk it through?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n您曾說過寧願等待該項持倉回升，也不想出售，我也明白您已故的先生與其背後家族的淵源。在作任何決定之前，我希望您同時考慮一件事。\n\n按照計劃，您的組合要為您提供收入至 2034 年。目前您財富的 26.0% 投放在 2034 年之後才到期的債券及類似持倉上，合計比買入價低約 USD 1.4m。當中最大的一項是 US Treasury 3.875% due 2049。這些持倉只有在到期時才肯定能全數償還，而到期日都在資金需要使用的年份之後。\n\n我的建議是按您覺得合適的步伐，逐步轉向在您需要用錢時到期的持倉，而每一步都能讓您輕鬆向兒子解釋清楚。這些事不需要一次過完成。\n\n我可否在本週致電與您詳談？",
+  "raises": "Asks her to consider gradually shifting toward holdings that mature when she needs the income."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Traditional Chinese"
+}

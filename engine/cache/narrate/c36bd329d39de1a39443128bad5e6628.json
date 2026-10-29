@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Tax is not a reason to sell or to wait",
+  "english": "Dear [[FIRST_NAME]],\n\nI want to clear up one thing that can come up when holdings are showing losses. Across your portfolio there are about USD 6.5m of losses on paper. Because you are taxed in Hong Kong, where there is no tax on capital gains, selling at a loss would not bring any tax benefit, and holding on would not protect one either.\n\nIn other words, tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself.\n\nI know the Harbourline shares are a separate matter, as the family company your father still chairs, and I am not suggesting anything about them here. For the rest, I would like us to look at each position on its own merits in the proper conversation we agreed was needed before your next review.\n\nCould I call you this week to arrange it?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n當持倉出現虧損時，有一件事可能會引起疑問，我希望先說清楚。您的組合目前合計約有 USD 6.5m 的賬面虧損。由於您在香港納稅，而香港不徵收資本增值稅，因此虧本出售不會帶來任何稅務好處，繼續持有也不會保住任何稅務好處。\n\n換言之，稅務既不是出售的理由，也不是等待的理由。某項持倉應該保留還是出售，取決於該持倉本身。\n\n我明白 Harbourline 的股份是另一回事——那是令尊仍擔任主席的家族公司，我在這裡並不是對它們提出任何建議。至於其他持倉，我希望在我們同意須於下次檢討前進行的那次詳談中，逐一按其本身的情況來檢視。\n\n我可否在本週致電與您約定時間？",
+  "raises": "Asks him to review his loss-making positions on their merits, since Hong Kong levies no capital gains tax."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Traditional Chinese"
+}

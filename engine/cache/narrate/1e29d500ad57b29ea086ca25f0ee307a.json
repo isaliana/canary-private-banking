@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Your Lombard facility: 68.8% against a 70% margin level",
+  "english": "Dear [[FIRST_NAME]],\n\nI would like us to look at your Lombard facility together before anything else happens on it. You have HKD 108.3m drawn against HKD 157.3m of value the bank will lend against your pledged holdings, which puts the loan at 68.8% of that value. The level at which the bank has to ask for money back is 70%.\n\nOver the past year that figure has moved from 56.9% to 57.3%, then to 74.4% and 71.6%, and back to 68.8% today. In other words it went through the 70% level at the end of March and was still above it at the end of June. I want to be sure whether it came back below because something was done, or only because prices recovered.\n\nThat matters because the same thing can happen again without anyone doing anything. I cannot tell you where markets go from here, and I do not want your margin to depend on it. Before we talk about the land deposit or any new drawing, I would like to agree with you how much room you want to keep below that level.\n\nCould I call you this week to go through it?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n在您的 Lombard 信貸額度有任何進一步動作之前，我希望我們先一起檢視一下。目前額度已動用 HKD 108.3m，而銀行就您抵押資產可貸出的價值為 HKD 157.3m，即貸款相當於該價值的 68.8%。銀行必須要求您補回款項的水平是 70%。\n\n過去一年，這個比率由 56.9% 升至 57.3%，再升至 74.4% 及 71.6%，今天回落至 68.8%。換言之，它在三月底已越過 70% 的水平，到六月底仍在其上。我想確認它回落到該水平以下，是因為有人採取了行動，還是純粹因為價格回升。\n\n這一點很重要，因為即使沒有任何人做任何事，同樣的情況也可能再次發生。我無法告訴您市場會如何走，也不希望您的安全空間取決於市場。在討論土地訂金或任何新的提款之前，我希望先與您商定，您希望在該水平之下保留多少空間。\n\n我可否在本週致電與您詳談？",
+  "raises": "Asks him to confirm whether the earlier breaches were cured by any action, and to agree how much room to keep below the margin level before any new drawing."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Traditional Chinese"
+}

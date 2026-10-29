@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Tax is not a reason to sell or to wait",
+  "english": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in your portfolio, which come to about USD 2.9m on paper. Because you are taxed in the United Arab Emirates, where there is no tax on capital gains, selling at a loss would not bring any tax benefit, and holding on would not protect one either.\n\nIn other words, tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself, and about your aim of moving away from Gulf real estate while keeping your income steady.\n\nWhat I would suggest is that we go through the loss-making positions together and look at each on its own merits.\n\nCould I call you this week?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nI want to clear up one point about the losses currently in your portfolio, which come to about USD 2.9m on paper. Because you are taxed in the United Arab Emirates, where there is no tax on capital gains, selling at a loss would not bring any tax benefit, and holding on would not protect one either.\n\nIn other words, tax is not a reason to sell and not a reason to wait. Whether a holding should be kept or sold is a question about the holding itself, and about your aim of moving away from Gulf real estate while keeping your income steady.\n\nWhat I would suggest is that we go through the loss-making positions together and look at each on its own merits.\n\nCould I call you this week?",
+  "raises": "Asks her to review loss-making positions on their merits, since the UAE levies no capital gains tax."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

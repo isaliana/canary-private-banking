@@ -1,0 +1,15 @@
+event_date,event_type,region,description,primary_transmission,severity
+2025-10-29,Policy,North America,The Federal Reserve cuts its policy rate by 25bp and signals a pause.,"Government bonds, investment grade credit",Medium
+2025-11-20,Market,Global,Semiconductor shares fall 14% in nine sessions after two of the largest cloud providers trim their 2026 capital spending plans.,"Semiconductor, information technology",High
+2025-12-19,Policy,Japan,The Bank of Japan raises its policy rate to 0.75%; the ten-year government bond yield reaches 2.0%.,Japan government bonds,High
+2026-01-14,Credit,Hong Kong,A large Hong Kong developer misses a coupon on its offshore perpetual bonds. Hong Kong property shares fall 11% in a week.,"Hong Kong property, real estate securities, perpetual bonds",Severe
+2026-02-11,Geopolitical,Global,New export controls restrict sales of advanced chip-making equipment to several Asian markets.,"Semiconductor, information technology",High
+2026-03-06,Market,Hong Kong,One-month HIBOR jumps to 4.6% as banks pull back from property lending; Hong Kong bank shares fall 8%.,"Financials, Hong Kong property",High
+2026-03-26,Credit,Global,Two mid-sized private credit managers restrict redemptions after marking down loans to property and consumer borrowers.,Private credit,Medium
+2026-04-22,Market,Global,Gold sets a new record as central banks keep buying.,"Gold, precious metals",Medium
+2026-05-14,Market,North America,The US Treasury long end sells off on higher deficit projections; the 30-year yield rises 45bp in a month.,"Government bonds, investment grade credit, technology",High
+2026-06-17,Policy,North America,"The Federal Reserve holds, and its projections push the next cut into the autumn.","Government bonds, technology",Medium
+2026-07-09,Policy,Greater China,A state-backed funding facility for property developers is announced; Hong Kong property shares rebound 9%.,"Hong Kong property, real estate securities",Medium
+2026-08-12,Commodity,Global,Major oil producers end voluntary output cuts and Brent falls 14% in two weeks.,"Energy, commodity",Medium
+2026-09-16,Policy,North America,The Federal Reserve cuts by 25bp.,"Government bonds, investment grade credit",Medium
+2026-09-24,Policy,Japan,The Bank of Japan raises its policy rate to 1.0% and the yen strengthens past 136 per dollar.,"Japan government bonds, Japan equity",Medium

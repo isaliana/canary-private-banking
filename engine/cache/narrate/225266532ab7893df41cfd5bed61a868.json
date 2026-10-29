@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Updating the Lumora valuation",
+  "english": "Dear [[FIRST_NAME]],\n\nI would like to ask for your help with something on our side. The value we show for your Lumora Analytics shares has not changed since the price set at the end of June 2025, which is now 15 months old. For a private company a delay of a few months is normal; this is longer than I am comfortable with.\n\nIt matters more than usual because those shares are 45.7% of your wealth with us, and they also support your credit facility. Every percentage we show you, including how much room there is on the facility, depends on that one figure.\n\nWhat I would suggest is that we obtain a current valuation before making any decision that relies on it. If you have a more recent figure from a funding round or from the company's own reporting, that would be a good place to start.\n\nCould I call you this week to talk about how best to get one?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nI would like to ask for your help with something on our side. The value we show for your Lumora Analytics shares has not changed since the price set at the end of June 2025, which is now 15 months old. For a private company a delay of a few months is normal; this is longer than I am comfortable with.\n\nIt matters more than usual because those shares are 45.7% of your wealth with us, and they also support your credit facility. Every percentage we show you, including how much room there is on the facility, depends on that one figure.\n\nWhat I would suggest is that we obtain a current valuation before making any decision that relies on it. If you have a more recent figure from a funding round or from the company's own reporting, that would be a good place to start.\n\nCould I call you this week to talk about how best to get one?",
+  "raises": "Asks the client to help obtain a current valuation of the Lumora shares before any decision relies on it."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

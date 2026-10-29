@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "The Mid-Levels apartment purchase",
+  "english": "Dear [[FIRST_NAME]],\n\nOur notes record the purchase of an apartment in Mid-Levels for HKD 46,000,000, about USD 5.9m, expected around the end of March 2027 and marked as likely rather than confirmed. At 20% of your wealth with us, it is large enough that I would like to plan for it properly.\n\nFirst, I would like to check with you whether the purchase is still going ahead, and whether the amount and timing are right. If it is, the next question is not only whether the money is there, but whether it can be ready on that date without selling something at a bad moment.\n\nWhat I would suggest is that once you have confirmed it, we agree which holdings would fund it and by when the cash should be in place.\n\nCould I call you this week to check where things stand?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n我们的记录显示，您计划以 HKD 46,000,000（约 USD 5.9m）购买半山区的一套公寓，预计在 2027 年三月底前后完成，目前记录为“可能”而非“已确认”。这笔款项占您在我们这里财富的 20%，金额之大，值得我们好好规划。\n\n首先，我想向您确认这项购买是否仍在进行，金额和时间是否正确。如果确定进行，接下来的问题不只是资金是否足够，而是能否在那一天准备妥当，而无须在不利的时候出售资产。\n\n我的建议是，在您确认之后，我们商定由哪些持仓支付，以及现金需要在什么时候到位。\n\n我可否在本周致电向您了解最新情况？",
+  "raises": "Asks her to confirm whether the apartment purchase is going ahead, and its amount and timing."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Simplified Chinese"
+}

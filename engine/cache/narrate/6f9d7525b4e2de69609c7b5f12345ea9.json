@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Lumora is 45.7% of your wealth with us",
+  "english": "Dear [[FIRST_NAME]],\n\nThere is one number I would like you to have in front of you that none of your statements shows on its own. Your Lumora Analytics shares are 45.7% of everything you hold with us.\n\nI know that is no accident — Lumora is your company, and until a secondary sale or a listing it is where most of your wealth sits. But it does mean your fortune and your portfolio rest on the same thing, and the portfolio is not yet doing the job of spreading that out.\n\nI am not suggesting any change before the liquidity event you are planning for. I would simply like us to agree what the picture should look like afterwards, so that when the moment comes we are ready to diversify rather than starting the conversation then.\n\nCould we find half an hour on a call this week?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nThere is one number I would like you to have in front of you that none of your statements shows on its own. Your Lumora Analytics shares are 45.7% of everything you hold with us.\n\nI know that is no accident — Lumora is your company, and until a secondary sale or a listing it is where most of your wealth sits. But it does mean your fortune and your portfolio rest on the same thing, and the portfolio is not yet doing the job of spreading that out.\n\nI am not suggesting any change before the liquidity event you are planning for. I would simply like us to agree what the picture should look like afterwards, so that when the moment comes we are ready to diversify rather than starting the conversation then.\n\nCould we find half an hour on a call this week?",
+  "raises": "Asks the client to agree, ahead of the planned liquidity event, what a diversified portfolio should look like afterwards."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

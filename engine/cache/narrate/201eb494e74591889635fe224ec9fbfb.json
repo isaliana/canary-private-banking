@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Confirming your commodities position (13.0% against a 10% limit)",
+  "english": "Dear [[FIRST_NAME]],\n\nA short note for your file rather than a concern. Commodities are now 13.0% of your portfolio, against a range of 0% to 10% under the Balanced Growth approach we agreed, which puts them 3.0 points above the upper end.\n\nYou confirmed in writing that you wanted this position despite the limit, and that instruction is on file. I would simply like to check that it still reflects what you want, especially with the purchase of your home in Tuscany coming up.\n\nIf it does, nothing needs to change and I will note your confirmation. If your view has moved, we can bring the position back within the range.\n\nCould I call you briefly this week to confirm?",
+  "client_language": "Gentile [[FIRST_NAME]],\n\nuna breve nota per la Sua posizione, più che una preoccupazione. Le materie prime rappresentano ora il 13.0% del Suo portafoglio, a fronte di una fascia dallo 0% al 10% prevista dall'impostazione Balanced Growth che abbiamo concordato: sono quindi 3.0 punti sopra il limite superiore.\n\nLei ha confermato per iscritto di voler mantenere questa posizione nonostante il limite, e l'istruzione è agli atti. Vorrei soltanto verificare che rifletta ancora ciò che desidera, soprattutto in vista dell'acquisto della casa in Toscana.\n\nSe è così, non occorre cambiare nulla e annoterò la Sua conferma. Se invece la Sua opinione è cambiata, possiamo riportare la posizione entro la fascia.\n\nPosso chiamarLa brevemente questa settimana per una conferma?",
+  "raises": "Asks her to confirm that the written instruction to hold commodities above the limit still stands."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Italian"
+}

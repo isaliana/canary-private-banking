@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "USD 21.2m due in the next twelve months, against USD 28.1m sellable",
+  "english": "Dear [[FIRST_NAME]],\n\nLooking ahead at the next twelve months, about USD 21.2m is due to be paid out, including capital calls on your private markets commitments. Against that, about USD 28.1m of your holdings could be sold within a day, none of it pledged. That covers the requirement 1.3 times.\n\nThat is enough, but not by a wide margin, and capital calls do not always arrive when it is convenient. Your aim has always been to meet them without being forced to sell, and with this little room the order in which things are sold matters.\n\nWhat I would suggest is that we map out now which holdings would fund each payment, and in what order, rather than deciding at the moment each one arrives.\n\nCould we arrange a call this week with whoever in the family office handles the cash plan?",
+  "client_language": "Dear [[FIRST_NAME]],\n\nLooking ahead at the next twelve months, about USD 21.2m is due to be paid out, including capital calls on your private markets commitments. Against that, about USD 28.1m of your holdings could be sold within a day, none of it pledged. That covers the requirement 1.3 times.\n\nThat is enough, but not by a wide margin, and capital calls do not always arrive when it is convenient. Your aim has always been to meet them without being forced to sell, and with this little room the order in which things are sold matters.\n\nWhat I would suggest is that we map out now which holdings would fund each payment, and in what order, rather than deciding at the moment each one arrives.\n\nCould we arrange a call this week with whoever in the family office handles the cash plan?",
+  "raises": "Asks the family office to agree in advance which holdings will fund each payment due in the next twelve months."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "English"
+}

@@ -1,0 +1,15 @@
+{
+ "draft": {
+  "subject": "Harbourline is 24.0% of your Growth portfolio against a 15% limit",
+  "english": "Dear [[FIRST_NAME]],\n\nIn your Growth portfolio, the Harbourline Property Holdings shares now make up 24.0%. The mandate for that portfolio limits any single holding to 15%, so it is 9.0 points over the limit.\n\nI know you want to stay invested in Hong Kong property, and I am not assuming these shares should be sold. It is worth bearing in mind, though, that the accumulator you took out in January adds more shares if the price falls below its strike, which would take this figure further over the limit.\n\nWhat I would suggest is one of two things: we reduce the holding to the limit, or you tell me you want to keep it as it is, and I record that decision on your file. Either is fine; leaving it undecided is not.\n\nCould I call you this week?",
+  "client_language": "[[FIRST_NAME]] 您好：\n\n在您的 Growth 組合中，Harbourline Property Holdings 的股份目前佔 24.0%。該組合的委託協議規定任何單一持倉不得超過 15%，因此已超出上限 9.0 個百分點。\n\n我明白您希望繼續投資於香港物業，我並不假設這些股份應該出售。不過值得留意的是，您在一月承接的累計期權，若股價跌穿行使價便會再買入更多股份，令這個比例進一步超出上限。\n\n我建議兩者擇一：我們把持倉減至上限，或您告訴我希望維持現狀，我會把這個決定記錄在您的檔案中。兩者皆可，唯獨懸而未決不宜。\n\n我可否在本週致電與您詳談？",
+  "raises": "Asks him to choose between trimming Harbourline to the limit or recording a decision to keep it."
+ },
+ "usage": {
+  "model": "claude-opus-5-5"
+ },
+ "via": "Claude Code",
+ "at": "2026-10-17",
+ "unverified": [],
+ "language": "Traditional Chinese"
+}

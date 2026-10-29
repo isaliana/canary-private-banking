@@ -1,0 +1,4 @@
+# Only the optional Claude layers need anything installed (Python 3.10+):
+# engine/narrate.py, engine/translate.py and the translation endpoint in
+# engine/serve.py. The engine and the workbench are standard library only.
+anthropic>=1.8
