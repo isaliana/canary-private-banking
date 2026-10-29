@@ -11,6 +11,7 @@ not need pandas.
 """
 import csv
 import json
+import math
 import os
 import re
 from collections import defaultdict
@@ -144,12 +145,12 @@ class Book:
         return out
 
     def wealth(self, client_id, date=None):
-        return sum(r["_mv"] for r in self.rows(client_id, date))
+        return math.fsum(r["_mv"] for r in self.rows(client_id, date))
 
     def daily_liquid(self, client_id, date=None, exclude_portfolios=()):
-        return sum(r["_mv"] for r in self.rows(client_id, date)
-                   if r["liquidity_tier"] == "Daily"
-                   and r["portfolio_id"] not in exclude_portfolios)
+        return math.fsum(r["_mv"] for r in self.rows(client_id, date)
+                         if r["liquidity_tier"] == "Daily"
+                         and r["portfolio_id"] not in exclude_portfolios)
 
     def client_portfolios(self, client_id):
         return [p for p in self.portfolios if p["client_id"] == client_id]

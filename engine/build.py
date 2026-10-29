@@ -6,6 +6,7 @@ Runs the engine and writes app/findings.json — the only thing the UI reads.
 No number in the workbench is produced anywhere but here.
 """
 import json
+import math
 import os
 import sys
 
@@ -187,7 +188,7 @@ def build_bundle(book, drafts=None, recorded=None):
             "wealth_usd": book.wealth(cid),
             "wealth_series": [{"date": d, "usd": book.wealth(cid, d)} for d in book.dates],
             "daily_liquid_usd": book.daily_liquid(cid),
-            "portfolios": [{**p, "aum_usd": sum(r["_mv"] for r in book.portfolio_rows(p["portfolio_id"]))}
+            "portfolios": [{**p, "aum_usd": math.fsum(r["_mv"] for r in book.portfolio_rows(p["portfolio_id"]))}
                            for p in book.client_portfolios(cid)],
             "positions": rows,
             "mix": mix,
